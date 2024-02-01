@@ -7,7 +7,7 @@ export const Navbar = () => {
     return (
         <nav className={styles.navbar}>
             <a className={styles.title} href="/">
-                Portfolio
+                FJ Tria
             </a>
             <div className={styles.menu}>
                 <img className={styles.menuBtn}
@@ -20,7 +20,8 @@ export const Navbar = () => {
                     onClick={() => setMenuOpen(!menuOpen)}
                 />
                 <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
-                onClick={() => setMenuOpen(false)}>
+                    onClick={() => setMenuOpen(false)}
+                >
                     <li>
                         <a href="#about">About</a>
                     </li>
