@@ -19,28 +19,28 @@ export const About = () => {
                             alt="Cursor"
                         />
                         <div className={styles.aboutItemText}>
-                            <h3>Front-End Developer</h3>
-                            <p>I'm a Front-End Developer with experience in building responsive websites.</p>
+                            <h3>Web Developer</h3>
+                            <p>I have experience using HTML and CSS alongside React and Vue to build responsive web pages.</p>
                         </div>
                     </li>
                     <li className={styles.aboutItem}>
                         <img
-                            src={getImageUrl("about/serverIcon.png")} 
-                            alt="Server"
+                            src={getImageUrl("about/cameraIcon.png")} 
+                            alt="Camera"
                         />
                         <div className={styles.aboutItemText}>
-                            <h3>Back-End Developer</h3>
-                            <p>I'm a Back-End Developer with experience in building responsive websites.</p>
+                            <h3>Photographer & Videographer</h3>
+                            <p>I'm a self-taught photographer and videographer that loves street photography and portriats. </p>
                         </div>
                     </li>
                     <li className={styles.aboutItem}>
                         <img
-                            src={getImageUrl("about/serverIcon.png")} 
-                            alt="UI"
+                            src={getImageUrl("about/controllerIcon.png")} 
+                            alt="Game Controller"
                         />
                         <div className={styles.aboutItemText}>
-                            <h3>UX/UI Designer</h3>
-                            <p>I'm a Back-End Developer with experience in building responsive websites.</p>
+                            <h3>Gamer</h3>
+                            <p>I spend free moments playing online cooperative games like Minecraft, Animal Crossing, and Pokémon. </p>
                         </div>
                     </li>
                 </ul>

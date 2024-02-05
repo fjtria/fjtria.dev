@@ -6,12 +6,12 @@ export const Hero = () => {
     return (
         <section className={styles.container}>
         <div className={styles.content}>
-            <h1 className={styles.title}>Hi, I'm FJ!</h1>
+            <h1 className={styles.title}>Hey there!</h1>
             <p className={styles.description}>
-            I'm a full-stack developer with experience using React. Reach out if you'd like to learn more!
+            I'm FJ, a Network & Digital Technology student at UC Santa Cruz. I'm an aspiring Full-Stack Web Developer. Thanks for visiting my site!
             </p>
             <a href="mailto:fjstria@gmail.com" className={styles.contactBtn}>
-            Contact Me
+            Say hello!
             </a>
         </div>
         <img
