@@ -1,30 +1,24 @@
 [
     {
-      "role": "Software Engineer",
-      "organisation": "Google",
-      "startDate": "Sept, 2022",
-      "endDate": "Present",
-      "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
-      "imageSrc": "history/google.png"
+        "role": "Software Developer",
+        "organisation": "SproutLabs",
+        "startDate": "JAN 2024",
+        "endDate": "PRESENT",
+        "experiences": [
+            "Developing the 2.0.0 release of the SproutLabs web application using TypeScript and VueJS.",
+            "Developing a dashboard to enable users to register their product on the web application and view available agricultural data."
+        ],
+        "imageSrc": "history/sproutlabs.png"
     },
     {
-      "role": "UI Designer",
-      "organisation": "Mirosoft",
-      "startDate": "Aug, 2021",
-      "endDate": "Aug, 2022",
-      "experiences": ["Worked on Windows 11", "Designed the control panel"],
-      "imageSrc": "history/microsoft.png"
-    },
-    {
-      "role": "SWE Intern",
-      "organisation": "Netflix",
-      "startDate": "Apr, 2020",
-      "endDate": "Jun, 2020",
-      "experiences": [
-        "Worked on component library",
-        "Helped create UI components"
-      ],
-      "imageSrc": "history/netflix.png"
+        "role": "Front-End Developer",
+        "organisation": "SpaceLab",
+        "startDate": "JUN 2023",
+        "endDate": "SEP 2023",
+        "experiences": [
+            "Developed 2 components of the web application Exoplanetarium using ReactJS and SCSS.",
+            "Participated in agile project management techniques, such as weekly scrum meetings, as part of a 5-person team of developers."
+        ],
+        "imageSrc": "history/spacelab.png"
     }
-  ]
-  
+]
