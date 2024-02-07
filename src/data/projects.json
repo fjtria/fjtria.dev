@@ -1,27 +1,16 @@
 [
     {
-      "title": "Project A",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+        "title": "Pantry Pal",
+        "imageSrc": "projects/project.png",
+        "description": "A mobile application that makes storing and sharing recipes easy!",
+        "skills": ["React Native", "Firebase", "Expo Go"],
+        "source": "https://github.com/fjstria/PantryPal"
     },
     {
-      "title": "Project B",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+        "title": "Wordle Solver",
+        "imageSrc": "projects/project.png",
+        "description": "A solver algorithm for the NYT's popular word game, Wordle.",
+        "skills": ["C"],
+        "source": "https://github.com/fjstria/WordleSolver"
     }
-  ]
-  
+]  

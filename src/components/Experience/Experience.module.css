@@ -37,7 +37,11 @@
 }
 
 .skillImageContainer {
-    background-color: var(--color-dark);
+    background: linear-gradient(
+        135deg,
+        var(--color-secondary) 0%,
+        var(--color-dark) 150%
+    );
     border-radius: 100%;
     display: flex;
     align-items: center;
@@ -69,13 +73,17 @@
     align-items: center;
     gap: 17px;
     background: #19376d;
-    background: linear-gradient(90deg, var(--color-dark) 0%, rgba(23, 162, 184, 0) 100%);
+    background: linear-gradient(
+        90deg,
+        var(--color-secondary) 0%,
+        var(--color-bg) 100%
+    );
     border-radius: 10px;
     padding: 24px;
 }
 
 .historyItem img {
-    width: 50px;
+    width: 70px;
 }
 
 .historyItemDetails {
