@@ -5,8 +5,8 @@
         "startDate": "JAN 2024",
         "endDate": "PRESENT",
         "experiences": [
-            "Developing the 2.0.0 release of the SproutLabs web application using TypeScript and VueJS.",
-            "Developing a dashboard to enable users to register their product on the web application and view available agricultural data."
+            "Making back-end API changes and developing the register device flow.",
+            "Updating the web application UI to enable users to register devices on their Dashboard."
         ],
         "imageSrc": "history/sproutlabs.png"
     },
@@ -16,8 +16,8 @@
         "startDate": "JUN 2023",
         "endDate": "SEP 2023",
         "experiences": [
-            "Developed 2 components of the web application Exoplanetarium using ReactJS and SCSS.",
-            "Participated in agile project management techniques, such as weekly scrum meetings, as part of a 5-person team of developers."
+            "Developed 2 components of the web application Exoplanetarium.",
+            "Participated in agile project management techniques as part of a 5-person team of developers."
         ],
         "imageSrc": "history/spacelab.png"
     }
