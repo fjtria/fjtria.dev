@@ -12,6 +12,14 @@
         "imageSrc": "skills/node.png"
     },
     {
+        "title": "Next",
+        "imageSrc": "skills/next.png"
+    },
+    {
+        "title": "JavaScript",
+        "imageSrc": "skills/javascript.png"
+    },
+    {
         "title": "TypeScript",
         "imageSrc": "skills/typescript.png"
     },
@@ -26,6 +34,10 @@
     {
         "title": "Python",
         "imageSrc": "skills/python.png"
+    },
+    {
+        "title": "Go",
+        "imageSrc": "skills/go.png"
     },
     {
         "title": "C",
