@@ -4,7 +4,7 @@ import App from './App.jsx';
 import './index.css';
 
 import "@fontsource/outfit";
-import "@fontsource/fira-sans";
+import "@fontsource/Lato";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
