@@ -5,8 +5,8 @@
         "startDate": "JAN 2024",
         "endDate": "PRESENT",
         "experiences": [
-            "Making back-end API changes and developing the register device flow.",
-            "Updating the web application UI to enable users to register devices on their Dashboard."
+            "Developing APIs to implement the flow for registering devices in the cloud and claiming devices.",
+            "Updating the web application’s dashboard to enable users to claim devices on their account via product ID."
         ],
         "imageSrc": "history/sproutlabs.png"
     },

@@ -40,7 +40,7 @@ export const About = () => {
                         />
                         <div className={styles.aboutItemText}>
                             <h3>Gamer</h3>
-                            <p>I spend free moments playing online cooperative games like Minecraft, Animal Crossing, and Pokémon. </p>
+                            <p>I spend my free time playing online cooperative games like Minecraft, Animal Crossing, and Pokémon. </p>
                         </div>
                     </li>
                 </ul>
