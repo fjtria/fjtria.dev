@@ -1,0 +1,245 @@
+@import url(./fonts.css);
+
+:root {
+    --text: #F1F1E4;
+    --background: #0A0A05;
+    --primary: #DF1F2D;
+    --secondary: #2B3784;
+    --accent: #447BBE;
+}
+
+* {
+    color: var(--text);
+    /*border: solid red;*/
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: var(--background);
+}
+
+.container {
+    margin: 0 48px;
+}
+
+.title {
+    font-size: 32px;
+    font-family: "Fira Sans Condensed Semibold Italic";
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.heading {
+    font-size: 24px;
+    font-family: "Fira Sans Condensed Medium";
+}
+
+.subheading {
+    font-size: 20px;
+    font-family: "Fira Sans Condensed Medium";
+}
+
+.text {
+    font-size: 16px;
+    font-family: "Noto Sans";
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    display: flex;
+    padding: 0 12px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: var(--background);
+    background: var(--text);
+}
+
+.nav-item {
+    font-size: 20px;
+    font-family: "Fira Code Medium";
+}
+
+hr {
+    height: 4px;
+    background-image: linear-gradient(
+        90deg, 
+        var(--primary) 10%, 
+        var(--secondary) 90%);
+    border: 0;
+    height: 2px;
+}
+
+.about {
+    display: flex;
+}
+
+.about-left img{
+    width: 300px;
+    padding: 24px;
+    border-radius: 200px;
+}
+
+.about-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px
+}
+
+.skill-item {
+    display: flex;
+    align-items: center;
+    border-radius: 220px;
+    background-image: linear-gradient(
+        90deg,
+        rgba(223, 31, 45, 1) 0%,
+        rgba(43, 55, 132, 0.5) 70%,
+        rgba(68, 123, 190, 0) 100%
+    );
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    padding: 8px;
+    transition: 0.5s;
+}
+
+.skill-item:hover {
+    background-size: 100% 100%;
+}
+
+.skill-item img {
+    height: 72px;
+    width: 72px;
+    object-fit: contain;
+    padding: 24px;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.experience-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 8px var(--secondary);
+    padding: 8px;
+    clip-path: polygon(
+        calc(0% + 5px) calc(0% + 5px),
+        calc(100% - 5px) calc(0% + 5px),
+        calc(100% - 5px) calc(100% - 5px),
+        calc(0% + 5px) calc(100% - 5px)
+    );
+    transition: clip-path 0.3s linear;
+}
+
+.experience-item:hover {
+    border-color: var(--accent);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.experience-item img {
+    height: 96px;
+    width: 96px;
+    object-fit: contain;
+    padding-left: 24px;
+    padding-right: 48px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 8px;
+}
+
+.project-item {
+    display: flex;
+    text-align: center;
+    padding: 0 24px 24px 24px;
+    border: solid 8px var(--secondary);
+    clip-path: polygon(
+        calc(0% + 5px) calc(0% + 5px),
+        calc(100% - 5px) calc(0% + 5px),
+        calc(100% - 5px) calc(100% - 5px),
+        calc(0% + 5px) calc(100% - 5px)
+    );
+    transition: clip-path 0.3s linear;
+}
+
+.project-item:hover {
+    border-color: var(--accent);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.project-link {
+    font-family: "Fira Code Medium";
+    text-decoration: none;
+    background-color: var(--primary);
+    padding: 4px;
+}
+
+.project-link:hover {
+    color: var(--background);
+    background-color: var(--text);
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    padding-top: 0;
+    gap: 24px;
+}
+
+.contact-item img {
+    color: var(--text);
+    height: 48px;
+    width: 48px;
+    object-fit: contain;
+}
+
+.contact-item a {
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+    color: var(--primary);
+}
+
+
+/* https://web.dev/articles/prefers-reduced-motion#(bonus)-forcing-reduced-motion-on-all-websites */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    ::before,
+    ::after {
+      animation-delay: -1ms !important;
+      animation-duration: 1ms !important;
+      animation-iteration-count: 1 !important;
+      background-attachment: initial !important;
+      scroll-behavior: auto !important;
+      transition-duration: 1ms !important;
+      transition-delay: 1ms !important;
+    }
+}
+  

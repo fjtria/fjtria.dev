@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Fira Sans Condensed Semibold Italic";
+    src: url(./fonts/FiraSansCondensed-SemiBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: "Fira Sans Condensed Medium";
+    src: url(./fonts/FiraSansCondensed-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Noto Sans";
+    src: url(./fonts/NotoSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Fira Code Medium";
+    src: url(./fonts/FiraCode-Medium.ttf);
+}

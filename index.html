@@ -1,13 +1,198 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/x+icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FJ Tria</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FJ Tria - Full-Stack Web Developer</title>
+        
+        <!-- STYLES -->
+        <link rel="stylesheet" href="./styles/index.css">
+        <link rel="stylesheet" href="./styles/glitch.css">
+
+        <!-- METADATA -->
+        <meta charset="UTF-8">
+        <meta name="keywords" content="HTML, CSS, JavaScript, React, Node">
+        <meta name="description" content="FJ Tria's Personal Website">
+        <meta name="author" content="FJ Tria">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="container">
+            <!-- TITLE -->
+            <div class="title">
+                <h1 class="glitch">
+                    <span aria-hidden="true">FJ TRIA</span>
+                    FJ TRIA
+                    <span aria-hidden="true">FJ TRIA</span>
+                </h1>
+            </div>
+
+            <!-- NAVBAR -->
+            <nav class="navbar">
+                <ul>
+                    <li>
+                        <a class="nav-item nav-about" href="#about" data-value="ABOUT">ABOUT</a>
+                    </li>
+                    <li>
+                        <a class="nav-item nav-skills" href="#skills" data-value="SKILLS">SKILLS</a>
+                    </li>
+                    <li>
+                        <a class="nav-item nav-experience" href="#experience" data-value="EXPERIENCE">EXPERIENCE</a>
+                    </li>
+                    <li>
+                        <a class="nav-item nav-projects" href="#projects" data-value="PROJECTS">PROJECTS</a>
+                    </li>
+                    <li>
+                        <a class="nav-item nav-contact" href="#contact" data-value="CONTACT">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <hr>
+
+            <!-- ABOUT -->
+            <section id="about">
+                <h2 class="heading">ABOUT</h2>
+                <div class="about">
+                    <div class="about-left">
+                        <img src="./images/about/headshot.jpg"/>
+                    </div>
+                    <div class="about-right">
+                        <h3 class="subheading">Hey there, I'm FJ!</h3>   
+                        <p class="text">
+                            I'm a full-stack web developer, a Network and Digital Technology undergraduate at the University of California, Santa Cruz, 
+                            and an incoming Software Engineering graduate student at California State University, Fullerton.
+                        </p>
+                        <p class="text">
+                            Interested by the intersection of art and technology, my goal is to create modern websites with user experience and accessibility in mind.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SKILLS -->
+            <section id="skills">
+                <h2 class="heading">SKILLS</h2>
+                <div class="skills">
+                    <div class="skill-item">
+                        <img src="./images/skills/html.png"/>
+                        <p class="subheading">HTML</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="./images/skills/css.png"/>
+                        <p class="subheading">CSS</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="./images/skills/javascript.png"/>
+                        <p class="subheading">JavaScript</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="./images/skills/react.png"/>
+                        <p class="subheading">React.js</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="./images/skills/node.png"/>
+                        <p class="subheading">Node.js</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="./images/skills/python.png"/>
+                        <p class="subheading">Python</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="./images/skills/cpp.png"/>
+                        <p class="subheading">C++</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- EXPERIENCE -->
+            <section id="experience">
+                <h2 class="heading">EXPERIENCE</h2>
+                <div class="experience">
+                    <div class="experience-item">
+                        <div>
+                            <img src="./images/experience/sproutlabs.png"/>
+                        </div>
+                        <div>
+                            <p class="subheading">Software Developer @ SproutLabs</p>
+                            <p class="text">JAN 2024 - PRESENT</p>
+                            <ul class="text">
+                                <li>Updating the UI of the dashboard application based on supplied wireframes, simplifying the device registration process from multiple steps to down to only one.</li>
+                                <li>Collaborated with Back-End and Hardware Developers to design and push an updated device registration API, allowing users to connect devices to their account using only a Device ID.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="experience-item">
+                        <div>
+                            <img src="./images/experience/spacelab.png"/>
+                        </div>
+                        <div>
+                            <p class="subheading">Front-End Developer @ SpaceLab</p>
+                            <p class="text">JUN 2023 - SEP 2023</p>
+                            <ul class="text">
+                                <li>Implemented two components for the web application Exoplanetarium based on Figma designs provided by the UX/UI team, launching the initial UI for the application.</li>
+                                <li>Participated in agile project management techniques, including using a Scrum board and attending weekly stand-up meetings, as a member of a five-person development team.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- PROJECTS -->
+            <section id="projects">
+                <h2 class="heading">PROJECTS</h2>
+                <div class="projects">
+                    <div class="project-item">
+                        <div>
+                            <!--Placeholder for images-->
+                        </div>
+                        <div>
+                            <p class="subheading">LIZZY</p>
+                            <p class="text">A barebones, half-duplex chat application using TCP sockets.</p>
+                            <a class="project-link "href="https://github.com/fjstria/PantryPal">OPEN PROJECT</a>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div>
+                            <!--Placeholder for images-->
+                        </div>
+                        <div>
+                            <p class="subheading">Pantry Pal</p>
+                            <p class="text">A mobile application that makes storing and sharing recipes easy.</p>
+                            <a class="project-link "href="https://github.com/fjstria/PantryPal">OPEN PROJECT</a>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div>
+                            <!--Placeholder for images-->
+                        </div>
+                        <div>
+                            <p class="subheading">Wordle Solver</p>
+                            <p class="text">A solver algorithm for the NYT's popular word game, Wordle.</p>
+                            <a class="project-link "href="https://github.com/fjstria/WordleSolver">OPEN PROJECT</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CONTACT -->
+            <section id="contact">
+                <h2 class="heading">CONTACT</h2>
+                <div class="contact">
+                    <div class="contact-item">
+                        <img src="./images/contact/email.svg"/>
+                        <a class="subheading" href="mailto:fjstria@gmail.com">fjstria@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <img src="./images/contact/linkedin.svg"/>
+                        <a class="subheading" href="https://www.linkedin.com/in/fjstria/">linkedin.com/in/fjstria</a>
+                    </div>
+                    <div class="contact-item">
+                        <img src="./images/contact/github.svg"/>
+                        <a class="subheading" href="https://github.com/fjstria">github.com/fjstria</a>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        <script src="./scripts/index.js"></script>
+    </body>
 </html>
