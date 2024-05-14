@@ -2,12 +2,17 @@
 
 const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-let interval = null;
+let interval1 = null;
+let interval2 = null;
+let interval3 = null;
+let interval4 = null;
+let interval5 = null;
+
 
 document.querySelector(".nav-about").onmouseover = event => {  
     let iteration = 0;
-    clearInterval(interval);
-    interval = setInterval(() => {
+    clearInterval(interval1);
+    interval1 = setInterval(() => {
         event.target.innerText = event.target.innerText
         .split("")
         .map((letter, index) => {
@@ -18,7 +23,7 @@ document.querySelector(".nav-about").onmouseover = event => {
         })
         .join("");
         if(iteration >= event.target.dataset.value.length){ 
-            clearInterval(interval);
+            clearInterval(interval1);
         }
         iteration += 1 / 3;
     }, 30);
@@ -26,8 +31,8 @@ document.querySelector(".nav-about").onmouseover = event => {
 
 document.querySelector(".nav-skills").onmouseover = event => {  
     let iteration = 0;
-    clearInterval(interval);
-    interval = setInterval(() => {
+    clearInterval(interval2);
+    interval2 = setInterval(() => {
         event.target.innerText = event.target.innerText
         .split("")
         .map((letter, index) => {
@@ -38,7 +43,7 @@ document.querySelector(".nav-skills").onmouseover = event => {
         })
         .join("");
         if(iteration >= event.target.dataset.value.length){ 
-            clearInterval(interval);
+            clearInterval(interval2);
         }
         iteration += 1 / 3;
     }, 30);
@@ -46,8 +51,8 @@ document.querySelector(".nav-skills").onmouseover = event => {
 
 document.querySelector(".nav-experience").onmouseover = event => {  
     let iteration = 0;
-    clearInterval(interval);
-    interval = setInterval(() => {
+    clearInterval(interval3);
+    interval3 = setInterval(() => {
         event.target.innerText = event.target.innerText
         .split("")
         .map((letter, index) => {
@@ -58,7 +63,7 @@ document.querySelector(".nav-experience").onmouseover = event => {
         })
         .join("");
         if(iteration >= event.target.dataset.value.length){ 
-            clearInterval(interval);
+            clearInterval(interval3);
         }
         iteration += 1 / 3;
     }, 30);
@@ -66,8 +71,8 @@ document.querySelector(".nav-experience").onmouseover = event => {
 
 document.querySelector(".nav-projects").onmouseover = event => {  
     let iteration = 0;
-    clearInterval(interval);
-    interval = setInterval(() => {
+    clearInterval(interval4);
+    interval4 = setInterval(() => {
         event.target.innerText = event.target.innerText
         .split("")
         .map((letter, index) => {
@@ -78,7 +83,7 @@ document.querySelector(".nav-projects").onmouseover = event => {
         })
         .join("");
         if(iteration >= event.target.dataset.value.length){ 
-            clearInterval(interval);
+            clearInterval(interval4);
         }
         iteration += 1 / 3;
     }, 30);
@@ -86,8 +91,8 @@ document.querySelector(".nav-projects").onmouseover = event => {
 
 document.querySelector(".nav-contact").onmouseover = event => {  
     let iteration = 0;
-    clearInterval(interval);
-    interval = setInterval(() => {
+    clearInterval(interval5);
+    interval5 = setInterval(() => {
         event.target.innerText = event.target.innerText
         .split("")
         .map((letter, index) => {
@@ -98,7 +103,7 @@ document.querySelector(".nav-contact").onmouseover = event => {
         })
         .join("");
         if(iteration >= event.target.dataset.value.length){ 
-            clearInterval(interval);
+            clearInterval(interval5);
         }
         iteration += 1 / 3;
     }, 30);
