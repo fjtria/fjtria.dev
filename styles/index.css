@@ -23,6 +23,9 @@ html {
 }
 
 .title {
+    -webkit-text-fill-color: var(--background);
+    -webkit-text-stroke: 1px var(--text);
+    color: var(--background);
     font-size: 32px;
     font-family: "Fira Sans Condensed Semibold Italic";
     display: flex;
@@ -33,11 +36,13 @@ html {
 .heading {
     font-size: 24px;
     font-family: "Fira Sans Condensed Medium";
+    text-transform: uppercase;
 }
 
 .subheading {
     font-size: 20px;
     font-family: "Fira Sans Condensed Medium";
+    text-transform: uppercase;
 }
 
 .text {
@@ -140,10 +145,9 @@ hr {
 
 .experience-item {
     display: flex;
-    justify-content: center;
     align-items: center;
     border: solid 8px var(--secondary);
-    padding: 8px;
+    padding: 24px;
     clip-path: polygon(
         calc(0% + 5px) calc(0% + 5px),
         calc(100% - 5px) calc(0% + 5px),
@@ -162,7 +166,7 @@ hr {
     height: 96px;
     width: 96px;
     object-fit: contain;
-    padding-left: 24px;
+    padding-left: 12px;
     padding-right: 48px;
 }
 
@@ -174,8 +178,10 @@ hr {
 
 .project-item {
     display: flex;
+    justify-content: center;
     text-align: center;
     padding: 0 24px 24px 24px;
+    padding-top: 12px;
     border: solid 8px var(--secondary);
     clip-path: polygon(
         calc(0% + 5px) calc(0% + 5px),
