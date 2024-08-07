@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import './index.css'
 import Navbar from './components/Navbar'
 import About from './components/About'
 import Skills from './components/Skills'
@@ -22,4 +22,4 @@ function App() {
   );
 }
 
-export default App
+export default App;

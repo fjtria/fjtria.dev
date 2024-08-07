@@ -1,4 +1,23 @@
-:root {
+* {
+  --bg: #FFFFFF;
+  --bgTint: #F8F9FA;
+  --bgDim: #F0F1F2;
+  --text: #3D4043;
+  --accent: #0D71E3;
+  --accentTint: #0B5FBF;
+
   margin: 0;
   padding: 0;
+  font-size: 1em;
+  font-family: 'NotoSans', system-ui;
+}
+
+@font-face {
+  font-family: NotoSansBold;
+  src: url(./assets/fonts/NotoSans-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: NotoSans;
+  src: url(./assets/fonts/NotoSans-Regular.ttf);
 }
