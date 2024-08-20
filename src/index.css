@@ -1,23 +1,48 @@
 * {
-  --bg: #FFFFFF;
-  --bgTint: #F8F9FA;
-  --bgDim: #F0F1F2;
-  --text: #3D4043;
-  --accent: #0D71E3;
-  --accentTint: #0B5FBF;
+  --mainDark: #191919;
+  --cardDark: #202020;
+  --hoverDark: #3F4448;
+  --textLight: #D9D9D9;
+  --gray: #979A9B;
+  --brown: #937264;
+  --orange: #FFA344;
+  --yellow: #FFDC49;
+  --green: #4DAB9A;
+  --blue: #529CCA;
+  --purple: #9A6DD7;
+  --pink: #E255A1;
+  --red: #FF7369;
 
   margin: 0;
   padding: 0;
   font-size: 1em;
-  font-family: 'NotoSans', system-ui;
+}
+
+:root {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  color: var(--textLight);
+  background-color: var(--mainDark);
+}
+
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: "InterVariable", sans-serif; font-optical-sizing: auto;
+  }
 }
 
 @font-face {
-  font-family: NotoSansBold;
-  src: url(./assets/fonts/NotoSans-SemiBold.ttf);
+  font-family: InterVariable;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("./assets/fonts/InterVariable.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: NotoSans;
-  src: url(./assets/fonts/NotoSans-Regular.ttf);
+  font-family: InterVariable;
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("./assets/fonts/InterVariable-Italic.woff2") format("woff2");
 }

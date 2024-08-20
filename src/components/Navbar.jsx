@@ -7,10 +7,10 @@ function Navbar() {
       <div className='navbarRight'>
         <h1>FJ TRIA</h1>
         <ul className='sections'>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#experience">Experience</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#skills">SKILLS</a></li>
+          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="#experience">EXPERIENCE</a></li>
         </ul>
       </div>
       <ul className='navbarLeft'>

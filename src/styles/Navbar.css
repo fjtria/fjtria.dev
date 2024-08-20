@@ -1,15 +1,16 @@
 @import url(../index.css);
 
 nav {
-    box-shadow: 0 0 8px 0 rgba(0,0,0,.2);
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 1);
 }
 
 h1 {
-    font-family: 'NotoSansBold';
+    font-weight: 600;
     font-size: 1.5em;
 }
 
-a { 
+a:link { 
+    color: inherit;
     text-decoration: none;
 }
 
@@ -18,11 +19,11 @@ a:visited {
 }
 
 a:hover {
-    color: var(--accent);
+    color: var(--orange);
 }
 
 a:active {
-    color: var(--accentTint);
+    color: var(--red);
 }
 
 .navbar {
