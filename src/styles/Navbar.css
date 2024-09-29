@@ -19,11 +19,11 @@ a:visited {
 }
 
 a:hover {
-    color: var(--orange);
+    color: var(--primary);
 }
 
 a:active {
-    color: var(--red);
+    color: var(--primaryLight);
 }
 
 .navbar {
@@ -51,3 +51,9 @@ a:active {
     gap: 20px;
     list-style: none;
 }
+
+@media (max-width: 580px) {
+    .sections {
+        display: none;
+    }
+  }

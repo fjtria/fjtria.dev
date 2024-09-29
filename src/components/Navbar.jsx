@@ -14,9 +14,9 @@ function Navbar() {
         </ul>
       </div>
       <ul className='navbarLeft'>
-        <li><a href="#contact">A</a></li>
-        <li><a href="https://www.linkedin.com/in/fjstria/" target="_blank" rel="noopener noreferrer">B</a></li>
-        <li><a href={Resume} target='_blank'>C</a></li>
+        <li><a href={Resume} target='_blank'>RESUME</a></li>
+        <li><a href="https://www.linkedin.com/in/fjstria/" target="_blank" rel="noopener noreferrer">LINKEDIN</a></li>
+        <li><a href="#contact">CONTACT</a></li>
       </ul>
     </nav>
   );
