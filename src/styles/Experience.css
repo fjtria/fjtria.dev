@@ -57,5 +57,9 @@
         .experienceCard img {
             max-width: 75px;
         }
+
+        .experienceDescription {
+            align-items: center;
+        }
     }
 }
