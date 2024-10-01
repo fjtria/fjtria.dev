@@ -20,37 +20,37 @@ function Skills() {
         </div>
 
         <div className='skillCard'>
-          <img src={vueImg}></img>
+          <img src={vueImg} alt='Vue.js Logo'></img>
           <p>Vue.js</p>
         </div>
 
         <div className='skillCard'>
-          <img src={threeImg}></img>
+          <img src={threeImg} alt='Three.js Logo'></img>
           <p>Three.js</p>
         </div>
 
         <div className='skillCard'>
-          <img src={nextImg}></img>
+          <img src={nextImg} alt='Next.js Logo'></img>
           <p>Next.js</p>
         </div>
 
         <div className='skillCard'>
-          <img src={jsImg}></img>
+          <img src={jsImg} alt='JavaScript Logo'></img>
           <p>JavaScript</p>
         </div>
 
         <div className='skillCard'>
-          <img src={tsImg}></img>
+          <img src={tsImg} alt='TypeScript Logo'></img>
           <p>TypeScript</p>
         </div>
 
         <div className='skillCard'>
-          <img src={pythonImg}></img>
+          <img src={pythonImg} alt='Python Logo'></img>
           <p>Python</p>
         </div>
 
         <div className='skillCard'>
-          <img src={javaImg}></img>
+          <img src={javaImg} alt='Java Logo'></img>
           <p>Java</p>
         </div>
 
