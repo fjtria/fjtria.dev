@@ -38,7 +38,6 @@ img {
 }
 
 .skillCard img{
-    display: block;
     padding: 32px;
     min-width: 50px;
     max-width: 150px;

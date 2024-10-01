@@ -8,12 +8,12 @@ function About() {
     <div id='about'>
       <div className='aboutUpper'>
         <div className='aboutUpperImage'>
-          <img src={aboutUpper} alt='FJ Tria @ Big Sur'></img>
+          <img src={aboutUpper} alt='FJ Tria'></img>
         </div>
         <div className='aboutUpperDescription'>
-          <h2>Hi, my name is FJ.</h2>
+          <h2>Hi, I'm FJ.</h2>
           <p>
-            I am a software engineer with a specialty for front-end development. I help design and develop aesthetically pleasing and user-centric software systems.
+            I'm a software engineer and front-end developer. I help design and develop aesthetic and user-centric software systems.
           </p>
           <button>Contact me.</button>
         </div>
@@ -22,11 +22,11 @@ function About() {
         <div className='aboutLowerDescription'>
           <h2>More about me.</h2>
           <p>
-            I am a graduate student in Software Engineering at Cal State Fullerton. In the meantime, I am working on personal projects and expanding my professional network. I value continuous self-improvement and unapologetic self-expression. My goal is to improve the perception of and the experience using software products.
+            I'm a graduate student in Software Engineering at Cal State Fullerton. I value  self-improvement and self-expression.
           </p>
         </div>
         <div className='aboutLowerImage'>
-          <img src={aboutLower} alt='FJ Tria @ UC Santa Cruz'></img>
+          <img src={aboutLower} alt='FJ Tria'></img>
         </div>
       </div>
       

@@ -2,7 +2,9 @@ import '../styles/Projects.css'
 
 function Projects() {
   return(
-    <p>Projects</p>
+   <div id='projects'>
+    <h2>Check out my projects.</h2>
+   </div>
   );
 }
 
