@@ -2,9 +2,36 @@
 
 #projects {
     padding: 32px 128px 32px 128px;
-}
 
-h2 {
-    font-weight: 600;
-    font-size: 1.5em;
+    h2 {
+        text-align: center;
+        font-weight: 600;
+        font-size: 1.5em;
+    }
+    
+    .projectList {
+        padding: 16px 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 16px;
+    }
+    
+    .projectCard {
+        color: var(--text);
+        background-color: var(--card);
+        border: 1px solid rgba(0, 0, 0, 0);
+        border-radius: 16px;
+    }
+    
+    .projectCard img {
+        padding: 32px;
+        min-width: 50px;
+        max-width: 150px;
+        width: auto;
+        height: auto;
+    }
+
+    .projectCard:hover {
+        background-color: var(--primary);
+    }
 }
