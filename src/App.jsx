@@ -13,9 +13,9 @@ function App() {
     <div>
       <Navbar></Navbar>
       <About></About>
-      <Skills></Skills>
       <Projects></Projects>
       <Experience></Experience>
+      <Skills></Skills>
       <Contact></Contact>
       <Footer></Footer>
     </div>

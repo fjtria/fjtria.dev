@@ -8,23 +8,32 @@
         font-weight: 600;
         font-size: 1.5em;
     }
+
+    h3 {
+        font-weight: 600;
+        font-size: 1em;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 1em;
+    }
     
     .projectList {
-        padding: 16px 0;
+        padding: 16px 0 0 0;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 16px;
     }
     
     .projectCard {
-        color: var(--text);
+        padding: 0 0 32px 0;
         background-color: var(--card);
         border: 1px solid rgba(0, 0, 0, 0);
         border-radius: 16px;
     }
     
     .projectCard img {
-        padding: 32px;
         min-width: 50px;
         max-width: 150px;
         width: auto;
@@ -33,5 +42,17 @@
 
     .projectCard:hover {
         background-color: var(--primary);
+        cursor: pointer;
+    }
+
+    .projectCard:active {
+        background-color: var(--primaryLight);
+    }
+
+    @media (max-width: 900px) {
+        .projectList {
+            display: flex;
+            flex-direction: column;
+        }
     }
 }

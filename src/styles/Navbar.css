@@ -53,8 +53,8 @@ a:active {
     list-style: none;
 }
 
-@media (max-width: 580px) {
+@media (max-width: 830px) {
     .sections {
         display: none;
     }
-  }
+}

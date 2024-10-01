@@ -15,14 +15,21 @@ function About() {
           <p>
             I'm a software engineer and front-end developer. I help design and develop aesthetic and user-centric software systems.
           </p>
-          <button>Contact me.</button>
+          <button type='button'
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href='#contact'
+            }}
+          >
+            Contact me.
+          </button>
         </div>
       </div>
       <div className='aboutLower'>
         <div className='aboutLowerDescription'>
           <h2>More about me.</h2>
           <p>
-            I'm a graduate student in Software Engineering at Cal State Fullerton. I value  self-improvement and self-expression.
+            I'm a recent grad from UC Santa Cruz and a current student in Software Engineering at Cal State Fullerton. I value  self-improvement and self-expression.
           </p>
         </div>
         <div className='aboutLowerImage'>

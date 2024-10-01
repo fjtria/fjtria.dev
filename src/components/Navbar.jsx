@@ -8,9 +8,9 @@ function Navbar() {
         <h1>FJ TRIA</h1>
         <ul className='sections'>
           <li><a href="#about">ABOUT</a></li>
-          <li><a href="#skills">SKILLS</a></li>
           <li><a href="#projects">PROJECTS</a></li>
           <li><a href="#experience">EXPERIENCE</a></li>
+          <li><a href="#skills">SKILLS</a></li>
         </ul>
       </div>
       <ul className='navbarLeft'>
