@@ -38,7 +38,7 @@
     
     .skillCard img{
         padding: 32px;
-        max-width: 150px;
+        max-width: 100px;
     }
     
     @media (max-width: 580px) {

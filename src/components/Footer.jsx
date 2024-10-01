@@ -2,7 +2,10 @@ import '../styles/Footer.css'
 
 function Footer() {
   return(
-    <p>Footer</p>
+    <footer id='footer'>
+      <hr></hr>
+      <p>FJ Tria – 2024</p>
+    </footer>
   );
 }
 
