@@ -1,3 +1,5 @@
+import { motion } from 'framer-motion'
+
 import '../styles/Contact.css'
 import resume from '../assets/images/resume.svg'
 import linkedin from '../assets/images/linkedin.svg'
@@ -7,8 +9,21 @@ import resumePDF from '../assets/documents/Tria_FJ_Resume.pdf'
 function Contact() {
   return(
     <div id='contact'>
-      <h2>Still here? Let's connect.</h2>
-      <div className='ctaList'>
+
+      <motion.h2
+        initial={{ opacity: 0, y: 100 }}
+        whileInView={{ opacity: 1, y: 0}}
+        transition={{ duration: 0.9, ease:'easeInOut' }}
+      >
+        Still here? Let's connect.
+      </motion.h2>
+
+      
+      <motion.div className='ctaList'
+        initial={{ opacity: 0, y: 100 }}
+        whileInView={{ opacity: 1, y: 0}}
+        transition={{ duration: 1, ease:'easeInOut' }}
+      >
 
         <div className='ctaCard'>
           <img src={resume} alt='Personal Document Icon'></img>
@@ -28,7 +43,7 @@ function Contact() {
           <a href="mailto:fjstria@gmail.com" target="_blank" rel="noopener noreferrer">Let's do it.</a>
         </div>
 
-      </div>
+      </motion.div>
     </div>
   );
 }
