@@ -54,6 +54,10 @@ a:active {
 }
 
 @media (max-width: 830px) {
+    h1 {
+        font-size: 1em;
+    }
+    
     .sections {
         display: none;
     }

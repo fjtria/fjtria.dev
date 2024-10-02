@@ -26,7 +26,7 @@ function About() {
         >
           <h2>Hi, I'm FJ.</h2>
           <p>
-            I'm a software engineer and front-end developer. I help design and develop aesthetic and user-centric software systems.
+            I'm a software engineering student and front-end developer. I help craft aesthetic,  responsive, and user-centric software experiences.
           </p>
           <button type='button'
             onClick={(e) => {
@@ -49,7 +49,10 @@ function About() {
         >
           <h2>More about me.</h2>
           <p>
-            I'm a recent grad from UC Santa Cruz and a current student in Software Engineering at Cal State Fullerton. I value  self-improvement and self-expression.
+            With a passion for cinematic arts and digital technology, I found a home in front-end development. I levarage my unique perspective and attention-to-detail to enhance the user experience.
+          </p>
+          <p>
+            Interacting with software should be easy – My goal is for users to feel confident in the software they interact with daily.
           </p>
         </motion.div>
 
