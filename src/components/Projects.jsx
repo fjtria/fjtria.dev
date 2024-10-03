@@ -20,28 +20,23 @@ function Projects() {
       transition={{ duration: 1, ease:'easeInOut' }}
     >
       
-      <button className='projectCard'>
+      <a href="#projects" className='projectCard'>
         <img src={defaultImg}></img>
         <h3>Coming soon...</h3>
         <p>Check back later for more projects.</p>
-      </button>
+      </a>
 
-      <button className='projectCard'>
+      <a href='#projects' className='projectCard'>
         <img src={defaultImg}></img>
         <h3>Coming soon...</h3>
         <p>Check back later for more projects.</p>
-      </button>
+      </a>
 
-      <button className='projectCard' type='button'
-        onClick={(e) => {
-          e.preventDefault();
-          window.location.href='https://github.com/fjstria/PantryPal';
-        }}
-      >
+      <a href='https://github.com/fjstria/PantryPal' className='projectCard'>
         <img src={pantrypalImg}></img>
         <h3>Pantry Pal</h3>
         <p>An Android/iOS mobile app for sharing and discovering recipes.</p>
-      </button>
+      </a>
     
     </motion.div>
    </div>
