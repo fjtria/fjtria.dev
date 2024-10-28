@@ -17,8 +17,9 @@
         font-size: 1.5em;
     }
     
-    button {
+    a {
         color: var(--primary);
+        background-color: inherit;
         font-weight: 500;
         padding: 8px;
         border: 2px solid var(--primary);
@@ -26,13 +27,13 @@
         transition: 0.3s;
     }
     
-    button:hover {
+    a:hover {
         color: var(--background);
         box-shadow: inset 7em 0 0 0 var(--primary);
         cursor: pointer;
     }
     
-    button:active {
+    a:active {
         color: var(--background);
         background-color: var(--primaryLight);
         border: 2px solid var(--primaryLight);

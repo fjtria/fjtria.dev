@@ -18,6 +18,19 @@ function Experience() {
       
       <div className='experienceList'>
 
+      <motion.div className='experienceCard'
+          initial={{ opacity: 0, y: 100 }}
+          whileInView={{ opacity: 1, y: 0}}
+          transition={{ duration: 1, ease:'easeInOut' }}
+        >
+          <img src={spacelab}></img>
+          <div className='experienceDescription'>
+            <h3>SpaceLab</h3>
+            <h3>Front-End Developer</h3>
+            <p>Oct '24 - Present</p>
+          </div>
+        </motion.div>
+
         <motion.div className='experienceCard'
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0}}

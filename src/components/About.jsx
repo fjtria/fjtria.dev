@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion'
 
 import '../styles/About.css'
-import aboutUpper from '../assets/images/aboutUpper.jpg'
-import aboutLower from '../assets/images/aboutLower.jpg'
+import aboutUpper from '../assets/images/aboutUpper.webp'
+import aboutLower from '../assets/images/aboutLower.webp'
 
 
 function About() {
@@ -28,14 +28,8 @@ function About() {
           <p>
             I'm a software engineering student and front-end developer. I help craft aesthetic,  responsive, and user-centric software experiences.
           </p>
-          <button type='button'
-            onClick={(e) => {
-              e.preventDefault();
-              window.location.href='#contact'
-            }}
-          >
-            Contact me.
-          </button>
+          <a href='#contact'>Contact me.</a>
+ 
         </motion.div>
 
       </div>
