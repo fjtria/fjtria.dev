@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 
 import '../styles/Experience.css'
 import sproutlabs from '../assets/images/sproutlabs.png'
-import spacelab from '../assets/images/spacelab.png'
+import spacelab from '../assets/images/spacelabIcon.png'
 
 
 function Experience() {
@@ -25,7 +25,7 @@ function Experience() {
         >
           <img src={spacelab}></img>
           <div className='experienceDescription'>
-            <h3>SpaceLab</h3>
+            <h3>The Spacelab Nonprofit</h3>
             <h3>Front-End Developer</h3>
             <p>Oct '24 - Present</p>
           </div>
@@ -38,7 +38,7 @@ function Experience() {
         >
           <img src={sproutlabs}></img>
           <div className='experienceDescription'>
-            <h3>SproutLabs</h3>
+            <h3>SproutLabs, LLC</h3>
             <h3>Software Engineer Intern</h3>
             <p>Jan '24 - Jun '24</p>
           </div>
@@ -51,7 +51,7 @@ function Experience() {
         >
           <img src={spacelab}></img>
           <div className='experienceDescription'>
-            <h3>SpaceLab</h3>
+            <h3>The Spacelab Nonprofit</h3>
             <h3>Front-End Developer Intern</h3>
             <p>Jun '23 - Sep '23</p>
           </div>
