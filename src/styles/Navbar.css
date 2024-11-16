@@ -33,9 +33,12 @@ a:active {
     grid-template-columns: 1fr 1fr;
 }
 
-.navbarRight {
+.navbarLeft {
     display: flex;
-    gap: 24px
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
 }
 
 .sections {
@@ -45,20 +48,17 @@ a:active {
     list-style: none;
 }
 
-.navbarLeft {
+.navbarRight {
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
     gap: 20px;
-    list-style: none;
 }
 
 @media (max-width: 830px) {
-    h1 {
-        font-size: 1em;
-    }
-    
     .sections {
         display: none;
+    }
+
+    .navbarRight {
+        gap: 8px;
     }
 }
