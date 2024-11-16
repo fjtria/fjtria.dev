@@ -25,18 +25,19 @@
     }
     
     .projectCard {
-        padding: 0 16px 32px 16px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        padding: 8px;
+        display: grid;
+        grid-template-rows: 8rem 2rem 4rem;
         background-color: var(--card);
         text-align: center;
-        border: 1px solid rgba(0, 0, 0, 0);
         border-radius: 16px;
         transition: 0.3s;
     }
     
     .projectCard img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
         object-fit: contain;
         width: 40%;
         height: 100%;
