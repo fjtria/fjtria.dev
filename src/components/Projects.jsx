@@ -28,13 +28,13 @@ function Projects() {
         <p>A social media web application for discussing and reviewing motion pictures.</p>
       </a>
 
-      <a href='https://spacelabdev.github.io/Exoplanetarium-3D/#/welcome' target="_blank" rel="noopener noreferrer" className='projectCard'>
+      <a href='https://spacelabdev.github.io/Exoplanetarium-3D/#/' target="_blank" rel="noopener noreferrer" className='projectCard'>
         <img src={exoplanetariumImg}></img>
         <h3>Exoplanetarium 3D</h3>
         <p>A web application for exploring exoplanets within our galaxy.</p>
       </a>
 
-      <a href='https://spacelab.space/' target="_blank" rel="noopener noreferrer" className='projectCard'>
+      <a href='https://spacelab.space/about' target="_blank" rel="noopener noreferrer" className='projectCard'>
         <img src={spacelabImg}></img>
         <h3>The Spacelab Nonprofit</h3>
         <p>A responsive website built using React, Node.js, and Sass.</p>
