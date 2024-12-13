@@ -1,4 +1,42 @@
 .navbar {
-    display: flex;
-    flex-direction: row;
+    padding: 0.75rem 12rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    @media screen and (max-width: 768px) {
+        padding: 0.5rem 1rem;
+	}
+
+    .logo {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .links {
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 1.5rem;
+
+            @media screen and (max-width: 768px) {
+                gap: 1rem;
+            }
+        }
+    }
+
+    a:hover {
+        color: var(--secondary);
+    }
+}
+
+hr {
+    margin: 0 10rem;
+    border-top: 1px solid var(--subtext);
+
+    @media screen and (max-width: 768px) {
+        margin: 0 0.5rem;
+	}
 }
