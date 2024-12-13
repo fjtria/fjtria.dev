@@ -1,11 +1,4 @@
-:root {
-  --smoke-white: #F5F3F5;
-  --light-gray: #DED7DE;
-  --dark-gray: #202020;
-  --smoke-black: #070707;
-  --vivid-blue: #1E90FF;
-  --strong-blue: #005A9C;
-
+* {
   margin: 0;
   padding: 0;
   scrollbar-width: thin;
@@ -13,6 +6,26 @@
   font-family: "Inter", sans-serif;
   font-size: 1rem/1.4em;
   font-weight: 500;
+  color: var(--text);
+  background: var(--background);
+}
+
+:root {
+  --text: #070707;
+  --subtext: #202020;
+  --background: #F5F3F5;
+  --card: #DED7DE;
+  --primary: #1E90FF;
+  --secondary: #005A9C;
+}
+
+[data-theme="dark"] {
+  --text:  #F5F3F5;
+  --subtext: #DED7DE;
+  --background: #070707;
+  --card:  #202020;
+  --primary: #005A9C;
+  --secondary: #1E90FF;
 }
 
 a {
@@ -21,24 +34,6 @@ a {
 
 a:visited {
   text-decoration: none;
-}
-
-.dark-mode {
-  --text: var(--smoke-white);
-  --subtext: var(--light-gray);
-  --background: var(--smoke-black);
-  --card: var(--dark-gray);
-  --primary: var(--strong-blue);
-  --secondary: var(--vivid-blue);
-}
-
-.light-mode {
-  --text: var(--smoke-black);
-  --subtext: var(--dark-gray);
-  --background: var(--smoke-white);
-  --card: var(--light-gray);
-  --primary: var(--vivid-blue);
-  --secondary: var(--strong-blue);
 }
 
 .title {
@@ -51,6 +46,7 @@ a:visited {
 }
 
 .subtext {
+  color: var(--subtext);
   font-size: 0.875rem/1.4em;
 }
 
