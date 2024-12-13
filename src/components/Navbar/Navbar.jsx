@@ -1,11 +1,17 @@
-import './Navbar.css';
+import '../../index.css';
 
 export default function Navbar() {
     return (
-        <nav>
-            <h1 className='title'>FJ TRIA</h1>
+        <nav className='navbar'>
+            <div className='logo'>
+                <h1 className='title'>FJ TRIA</h1>
+            </div>
 
-            <p>Hi</p>
+            <div className='links'>
+                <ul>
+                    <li></li>
+                </ul>
+            </div>
         </nav>
     );
 }
