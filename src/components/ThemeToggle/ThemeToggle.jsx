@@ -5,14 +5,15 @@ import './ThemeToggle.css';
 export default function ThemeToggle({ handleChange, isChecked }) {
     return (
         <div className='container'>
-            <input
-                type='checkbox'
-                id='check'
-                className='toggle'
-                onChange={handleChange}
-                checked={isChecked}
-            />
-            <label htmlFor='check'></label>
+            <label htmlFor='check'>
+                <input
+                    type='checkbox'
+                    id='check'
+                    onChange={handleChange}
+                    checked={isChecked}
+                />
+                <span className='toggle'></span>
+            </label>
         </div>
     );
 };

@@ -1,42 +1,42 @@
+/* Customizing checkboxes: https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
+
 .container {
     position: absolute;
-    top: 4rem;
+    bottom: 4rem;
     right: 4rem;
 }
 
-.toggle {
-    visibility: visible;
+/* Hides the default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
 }
 
-.toggle + label {
-    display: flex;
-    align-items: center;
-    font-size: 1.5em;
-    cursor: pointer;
-    color: var(--text);
-  }
-  
-  .toggle + label::before {
-    content: "";
-    height: 1em;
-    width: 2em;
-    border-radius: 1em;
-    background-color: var(--primary);
-    margin-right: 0.5em;
-    transition: background-color 250ms ease-in-out;
-  }
-  
-  .toggle + label::after {
-    content: "";
-    height: 0.8em;
-    width: 0.8em;
-    border-radius: 1em;
-    background-color: var(--background);
+/* Custom checkbox */
+/* Unchecked */
+.toggle {
     position: absolute;
-    left: 0.2em;
-    transition: background-color 250ms ease-in-out, transform 250ms ease-in-out;
-  }
-  
-  .toggle:checked + label::after {
-    transform: translateX(100%);
-  }
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-image: url(../../assets/images/ThemeToggle/dark_mode.svg);
+}
+
+/* Unchecked hover */
+.container:hover input ~ .toggle {
+    background-image: url(../../assets/images/ThemeToggle/dark_mode_hover.svg);
+}
+
+/* Checked */
+.container input:checked ~ .toggle {
+    background-image: url(../../assets/images/ThemeToggle/light_mode.svg);
+}
+
+/* Checked hover */
+.container:hover input:checked ~ .toggle {
+    background-image: url(../../assets/images/ThemeToggle/light_mode_hover.svg);
+}
