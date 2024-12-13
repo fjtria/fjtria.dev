@@ -1,21 +1,57 @@
-* {
-  --background: #FFFFFF;
-  --card: #efefef;
-  --text: #131312;
-  --primary: #4C7766;
-  --primaryLight: #608b7a;
+:root {
+  --smoke-white: #F5F3F5;
+  --light-gray: #DED7DE;
+  --dark-gray: #202020;
+  --smoke-black: #070707;
+  --vivid-blue: #1E90FF;
+  --strong-blue: #005A9C;
 
   margin: 0;
   padding: 0;
-  font-size: 1em;
   scrollbar-width: thin;
+  scroll-behavior: smooth;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem/1.4em;
+  font-weight: 500;
 }
 
-:root {
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  color: var(--textLight);
-  background-color: var(--background);
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.dark-mode {
+  --text: var(--smoke-white);
+  --subtext: var(--light-gray);
+  --background: var(--smoke-black);
+  --card: var(--dark-gray);
+  --primary: var(--strong-blue);
+  --secondary: var(--vivid-blue);
+}
+
+.light-mode {
+  --text: var(--smoke-black);
+  --subtext: var(--dark-gray);
+  --background: var(--smoke-white);
+  --card: var(--light-gray);
+  --primary: var(--vivid-blue);
+  --secondary: var(--strong-blue);
+}
+
+.title {
+  font-size: 1.125rem/1.4em;
+  font-weight: 600;
+}
+
+.subtitle {
+  font-weight: 600;
+}
+
+.subtext {
+  font-size: 0.875rem/1.4em;
 }
 
 @supports (font-variation-settings: normal) {
@@ -38,16 +74,4 @@
   font-weight: 100 900;
   font-display: swap;
   src: url("./assets/fonts/InterVariable-Italic.woff2") format("woff2");
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none;
 }
