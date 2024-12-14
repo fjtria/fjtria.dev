@@ -1,7 +1,29 @@
 .hero {
     padding: 4rem 16rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 
     @media screen and (max-width: 768px) {
         padding: 2rem 1rem;
+        display: flex;
+        flex-direction: column;
 	}
+
+    .hero-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+    }
+
+    .hero-right {
+        img {
+            width: 100%;
+            border-radius: 1rem;
+
+            @media screen and (max-width: 768px) {
+                width: 50%;
+            }
+        }
+    }
 }

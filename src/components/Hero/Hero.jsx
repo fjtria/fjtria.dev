@@ -1,5 +1,6 @@
 import '../../index.css';
-import './Hero.css'
+import './Hero.css';
+import heroImage from '../../assets/images/Hero/hero_image.webp';
 
 export default function Hero() {
     return (
@@ -11,7 +12,7 @@ export default function Hero() {
             </div>
 
             <div className='hero-right'>
-                
+                <img src={heroImage} alt='FJ Tria'></img>
             </div>
 
         </div>
