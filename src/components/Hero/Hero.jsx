@@ -7,8 +7,13 @@ export default function Hero() {
         <div id='#' className='hero'>
 
             <div className='hero-left'>
-                <h1 className='title'>👋🏽 Hello world!</h1>
-                <p className='text'>I'm FJ, a software engineer and web developer.</p>
+                <div className='text-container'>
+                    <h2 className='title'>👋🏽 Hello world.</h2>
+                    <p className='text'>I'm FJ, a software engineer and web developer. </p>
+                </div>
+                <div className='button-container'>
+                    <a href='#about' className='button'>About me.</a>
+                </div>
             </div>
 
             <div className='hero-right'>

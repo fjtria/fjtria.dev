@@ -6,17 +6,34 @@
     @media screen and (max-width: 768px) {
         padding: 2rem 1rem;
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
+        gap: 1rem;
 	}
 
     .hero-left {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: left;
+        text-align: left;
+        gap: 1rem;
+
+        .text-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .button-container {
+            display: flex;
+        }
     }
 
     .hero-right {
+        @media screen and (max-width: 768px) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
         img {
             width: 100%;
             border-radius: 1rem;

@@ -6,7 +6,7 @@ export default function Navbar() {
         <>
             <nav className='navbar'>
                 <div className='logo'>
-                    <a href='#'className='title'>FJ TRIA</a>
+                    <h1><a href='#'className='title'>FJ TRIA</a></h1>
                 </div>
 
                 <div className='links'>
