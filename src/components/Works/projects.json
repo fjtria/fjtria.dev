@@ -2,7 +2,7 @@
     {
         "link": "https://spacelab.space/",
         "icon": "images/Works/spacelab.svg",
-        "name": "The Spacelab Nonprofit Website",
+        "name": "The Spacelab Nonprofit",
         "description": "A responsive website built using React, Node.js, and Sass."
     },
     {
@@ -13,8 +13,8 @@
     },
     {
         "link": "https://github.com/fjstria/PantryPal",
-        "icon": "images/Works/exoplanetarium.svg",
+        "icon": "images/Works/pantrypal.png",
         "name": "Pantry Pal",
-        "description": "An Android/iOS mobile app for sharing and discovering recipes"
+        "description": "An Android/iOS mobile app for sharing and discovering recipes."
     }
 ]
