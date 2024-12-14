@@ -3,18 +3,18 @@
         "link": "https://spacelab.space/",
         "icon": "images/Works/spacelab.svg",
         "name": "The Spacelab Nonprofit",
-        "description": "A responsive website built using React, Node.js, and Sass."
+        "description": "A website for learning about the Spacelab organization and exploring interstellar discoveries."
     },
     {
         "link": "https://spacelabdev.github.io/Exoplanetarium-3D/#/",
         "icon": "images/Works/exoplanetarium.svg",
         "name": "Exoplanetarium 3D",
-        "description": "A web application for exploring exoplanets within our galaxy."
+        "description": "An interactive 3D web application that renders exoplanets based on NASA/CalTech data."
     },
     {
         "link": "https://github.com/fjstria/PantryPal",
         "icon": "images/Works/pantrypal.png",
         "name": "Pantry Pal",
-        "description": "An Android/iOS mobile app for sharing and discovering recipes."
+        "description": "A mobile application for sharing and discovering recipes and generating grocery shopping lists."
     }
 ]

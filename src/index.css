@@ -39,6 +39,31 @@ a:visited {
   text-decoration: none;
 }
 
+/* Gradient Animation: https://www.youtube.com/watch?v=yu0Cm4BqQv0&t=167s */
+.gradient:hover {
+  animation: gradient 1s linear infinite;
+  background: linear-gradient(
+    to right,
+    var(--primary),
+    #005c9e,
+    var(--secondary),
+    #1f8fff
+  );
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  white-space: nowrap;
+}
+
+@keyframes gradient {
+  from {
+    background-position: 0% center;
+  }
+  to {
+    background-position: -200% center;
+  }
+}
+
 .button {
   margin: 0;
   padding: 0.5rem 1rem;

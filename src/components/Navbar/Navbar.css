@@ -36,10 +36,6 @@ nav {
     }
 }
 
-a:hover {
-    color: var(--primary);
-}
-
 hr {
     margin-top: 0.5rem;
     border: none;
