@@ -6,6 +6,7 @@
   background: var(--background);
   scrollbar-width: thin;
   scroll-behavior: smooth;
+  overscroll-behavior: none;
   font-size: 1rem/1.4em;
   font-family: "Inter", sans-serif;
   font-weight: 500;
