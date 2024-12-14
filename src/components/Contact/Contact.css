@@ -1,9 +1,9 @@
-#works {
+#contact {
     padding: 4rem 16rem;
 }
 
 @media screen and (max-width: 768px) {
-    #works {
+    #contact {
         padding: 2rem 1rem;
     }
 }

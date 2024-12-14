@@ -1,46 +1,81 @@
 .hero {
+    margin-top: 2rem;
     padding: 4rem 16rem;
     display: grid;
     grid-template-columns: 2fr 1fr;
+}
 
-    @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
+    .hero {
         padding: 2rem 1rem;
         display: flex;
         flex-direction: column-reverse;
         gap: 1rem;
-	}
-
-    .hero-left {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: left;
-        gap: 1rem;
-
-        .text-container {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .button-container {
-            display: flex;
-        }
     }
+}
 
-    .hero-right {
-        @media screen and (max-width: 768px) {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+#wave {
+    display: inline-block;
+    transition: transform 0.5s ease;
+    background-color: rgba(0, 0, 0, 0);
+}
 
-        img {
-            width: 100%;
-            border-radius: 1rem;
+#wave:hover {
+    cursor: pointer;
+    animation: wave 1.5s infinite;
+}
 
-            @media screen and (max-width: 768px) {
-                width: 50%;
-            }
-        }
+/* Tilt and Shake Animation: https://unused-css.com/blog/css-shake-animation/*/
+@keyframes wave {
+    0% { transform: translate(0, 0) rotate(0deg); }
+    25% { transform: translate(5px, 5px) rotate(5deg); }
+    50% { transform: translate(0, 0) rotate(0eg); }
+    75% { transform: translate(-5px, 5px) rotate(-5deg); }
+    100% { transform: translate(0, 0) rotate(0deg); }
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    gap: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .hero-left {
+        text-align: center;
+    }
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-container {
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    .button-container {
+        justify-content: center;
+    }
+}
+
+.hero-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-right img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .hero-right img {
+        width: 50%;
     }
 }
