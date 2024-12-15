@@ -39,6 +39,28 @@
     gap: 1rem;
 }
 
+@media screen and (max-width: 992px) {
+    .about-left {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-left {
+        text-align: left;
+    }
+
+    .about-left p {
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .about-left {
+        text-align: center;
+    }
+}
+
 .about-image {
     display: flex;
     justify-content: center;

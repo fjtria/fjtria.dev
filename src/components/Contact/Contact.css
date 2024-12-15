@@ -12,7 +12,3 @@
 #contact p {
     padding-top: 1rem;
 }
-
-#contact a:hover {
-    color: var(--primary);
-}
