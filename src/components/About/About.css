@@ -100,8 +100,8 @@
 
 .experience-image img {
     max-width: 8rem;
+    object-fit: contain;
     padding: 1rem;
-    border-radius: 1.5rem;
     background-color: rgba(0, 0, 0, 0);
 }
 
@@ -136,6 +136,10 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     background-color: rgba(0, 0, 0, 0);
+}
+
+.education-images img {
+    filter: drop-shadow(1px 1px 0 gray);
 }
 
 .education-logo  {
