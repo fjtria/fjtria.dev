@@ -7,7 +7,10 @@ export default function Footer() {
     return (
         <footer id='footer'>
             <hr></hr>
-            <p>FJ TRIA</p>
+            <div className='footer-container'>
+                <p>FJ TRIA</p>
+                <p>📍 California, USA</p>
+            </div>
         </footer>
     );
 }
