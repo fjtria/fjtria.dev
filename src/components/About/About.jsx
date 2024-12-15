@@ -16,13 +16,14 @@ export default function About() {
                         <img src={aboutImage}></img>
                     </div>
                     <h3 className='subtitle'>More about me.</h3>
-                    <p>With a passion for cinematic arts and digital technology, I found a home in
-                        front-end development. I levarage my unique perspective and attention-to-detail
-                        to enhance the user experience.
+                    <p>
+                        With a passion for cinematic arts and digital technology, I found a home in
+                        development. I levarage my unique perspective and attention-to-detail
+                        to enhance user experiences.
                     </p>
                     <p>
-                        Interacting with software should be easy – My goal is for users to feel confident
-                        in the software they interact with daily.
+                        Interacting with software should be easy. My goal is for users to feel confident
+                        using the software they interact with daily.
                     </p>
                 </div>
                 
