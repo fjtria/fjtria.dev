@@ -8,7 +8,7 @@ export default function Footer() {
         <footer id='footer'>
             <hr></hr>
             <div className='footer-container'>
-                <p>FJ TRIA</p>
+                <p>🧑🏾‍💻 FJ TRIA</p>
                 <p>📍 California, USA</p>
             </div>
         </footer>

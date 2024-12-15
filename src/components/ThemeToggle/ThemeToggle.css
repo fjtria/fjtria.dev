@@ -24,19 +24,23 @@
     height: 2.5rem;
     width: 2.5rem;
     background-image: url(../../assets/images/ThemeToggle/dark_mode.svg);
+    background-color: rgba(0, 0, 0, 0);
 }
 
 /* Unchecked hover */
 .container:hover input ~ .toggle {
     background-image: url(../../assets/images/ThemeToggle/dark_mode_hover.svg);
+    background-color: rgba(0, 0, 0, 0);
 }
 
 /* Checked */
 .container input:checked ~ .toggle {
     background-image: url(../../assets/images/ThemeToggle/light_mode.svg);
+    background-color: rgba(0, 0, 0, 0);
 }
 
 /* Checked hover */
 .container:hover input:checked ~ .toggle {
     background-image: url(../../assets/images/ThemeToggle/light_mode_hover.svg);
+    background-color: rgba(0, 0, 0, 0);
 }
