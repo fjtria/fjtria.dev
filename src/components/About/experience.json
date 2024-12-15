@@ -1,16 +1,8 @@
 [
     {
-        "link": "https://spacelab.space/",
-        "icon": "images/Works/spacelab_home.webp",
-        "name": "🪐 The Spacelab Nonprofit",
-        "description": "A website for learning about the Spacelab organization and exploring interstellar discoveries.",
-        "skills": "React.js, Node.js, Sass"
-    },
-    {
-        "link": "https://spacelabdev.github.io/Exoplanetarium-3D/#/",
-        "icon": "images/Works/exoplanetarium_home.webp",
-        "name": "🔭 Exoplanetarium 3D",
-        "description": "An interactive 3D web application that renders exoplanets based on NASA/CalTech data.",
-        "skills": "React.js, Three.js, WebGL"
+        "icon": "images/About/spacelab.webp",
+        "company": "The Spacelab Nonprofit",
+        "title": "Frontend Developer",
+        "dates": "October 2024 - Present"
     }
 ]

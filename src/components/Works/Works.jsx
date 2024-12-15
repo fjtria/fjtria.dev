@@ -1,7 +1,7 @@
 import '../../index.css';
 import './Works.css';
 import projects from './projects.json';
-import { getLocalURL } from '../../helpers/urlHelper';;
+import { getLocalURL } from '../../helpers/urlHelper';
 
 export default function Works() {
     return (
@@ -14,7 +14,7 @@ export default function Works() {
                             
                             <a key={id} href={project.link} target='_blank' rel='noopener noreferrer' className='project-card'>
                                 <div className='project-image'>
-                                    <img src={getLocalURL(project.icon)} alt={`${project.name} icon`}></img>
+                                    <img src={getLocalURL(project.icon)} alt={`${project.name} preview`}></img>
                                 </div>
                                 <div className='project-details'>
                                     <h3 className='subtitle'>{project.name}</h3>
