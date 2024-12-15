@@ -78,6 +78,28 @@
     flex-direction: column;
 }
 
+@media screen and (max-width: 992px) {
+    .about-right h3{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-right h3 {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .about-right h3 {
+        text-align: center;
+    }
+}
+
+.about-right img {
+    filter: drop-shadow(0 0 1px var(--background));
+}
+
 .experience-container {
     padding: 1rem 1rem 2rem 1rem;
     display: flex;
@@ -85,9 +107,10 @@
 }
 
 .experience-card {
+    padding: 1rem;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 1rem;
+    gap: 1.5rem;
     border-radius: 1rem;
     background-color: var(--card);
 }
@@ -96,17 +119,17 @@
     background-color: rgba(0, 0, 0, 0);
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .experience-image img {
-    max-width: 8rem;
+    height: 4rem;
+    width: 4rem;
     object-fit: contain;
-    padding: 1rem;
     background-color: rgba(0, 0, 0, 0);
 }
 
 .experience-details {
-    padding: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -134,12 +157,8 @@
 
 .education-images {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 3fr;
     background-color: rgba(0, 0, 0, 0);
-}
-
-.education-images img {
-    filter: drop-shadow(1px 1px 0 gray);
 }
 
 .education-logo  {
