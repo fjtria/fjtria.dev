@@ -13,9 +13,14 @@ export default function Works() {
                         return (
                             
                             <a key={id} href={project.link} target='_blank' rel='noopener noreferrer' className='project-card'>
-                                <img src={getLocalURL(project.icon)} alt={`${project.name} icon`}></img>
-                                <h3 className='subtitle'>{project.name}</h3>
-                                <p>{project.description}</p>
+                                <div className='project-image'>
+                                    <img src={getLocalURL(project.icon)} alt={`${project.name} icon`}></img>
+                                </div>
+                                <div className='project-details'>
+                                    <h3 className='subtitle'>{project.name}</h3>
+                                    <p className='subtext'>{project.skills}</p>
+                                    <p>{project.description}</p>
+                                </div>
                             </a>
                 
                         );

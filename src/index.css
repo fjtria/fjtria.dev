@@ -9,7 +9,7 @@
   overscroll-behavior: none;
   font-size: 1rem/1.4em;
   font-family: "Inter", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 :root {
@@ -83,16 +83,17 @@ a:visited {
 
 .title {
   font-size: 1.125rem/1.4em;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .subtitle {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .subtext {
   color: var(--subtext);
-  font-size: 0.875rem/1.4em;
+  font-size: 0.75rem/1.4em;
+  font-weight: 300;
 }
 
 @supports (font-variation-settings: normal) {

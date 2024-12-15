@@ -1,6 +1,6 @@
 .hero {
-    margin-top: 3rem;
-    padding: 4rem 16rem;
+    margin-top: 3.5rem;
+    padding: 2rem 16rem;
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
