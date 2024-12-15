@@ -7,8 +7,7 @@ import Hero from "./components/Hero/Hero";
 import Works from "./components/Works/Works";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
-
-
+import Footer from "./components/Footer/Footer";
 
 function App() {
   // React Dark Mode Toggle: https://www.youtube.com/watch?v=sy-rRtT84CQ
@@ -32,6 +31,8 @@ function App() {
       <About></About>
 
       <Contact></Contact>
+
+      <Footer></Footer>
       
     </div>
   );

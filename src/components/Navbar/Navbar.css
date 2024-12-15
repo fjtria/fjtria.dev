@@ -1,5 +1,5 @@
 #navbar {
-    padding: 0.75rem 11rem;
+    padding: 0.75rem 11rem 0rem 11rem;
     position: fixed;
     top: 0;
     width: 100%;
@@ -7,7 +7,7 @@
 
 @media screen and (max-width: 768px) {
     #navbar {
-        padding: 0.75rem 1rem;
+        padding: 0.75rem 1rem 0rem 1rem;
     }
 }
 
