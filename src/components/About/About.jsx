@@ -27,8 +27,8 @@ export default function About() {
                 </div>
                 
                 <div className='about-right'>
+                    <h3 className='subtitle'>Experience.</h3>
                     <div className='experience-container'>
-                        <h3 className='subtitle'>Experience.</h3>
                         {
                             experiences.map((experience, id) => {
                                 return ( 
@@ -46,8 +46,8 @@ export default function About() {
                             })
                         }
                     </div>
+                    <h3 className='subtitle'>Education.</h3>
                     <div className='education-container'>
-                        <h3 className='subtitle'>Education.</h3>
                         {
                             educations.map((education, id) => {
                                 return (
