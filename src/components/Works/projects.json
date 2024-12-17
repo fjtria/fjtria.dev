@@ -1,5 +1,12 @@
 [
     {
+        "link": "https://spacelabdev.github.io/Exoplanetarium-3D/#/",
+        "icon": "images/Works/exoplanetarium_home.webp",
+        "name": "🔭 Exoplanetarium 3D",
+        "description": "An interactive 3D web application that renders exoplanets based on NASA and CalTech data.",
+        "skills": "React.js, Three.js, WebGL"
+    },
+    {
         "link": "https://spacelab.space/",
         "icon": "images/Works/spacelab_home.webp",
         "name": "🪐 The Spacelab Nonprofit",
@@ -7,10 +14,11 @@
         "skills": "React.js, Node.js, Sass"
     },
     {
-        "link": "https://spacelabdev.github.io/Exoplanetarium-3D/#/",
-        "icon": "images/Works/exoplanetarium_home.webp",
-        "name": "🔭 Exoplanetarium 3D",
-        "description": "An interactive 3D web application that renders exoplanets based on NASA/CalTech data.",
-        "skills": "React.js, Three.js, WebGL"
+        "link": "https://fjstria.github.io/colorcoded/",
+        "icon": "images/Works/colorcoded.webp",
+        "name": "🎨 Colorcoded",
+        "description": "A clean and simple web tool for converting colors between the HEX, RGB, CMYK, and HSL formats.",
+        "skills": "JavaScript, HTML, CSS"
     }
+
 ]
