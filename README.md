@@ -1,8 +1,10 @@
-## 🌱 fjstria.github.io 🌱
+## ⚡️ fjstria.github.io
 
-Repo for my portfolio site.
-
-Built using:
+### Built With
 - ⚛️ React.js
 - 🎨 CSS
-- 🎬 Framer Motion
+
+### Contact
+FJ Tria - [@fjstria](https://www.linkedin.com/in/fjstria/) - fjstria@gmail.com
+
+Project Link: https://github.com/fjstria/fjstria.github.io
