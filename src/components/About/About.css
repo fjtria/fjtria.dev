@@ -111,7 +111,7 @@
 .experience-card {
     padding: 1rem;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 3fr;
     gap: 1.5rem;
     border-radius: 1rem;
     background-color: var(--card);
