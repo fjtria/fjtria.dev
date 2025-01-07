@@ -157,8 +157,7 @@
 
 .skill-card img {
     background-color: rgba(0, 0, 0, 0);
-    filter: drop-shadow(0 0 0.5px var(--subtext));
-    -webkit-filter: drop-shadow(0 0 0.5px var(--subtext));
+    filter: drop-shadow(0 0 1px var(--subtext));
     display: flex;
     width: 3rem;
 }
