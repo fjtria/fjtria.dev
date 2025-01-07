@@ -51,7 +51,7 @@ a:active {
 
 .button {
   margin: 0;
-  padding: 0.5rem 1rem;
+  padding: 0.6rem 1rem;
   text-align: center;
   color: #F5F3F5;
   background-color: var(--primary);
