@@ -13,6 +13,7 @@
 }
 
 :root {
+  font-size: 14px;
   --text: #070707;
   --subtext: #202020;
   --background: #F5F3F5;

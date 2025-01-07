@@ -1,13 +1,12 @@
 .hero {
-    margin-top: 3rem;
-    padding: 2rem 16rem;
+    padding: 8rem 16rem 2rem 16rem;
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
 
 @media screen and (max-width: 768px) {
     .hero {
-        padding: 2rem 1rem;
+        padding: 6rem 1rem 2rem 1rem;
         display: flex;
         flex-direction: column-reverse;
         gap: 1rem;
@@ -65,13 +64,19 @@
 
 .hero-right {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 
+@media screen and (max-width: 768px) {
+    .hero-right {
+        justify-content: center;
+    }
+}
+
 .hero-right img {
-    width: 100%;
-    border-radius: 1rem;
+    width: 80%;
+    border-radius: 100rem;
 }
 
 @media screen and (max-width: 768px) {

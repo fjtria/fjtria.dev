@@ -36,6 +36,16 @@
         grid-template-columns: 1fr;
         text-align: center;
         gap: 0;
+        background-image: none;
+        background-size: 100% 100%;
+    }
+
+    .project-card:hover {
+        background-color: var(--secondary);
+    }
+
+    .project-card:active {
+        background-color: var(--primary);
     }
 }
 
@@ -50,6 +60,16 @@
         grid-template-columns: 1fr;
         text-align: center;
         gap: 0;
+        background-image: none;
+        background-size: 100% 100%;
+    }
+
+    .project-card:hover {
+        background-color: var(--secondary);
+    }
+
+    .project-card:active {
+        background-color: var(--primary);
     }
 }
 
@@ -61,8 +81,8 @@
 
 .project-image img {
     width: 100%;
-    border-radius: 1.5rem;
-    padding: 1rem;
+    border-radius: 2.5rem;
+    padding: 1.5rem;
     background-color: rgba(0, 0, 0, 0);
 }
 
@@ -70,7 +90,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 1rem;
+    padding: 0 1rem 2rem 1rem;
     background-color: rgba(0, 0, 0, 0);
 }
 
