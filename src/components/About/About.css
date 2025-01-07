@@ -156,12 +156,14 @@
 }
 
 .skill-card img {
+    background-color: rgba(0, 0, 0, 0);
+    filter: drop-shadow(0 0 0.5px var(--subtext));
     display: flex;
     width: 3rem;
 }
 
 @media screen and (max-width: 768px) {
     .skill-card img {
-        width: 2rem;
+        width: 2.5rem;
     }
 }
