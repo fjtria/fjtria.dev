@@ -9,7 +9,7 @@ export default function Hero() {
             <div className='hero-left'>
                 <div className='text-container'>
                     <h2 className='title'>
-                        <span id='wave'>👋🏾</span> Hello world.
+                        <span id='wave'>👋🏽</span> Hello world.
                         </h2>
                     <p className='text'>
                         I'm FJ, a software engineer and web developer.

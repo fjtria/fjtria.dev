@@ -2,7 +2,6 @@ import '../../index.css';
 import './About.css';
 import aboutImage from '../../assets/images/About/about_image.webp';
 import experiences from './experience.json';
-import educations from './education.json';
 import { getLocalURL } from '../../helpers/urlHelper';
 
 export default function About() {
@@ -48,30 +47,7 @@ export default function About() {
                                 );
                             })
                         }
-                    </div>
-                    <h3 className='subtitle'>Education.</h3>
-                    <div className='education-container'>
-                        {
-                            educations.map((education, id) => {
-                                return (
-                                    <div key={id} className='education-card'>
-                                        <div className='education-images'>
-                                            <div className='education-logo'>
-                                                <img src={getLocalURL(education.logo)} alt={`${education.degree} logo`}></img>
-                                            </div>
-                                            <div className='education-program'>
-                                                <img src={getLocalURL(education.program)} alt={`${education.degree} logo`} className='education-program'></img>
-                                            </div>
-                                        </div>
-                                        <div className='education-details'>
-                                            <h4 className='subtitle'>{education.degree}</h4>
-                                            <p className='subtext'>{education.dates}</p>
-                                        </div>
-                                    </div>
-                                );
-                            })
-                        }
-                    </div>
+                    </div>                    
                 </div>
             </div>
         </section>
