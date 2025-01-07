@@ -17,13 +17,15 @@ export default function About() {
                     </div>
                     <h3 className='subtitle'>More about me.</h3>
                     <p>
-                        With a passion for cinematic arts and digital technology, I found a home in
-                        development. I levarage my unique perspective and attention-to-detail
-                        to enhance user experiences.
+                        I'm a software engineer dedicated to building intuitive and reliable applications that enhance everyday experiences.
+                        With expertise in full-stack development, I focus on creating seamless interactions between users and technology.
                     </p>
                     <p>
-                        Interacting with software should be easy. My goal is for users to feel confident
-                        using the software they interact with daily.
+                        I enjoy being presented with complex challenges and delivering practical solutions. My work blends technical precision with a user-first approach, ensuring every project meets real-world needs.
+                    </p>
+                    <p>
+                        Outside of coding, I enjoy exploring the intersection of technology and creative storytelling,
+                        constantly seeking inspiration from films, games, and other digital media.
                     </p>
                 </div>
                 
