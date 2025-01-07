@@ -2,6 +2,7 @@ import '../../index.css';
 import './About.css';
 import aboutImage from '../../assets/images/About/about_image.webp';
 import experiences from './experience.json';
+import skills from './skills.json';
 import { getLocalURL } from '../../helpers/urlHelper';
 
 export default function About() {
@@ -47,7 +48,20 @@ export default function About() {
                                 );
                             })
                         }
-                    </div>                    
+                    </div> 
+
+                    <h3 className='subtitle'>Skills.</h3>
+                    <div className='skills-container'>
+                        {
+                            skills.map((skill, id) => {
+                                return (
+                                    <div key={id} className='skill-card'>
+                                        <img src={getLocalURL(skill.icon)} alt={`${skill.name} logo`} title={`${skill.name}`}></img>
+                                    </div>
+                                );
+                            })
+                        }
+                    </div>                
                 </div>
             </div>
         </section>
