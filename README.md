@@ -1,4 +1,4 @@
-## ⚡️ fjtria.dev
+## ⚡️ fjtria.github.io
 
 ### Built With
 - ⚛️ React.js
