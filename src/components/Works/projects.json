@@ -14,14 +14,14 @@
         "skills": "React.js, Node.js, Sass"
     },
     {
-        "link": "https://github.com/fjstria/PantryPal",
+        "link": "https://github.com/fjtria/PantryPal",
         "icon": "images/Works/pantrypal.webp",
         "name": "🍳 Pantry Pal",
         "description": "A mobile application for sharing and discovering new recipes and generating grocery shopping lists.",
         "skills": "React Native, CSS, Firebase"
     },
     {
-        "link": "https://fjstria.github.io/colorcoded/",
+        "link": "https://fjtria.github.io/colorcoded/",
         "icon": "images/Works/colorcoded.webp",
         "name": "🎨 Colorcoded",
         "description": "A clean and simple web tool for converting colors between the HEX, RGB, CMYK, and HSL formats.",
