@@ -11,10 +11,9 @@ export default function Works() {
                 {
                     projects.map((project, id) => {
                         return (
-                            
                             <a key={id} href={project.link} target='_blank' rel='noopener noreferrer' className='project-card'>
                                 <div className='project-image'>
-                                    <img src={getLocalURL(project.icon)} alt={`${project.name} preview`}></img>
+                                    <img src={getLocalURL(project.icon)} alt={`${project.name} preview`} loading='lazy'></img>
                                 </div>
                                 <div className='project-details'>
                                     <h3 className='subtitle'>{project.name}</h3>
@@ -22,7 +21,6 @@ export default function Works() {
                                     <p>{project.description}</p>
                                 </div>
                             </a>
-                
                         );
                     })
                 }

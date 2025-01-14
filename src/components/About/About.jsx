@@ -10,10 +10,9 @@ export default function About() {
         <section id='about'>
             <h2 className='title'>About.</h2>
             <div className='about-container'>
-                
                 <div className='about-left'>
                     <div className='about-image'>
-                        <img src={aboutImage}></img>
+                        <img src={aboutImage} alt='FJ Tria' loading='lazy'></img>
                     </div>
                     <h3 className='subtitle'>More about me.</h3>
                     <p>
@@ -28,7 +27,6 @@ export default function About() {
                         constantly seeking inspiration from films, games, and other digital media.
                     </p>
                 </div>
-                
                 <div className='about-right'>
                     <h3 className='subtitle'>Experience.</h3>
                     <div className='experience-container'>
@@ -37,7 +35,7 @@ export default function About() {
                                 return ( 
                                     <div key={id} className='experience-card'>
                                         <div className='experience-image'>
-                                            <img src={getLocalURL(experience.icon)} alt={`${experience.company} logo`}></img>
+                                            <img src={getLocalURL(experience.icon)} alt={`${experience.company} logo`} loading='lazy'></img>
                                         </div>
                                         <div className='experience-details'>
                                             <h4 className='subtitle'>{experience.company}</h4>
@@ -49,14 +47,13 @@ export default function About() {
                             })
                         }
                     </div> 
-
                     <h3 className='subtitle'>Skills.</h3>
                     <div className='skills-container'>
                         {
                             skills.map((skill, id) => {
                                 return (
                                     <div key={id} className='skill-card'>
-                                        <img src={getLocalURL(skill.icon)} alt={`${skill.name} logo`} title={`${skill.name}`}></img>
+                                        <img src={getLocalURL(skill.icon)} alt={`${skill.name} logo`} title={`${skill.name}`} loading='lazy'></img>
                                     </div>
                                 );
                             })
