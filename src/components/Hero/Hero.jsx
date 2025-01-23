@@ -16,7 +16,7 @@ export default function Hero() {
                     </p>
                 </div>
                 <div className='button-container'>
-                    <a href='#about' className='button'>About me.</a>
+                    <a href='#about' className='button'>About me. ↓</a>
                 </div>
             </div>
 

@@ -6,7 +6,7 @@ import { getLocalURL } from '../../helpers/urlHelper';
 export default function Works() {
     return (
         <section id='works'>
-            <h2 className='title'>Works.</h2>
+            <h2 className='title'>💻 Works.</h2>
             <div className='works-container'>
                 {
                     projects.map((project, id) => {

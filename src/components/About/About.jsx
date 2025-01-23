@@ -8,13 +8,13 @@ import { getLocalURL } from '../../helpers/urlHelper';
 export default function About() {
     return (
         <section id='about'>
-            <h2 className='title'>About.</h2>
+            <h2 className='title'>🤔 About.</h2>
             <div className='about-container'>
                 <div className='about-left'>
                     <div className='about-image'>
                         <img src={aboutImage} alt='FJ Tria' loading='lazy'></img>
                     </div>
-                    <h3 className='subtitle'>More about me.</h3>
+                    <h3 className='subtitle'>💬 More about me.</h3>
                     <p>
                         I'm a software engineer dedicated to building intuitive and reliable applications that enhance everyday experiences.
                         With expertise in full-stack development, I focus on creating seamless interactions between users and technology.
@@ -28,7 +28,7 @@ export default function About() {
                     </p>
                 </div>
                 <div className='about-right'>
-                    <h3 className='subtitle'>Experience.</h3>
+                    <h3 className='subtitle'>💼 Experience.</h3>
                     <div className='experience-container'>
                         {
                             experiences.map((experience, id) => {
@@ -47,7 +47,7 @@ export default function About() {
                             })
                         }
                     </div> 
-                    <h3 className='subtitle'>Skills.</h3>
+                    <h3 className='subtitle'>⚙️ Skills.</h3>
                     <div className='skills-container'>
                         {
                             skills.map((skill, id) => {
