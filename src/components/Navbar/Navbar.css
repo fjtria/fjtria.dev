@@ -19,10 +19,18 @@ nav {
     text-align: center;
 }
 
+nav h1 {
+    display: none;
+}
+
 .logo {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+}
+
+.logo-image {
+    height: 3rem;
 }
 
 .links {

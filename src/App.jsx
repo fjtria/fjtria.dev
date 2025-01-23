@@ -17,7 +17,9 @@ function App() {
   return (
     <div data-theme={isDark ? "dark" : ""}>
       
-      <Navbar></Navbar>
+      <Navbar
+        isDark={isDark}
+      ></Navbar>
 
       <ThemeToggle
         isChecked={isDark}
