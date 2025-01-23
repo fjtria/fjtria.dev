@@ -115,7 +115,7 @@
     gap: 1.5rem;
     border-radius: 1rem;
     background-color: var(--card);
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .experience-image {
