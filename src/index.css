@@ -18,8 +18,8 @@
   --subtext: #6A4E3A;
   --background: #D6C0B3;
   --card: #C4A592;
-  --primary: #5D9154;
-  --secondary: #487141;
+  --primary: #487141;
+  --secondary: #33512D;
   --themeToggle: url(./assets/images/ThemeToggle/light_mode.svg);
 }
 
@@ -28,8 +28,8 @@
   --subtext: #C4A592;
   --background: #493628;
   --card:  #6A4E3A;
-  --primary: #487141;
-  --secondary: #5D9154;
+  --primary: #33512D;
+  --secondary: #487141;
 }
 
 a, a:visited {
@@ -37,34 +37,27 @@ a, a:visited {
 }
 
 a:hover {
-  color: var(--secondary);
-  transition: 0.3s;
+  text-decoration: underline;
 }
 
 a:active {
-  color: var(--primary);
+  color: var(--subtext);
 }
 
 .button {
   margin: 0;
-  padding: 0.6rem 1rem;
+  padding: 0.75rem 1.25rem;
   text-align: center;
-  color: #F5F3F5;
+  color: #D6C0B3;
   background-color: var(--primary);
   border: none;
   border-radius: 0.25rem;
   transition: 0.3s;
 }
 
-.button:hover {
-  cursor: pointer;
-  color: #F5F3F5;
-  background-color: var(--secondary);
-}
-
 .button:active {
-  color: #F5F3F5;
-  background-color: var(--primary);
+  color: #C4A592;
+  background-color: var(--secondary);
 }
 
 .title {
