@@ -28,7 +28,7 @@ export default function About() {
                     </p>
                 </div>
                 <div className='about-right'>
-                    <h3 className='subtitle'>💼 Experience.</h3>
+                    <h3 className='subtitle'>👷🏽 Experience.</h3>
                     <div className='experience-container'>
                         {
                             experiences.map((experience, id) => {

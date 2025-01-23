@@ -6,18 +6,18 @@ export default function Navbar() {
         <div id='navbar'>
             <nav>
                 <div className='logo'>
-                    <h1><a href='#top'className='title gradient'>FJ TRIA</a></h1>
+                    <h1><a href='#top'className='title'>FJ TRIA</a></h1>
                 </div>
 
                 <ul className='links'>
                     <li>
-                        <a href='#works' className='subtitle gradient'>Works</a>
+                        <a href='#works' className='subtitle'>Works.</a>
                     </li>
                     <li>
-                        <a href='#about' className='subtitle gradient'>About</a>
+                        <a href='#about' className='subtitle'>About.</a>
                     </li>
                     <li>
-                        <a href='#contact' className='subtitle gradient'>Contact</a>
+                        <a href='#contact' className='subtitle'>Contact.</a>
                     </li>
                 </ul>
             </nav>
