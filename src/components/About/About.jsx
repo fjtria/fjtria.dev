@@ -16,19 +16,18 @@ export default function About() {
                     </div>
                     <h3 className='subtitle'>💬 More about me.</h3>
                     <p>
-                        I'm a software engineer dedicated to building intuitive and reliable applications that enhance everyday experiences.
-                        With expertise in full-stack development, I focus on creating seamless interactions between users and technology.
+                        I'm a software engineer dedicated to building web applications that enhance
+                        everyday experiences. I follow a user-first approach, creating seamless
+                        interactions between users and technology, ensuring every project meets
+                        real-world needs.
                     </p>
                     <p>
-                        I enjoy being presented with complex challenges and delivering practical solutions. My work blends technical precision with a user-first approach, ensuring every project meets real-world needs.
-                    </p>
-                    <p>
-                        Outside of coding, I enjoy exploring the intersection of technology and creative storytelling,
+                        Outside of coding, I enjoy exploring the intersection of art and technology,
                         constantly seeking inspiration from films, games, and other digital media.
                     </p>
                 </div>
                 <div className='about-right'>
-                    <h3 className='subtitle'>👷🏽 Experience.</h3>
+                    <h3 className='subtitle'>🧑🏽‍💻 Experience.</h3>
                     <div className='experience-container'>
                         {
                             experiences.map((experience, id) => {

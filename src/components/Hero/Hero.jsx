@@ -12,7 +12,7 @@ export default function Hero() {
                         <span id='wave'>👋🏽</span> Hello world.
                         </h2>
                     <p className='text'>
-                        I'm FJ, a software engineer and web developer.
+                        I'm FJ, a software engineer interested in web development and cybersecurity.
                     </p>
                 </div>
                 <div className='button-container'>
