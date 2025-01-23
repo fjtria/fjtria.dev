@@ -69,9 +69,11 @@
 }
 
 .about-image img {
-    width: 50%;
+    width: 45%;
     padding: 1rem;
-    border-radius: 100rem;
+    border-radius: 50%;
+    padding: 4px; /* Border radius */
+    background-color: var(--subtext); /* Border color */
 }
 
 .about-right {
