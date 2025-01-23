@@ -16,9 +16,9 @@ export default function Works() {
                                     <img src={getLocalURL(project.icon)} alt={`${project.name} preview`} loading='lazy'></img>
                                 </div>
                                 <div className='project-details'>
-                                    <h3 className='subtitle'>{project.name}</h3>
-                                    <p className='subtext'>{project.skills}</p>
-                                    <p>{project.description}</p>
+                                    <h3 className='subtitle works-text'>{project.name} ↗</h3>
+                                    <p className='subtext works-subtext'>{project.skills}</p>
+                                    <p className='works-text'>{project.description}</p>
                                 </div>
                             </a>
                         );
