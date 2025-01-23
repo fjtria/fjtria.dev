@@ -14,29 +14,25 @@
 
 :root {
   font-size: 14px;
-  --text: #070707;
-  --subtext: #202020;
-  --background: #F5F3F5;
-  --card: #DED7DE;
-  --primary: #1E90FF;
-  --secondary: #005A9C;
+  --text: #493628;
+  --subtext: #6A4E3A;
+  --background: #D6C0B3;
+  --card: #C4A592;
+  --primary: #5D9154;
+  --secondary: #487141;
   --themeToggle: url(./assets/images/ThemeToggle/light_mode.svg);
 }
 
 [data-theme="dark"] {
-  --text:  #F5F3F5;
-  --subtext: #DED7DE;
-  --background: #070707;
-  --card:  #202020;
-  --primary: #005A9C;
-  --secondary: #1E90FF;
+  --text:  #D6C0B3;
+  --subtext: #C4A592;
+  --background: #493628;
+  --card:  #6A4E3A;
+  --primary: #487141;
+  --secondary: #5D9154;
 }
 
-a {
-  text-decoration: none;
-}
-
-a:visited {
+a, a:visited {
   text-decoration: none;
 }
 
