@@ -24,30 +24,28 @@
     left: 0;
     height: 2.5rem;
     width: 2.5rem;
-    background-image: url(../../assets/images/ThemeToggle/dark_mode.svg);
+    background-image: url(../../assets/images/ThemeToggle/dark-mode.svg);
     background-size: 75%;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: rgba(196, 165, 146, 0.5);
+    background-color: rgba(235, 236, 227, 0.8);
     border-radius: 2rem;
 }
 
 /* Unchecked hover */
 .container:hover input ~ .toggle {
-    background-image: url(../../assets/images/ThemeToggle/dark_mode_hover.svg);
-    background-color: rgba(178, 138, 113, 0.5);
+    background-color: rgba(209, 227, 206, 0.8);
 
 }
 
 /* Checked */
 .container input:checked ~ .toggle {
-    background-image: url(../../assets/images/ThemeToggle/light_mode.svg);
-    background-color: rgba(40, 29, 22, 0.5);
+    background-image: url(../../assets/images/ThemeToggle/light-mode.svg);
+    background-color: rgba(25, 27, 17, 0.8);
 }
 
 /* Checked hover */
 .container:hover input:checked ~ .toggle {
-    background-image: url(../../assets/images/ThemeToggle/light_mode_hover.svg);
-    background-color: rgba(106, 78, 58, 0.5);
+    background-color: rgba(31, 49, 28, 0.8);
 
 }

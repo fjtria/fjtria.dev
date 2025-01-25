@@ -26,23 +26,15 @@
 
 .project-card:hover {
     text-decoration: none;
-    background-color: var(--primary);
+    background-color: var(--hovercard);
 }
 
 .project-card:hover .subtitle {
     text-decoration: underline;
 }
 
-.project-card:hover .works-text{
-    color: #D6C0B3;
-}
-
-.project-card:hover .works-subtext {
-    color: #C4A592;
-}
-
 .project-card:active {
-    background-color: var(--secondary);
+    background-color: var(--primary);
 }
 
 @media screen and (max-width: 992px) {

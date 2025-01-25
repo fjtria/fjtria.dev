@@ -7,29 +7,30 @@
   scrollbar-width: thin;
   scroll-behavior: smooth;
   overscroll-behavior: none;
-  font-size: 1rem/1.4em;
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
 
 :root {
   font-size: 14px;
-  --text: #493628;
-  --subtext: #6A4E3A;
-  --background: #D6C0B3;
-  --card: #C4A592;
-  --primary: #487141;
-  --secondary: #33512D;
-  --themeToggle: url(./assets/images/ThemeToggle/light_mode.svg);
+  --text: #13110b;
+  --subtext: #1f311c;
+  --background: #f4f2eb;
+  --card: #EBECE3;
+  --hovercard: #d1e3ce;
+  --primary: #9ac294;
+  --secondary: #599765;
+  --themeToggle: url(./assets/images/ThemeToggle/light-mode.svg);
 }
 
 [data-theme="dark"] {
-  --text:  #D6C0B3;
-  --subtext: #C4A592;
-  --background: #493628;
-  --card:  #6A4E3A;
-  --primary: #33512D;
-  --secondary: #487141;
+  --text:  #f4f2ec;
+  --subtext: #d1e3ce;
+  --background: #14120b;
+  --card:  #191B11;
+  --hovercard: #1f311c;
+  --primary: #436b3d;
+  --secondary: #68a674;
 }
 
 a, a:visited {
@@ -48,7 +49,7 @@ a:active {
   margin: 0;
   padding: 0.75rem 1.25rem;
   text-align: center;
-  color: #D6C0B3;
+  color: #f4f2eb;
   background-color: var(--primary);
   border: none;
   border-radius: 0.25rem;
@@ -56,22 +57,23 @@ a:active {
 }
 
 .button:active {
-  color: #D6C0B3;
+  color: #f4f2eb;
   background-color: var(--secondary);
 }
 
 .title {
-  font-size: 1.125rem/1.4em;
+  font-size: 1.424rem;
   font-weight: 500;
 }
 
 .subtitle {
+  font-size: 1.125rem;
   font-weight: 500;
 }
 
 .subtext {
   color: var(--subtext);
-  font-size: 0.75rem/1.4em;
+  font-size: 0.889rem;
   font-weight: 300;
 }
 
