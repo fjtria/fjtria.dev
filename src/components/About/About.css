@@ -1,5 +1,8 @@
 #about {
-    padding: 1rem;
+    padding: 1rem 8rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 h2 {
