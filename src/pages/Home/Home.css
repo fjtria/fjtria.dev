@@ -15,14 +15,16 @@
     }
 }
 
-.title {
+#home .title {
     padding-bottom: 2rem;
     font-size: 0.625rem;
+    text-align: center;
 }
 
 @media (min-width: 768px) {
-    .title {
+    #home .title {
         font-size: 0.875rem;
+        text-align: left;
     }
 }
 

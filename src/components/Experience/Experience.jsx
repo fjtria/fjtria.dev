@@ -1,13 +1,13 @@
 import '../../index.css';
 import './Experience.css';
-import spacelabIcon from '../../assets/images/Experience/spacelab.webp'
+import spacelabIcon from '../../assets/images/Experience/spacelab.webp';
 
 export const Experience = () => {
     return (
         <section id='experience'>
             <h2>Experience</h2>            
             <div className='exp-card'>
-                <img src={spacelabIcon}></img>
+                <img src={spacelabIcon} alt='The Spacelab Nonprofit Logo' loading='lazy'></img>
                 <div>
                     <h3>The Spacelab Nonprofit</h3>
                     <h3>Software Engineer, Frontend</h3>
