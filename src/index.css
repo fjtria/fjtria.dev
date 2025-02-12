@@ -5,7 +5,10 @@
 }
 
 :root {
+  height: 100%;
+  overflow: hidden;
   font-family: "JetBrainsMono", monospace;
+  text-transform: lowercase;
   color: #D1D1D1;
   background-color: #171717;
 }

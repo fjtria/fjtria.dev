@@ -11,21 +11,21 @@ export const Navbar = () => {
             <Link to="/" className='title'>fjtria.dev</Link>
 
             <div className="menu" onClick={() => setOpenMenu(!openMenu)}>
-                menu
+                Menu
             </div>
 
             <ul className={openMenu ? "open" : ""}>
                 <li>
-                    <NavLink to="/about">about →</NavLink>
+                    <NavLink to="/about">About →</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/projects">projects →</NavLink>
+                    <NavLink to="/projects">Projects →</NavLink>
                 </li>
                 <li>
-                    <a href='mailto:fjtria.dev@gmail.com' target='_blank'>email ↗</a>
+                    <a href='mailto:fjtria.dev@gmail.com' target='_blank'>Email ↗</a>
                 </li>
                 <li>
-                <a href='https://www.linkedin.com/in/fjtria/' target='_blank' rel='noopener noreferrer'>linkedin ↗</a>
+                <a href='https://www.linkedin.com/in/fjtria/' target='_blank' rel='noopener noreferrer'>LinkedIn ↗</a>
                 </li>
                 
             </ul>
