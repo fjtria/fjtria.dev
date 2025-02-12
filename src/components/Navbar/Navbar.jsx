@@ -8,14 +8,18 @@ export const Navbar = () => {
 
     return (
         <nav>
-            <Link to="/">fjtria.dev</Link>
+            <Link to="/" className='title'>fjtria.dev</Link>
 
-            <ul>
+            <div className="menu" onClick={() => setOpenMenu(!openMenu)}>
+                menu
+            </div>
+
+            <ul className={openMenu ? "open" : ""}>
                 <li>
-                    <NavLink to="/about">About</NavLink>
+                    <NavLink to="/about">about</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/projects">Projects</NavLink>
+                    <NavLink to="/projects">projects</NavLink>
                 </li>
             </ul>
 
