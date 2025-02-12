@@ -1,38 +1,24 @@
+import React, { useState } from 'react';
 import '../../index.css';
 import './Navbar.css';
-import lightModeLogo from '../../assets/images/Navbar/logo-dark.svg';
-import darkModeLogo from '../../assets/images/Navbar/logo-light.svg';
+import { Link, NavLink } from 'react-router-dom';
 
+export const Navbar = () => {
+    const [openMenu, setOpenMenu] = useState(false);
 
-export default function Navbar( {isDark} ) {
     return (
-        <div id='navbar'>
-            <nav>
-                <div className='logo'>
-                    <h1>FJ TRIA</h1>
-                    <a href='#top'>
-                        <img
-                            className='logo-image'
-                            src={isDark ? darkModeLogo : lightModeLogo}
-                            alt='FJ Tria'
-                        >
-                        </img>
-                    </a>
-                </div>
+        <nav>
+            <Link to="/">fjtria.dev</Link>
 
-                <ul className='links'>
-                    <li>
-                        <a href='#works' className='subtitle'>Works.</a>
-                    </li>
-                    <li>
-                        <a href='#about' className='subtitle'>About.</a>
-                    </li>
-                    <li>
-                        <a href='#contact' className='subtitle'>Contact.</a>
-                    </li>
-                </ul>
-            </nav>
-            <hr></hr>
-        </div>
+            <ul>
+                <li>
+                    <NavLink to="/about">About</NavLink>
+                </li>
+                <li>
+                    <NavLink to="/projects">Projects</NavLink>
+                </li>
+            </ul>
+
+        </nav>
     );
 }

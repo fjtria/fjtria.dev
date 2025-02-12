@@ -1,43 +1,23 @@
-import React, { useState } from 'react';
-import useLocalStorage from 'use-local-storage';
-import './index.css';
-import ThemeToggle from './components/ThemeToggle/ThemeToggle';
-import Navbar from "./components/Navbar/Navbar";
-import Hero from "./components/Hero/Hero";
-import Works from "./components/Works/Works";
-import About from "./components/About/About";
-import Contact from "./components/Contact/Contact";
-import Footer from "./components/Footer/Footer";
+import { useState } from 'react'
+import { Route, Routes } from 'react-router-dom'
+import { Navbar } from './components/Navbar/Navbar.jsx'
+import { Home } from './pages/Home/Home.jsx'
+import { About } from './pages/About/About.jsx'
+import { Projects } from './pages/Projects/Projects.jsx'
+import { Footer } from './components/Footer/Footer.jsx'
 
-function App() {
-  // React Dark Mode Toggle: https://www.youtube.com/watch?v=sy-rRtT84CQ
-  const themePreference = window.matchMedia("(prefers-color-scheme: dark)").matches;
-  const [isDark, setIsDark] = useLocalStorage("isDark", themePreference);
-
+function App() {  
   return (
-    <div data-theme={isDark ? "dark" : ""}>
-      
-      <Navbar
-        isDark={isDark}
-      ></Navbar>
-
-      <ThemeToggle
-        isChecked={isDark}
-        handleChange={() => setIsDark(!isDark)}
-      ></ThemeToggle>
-
-      <Hero></Hero>
-
-      <Works></Works>
-
-      <About></About>
-
-      <Contact></Contact>
-
+    <>
+      <Navbar></Navbar>
+      <Routes>
+        <Route path='/' element={<Home></Home>}></Route>
+        <Route path='/about' element={<About></About>}></Route>
+        <Route path='/projects' element={<Projects></Projects>}></Route>
+      </Routes>
       <Footer></Footer>
-      
-    </div>
-  );
+    </>
+  )
 }
 
-export default App;
+export default App
