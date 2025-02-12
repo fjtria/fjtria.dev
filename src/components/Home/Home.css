@@ -1,0 +1,10 @@
+section .title {
+    font-size: 0.75rem;
+    color: #005A9C
+}
+
+@media (min-width: 768px) {
+    section .title {
+        font-size: 1rem;
+    }
+}

@@ -2,56 +2,62 @@
     background-color: #005A9C;
 }
 
-nav {
-    padding: 0.5rem;
+aside {
+    margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border-bottom: 2px solid #005A9C;
+
 }
 
 @media (min-width: 768px) {
-    nav {
+    aside {
+        padding-right: 1rem;
         flex-direction: column;
         align-items: flex-start;
+        height: auto;
+        border-bottom: none;
+        border-right: 2px solid #005A9C;
     }
 }
 
-nav .title {
-    padding: 0.5rem;
-    color: inherit;
+aside .title {
+    padding-bottom: 0.5rem;
+    color: #005A9C;
     font-size: 1.5rem;
     font-weight: 700;
     text-decoration: none;
 }
 
-nav ul {
+aside ul {
     display: none;
     flex-direction: column;
     width: 100%;
 }
 
 @media (min-width: 768px) {
-    nav ul {
+    aside ul {
         display: flex;
     }
 }
 
-nav ul.open {
+aside ul.open {
     display: flex;
 }
 
-nav ul li {
+aside ul li {
     list-style: none;
     text-align: center;
 }
 
 @media (min-width: 768px) {
-    nav ul li {
+    aside ul li {
         text-align: left;
     }
 }
 
-nav ul li a {
+aside ul li a {
     padding: 0.5rem;
     display: block;
     color: inherit;
@@ -60,16 +66,16 @@ nav ul li a {
 }
 
 @media (min-width: 768px) {
-    nav ul li a {
+    aside ul li a {
         padding: 0.5rem;
     }
 }
 
-nav ul li a:not(.active):hover {
+aside ul li a:not(.active):hover {
     text-decoration: underline;
 }
 
-nav .menu {
+aside .menu {
     cursor: pointer;
     top: 0;
     right: 0;
@@ -77,12 +83,12 @@ nav .menu {
     padding: 1rem;
 }
 
-nav .menu:hover {
+aside .menu:hover {
     text-decoration: underline;
 }
 
 @media (min-width: 768px) {
-    nav .menu {
+    aside .menu {
         display: none;
     }
 }

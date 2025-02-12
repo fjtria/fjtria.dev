@@ -7,7 +7,7 @@ export const Navbar = () => {
     const [openMenu, setOpenMenu] = useState(false);
 
     return (
-        <nav>
+        <aside>
             <Link to="/" className='title'>fjtria.dev</Link>
 
             <div className="menu" onClick={() => setOpenMenu(!openMenu)}>
@@ -16,13 +16,20 @@ export const Navbar = () => {
 
             <ul className={openMenu ? "open" : ""}>
                 <li>
-                    <NavLink to="/about">about</NavLink>
+                    <NavLink to="/about">about →</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/projects">projects</NavLink>
+                    <NavLink to="/projects">projects →</NavLink>
                 </li>
+                <li>
+                    <a href='mailto:fjtria.dev@gmail.com' target='_blank'>email ↗</a>
+                </li>
+                <li>
+                <a href='https://www.linkedin.com/in/fjtria/' target='_blank' rel='noopener noreferrer'>linkedin ↗</a>
+                </li>
+                
             </ul>
 
-        </nav>
+        </aside>
     );
 }
