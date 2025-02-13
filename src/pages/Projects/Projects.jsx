@@ -15,7 +15,7 @@ export const Projects = () => {
             <div className='proj-card'>
                 <img src={exoplanetariumIcon} loading='lazy'></img>
                 <div>
-                    <a href='https://spacelabdev.github.io/Exoplanetarium-3D/#/' target='_blank' rel='noopener noreferrer'>Exoplanetarium 3D ↗</a>
+                    <a href='https://spacelabdev.github.io/Exoplanetarium-3D/' target='_blank' rel='noopener noreferrer'>Exoplanetarium 3D ↗</a>
                     <p className='proj-stack'>React.js, Node.js, Three.js, WebGL</p>
                     <p className='proj-desc'>An open-source 3D web application that renders exoplanets using React.js, Three.js, and the NASA and CalTech APIs.</p>
                 </div>
