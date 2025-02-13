@@ -11,11 +11,13 @@ function App() {
   return (
     <div id='app'>
       <Navbar></Navbar>
-      <Routes>
-          <Route path='/' element={<Home></Home>}></Route>
-          <Route path='/about' element={<About></About>}></Route>
-          <Route path='/projects' element={<Projects></Projects>}></Route>
-      </Routes>
+      <main>
+        <Routes>
+            <Route path='/' element={<Home></Home>}></Route>
+            <Route path='/about' element={<About></About>}></Route>
+            <Route path='/projects' element={<Projects></Projects>}></Route>
+        </Routes>
+      </main>
     </div>
   )
 }

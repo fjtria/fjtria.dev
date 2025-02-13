@@ -25,8 +25,11 @@ export const Home = () => {
                 ..................................................<br></br>
                 ..................................................<br></br>
             </pre>
-            <h2>Hello world!</h2>
-            <p>I'm FJ, a software engineer and web developer.</p>
+
+            <div>
+                <h2>Hello world!</h2>
+                <p>I'm FJ, a software engineer and web developer.</p>
+            </div>
         </section>
     );
 }
