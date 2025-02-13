@@ -10,10 +10,9 @@ export const Summary = () => {
                 <img src={profileIcon}></img>
                 <div className='biography'>
                     <p>
-                        I'm a software engineer from Southern California. I believe in building software using
-                        a user-driven approach and prioritizing the benefit of its users. My goal is to develop
-                        applications that meet the needs of real-world people, while ensuring seamless interactions
-                        between users and technology.
+                        I'm a software engineer from Southern California. I believe in building software that
+                        prioritizes the benefit of its users. My goal is to ensure seamless interactions between
+                        users and technology, developing applications that meet the needs of real-world people.
                     </p>
                     <p>
                         Other than coding, I enjoy exploring the intersection of art and technology. I'm

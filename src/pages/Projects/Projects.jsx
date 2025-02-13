@@ -16,7 +16,7 @@ export const Projects = () => {
                 <img src={exoplanetariumIcon} loading='lazy'></img>
                 <div>
                     <a href='https://spacelabdev.github.io/Exoplanetarium-3D/#/' target='_blank' rel='noopener noreferrer'>Exoplanetarium 3D ↗</a>
-                    <p className='proj-stack'>React.js, Three.js, WebGL</p>
+                    <p className='proj-stack'>React.js, Node.js, Three.js, WebGL</p>
                     <p className='proj-desc'>An open-source 3D web application that renders exoplanets using React.js, Three.js, and the NASA and CalTech APIs.</p>
                 </div>
             </div>
@@ -25,7 +25,7 @@ export const Projects = () => {
                 <img src={spacelabWebsiteIcon} loading='lazy'></img>
                 <div>
                     <a href='https://spacelab.space/' target='_blank' rel='noopener noreferrer'>The Spacelab Nonprofit ↗</a>
-                    <p className='proj-stack'>React.js, Node.js, Sass</p>
+                    <p className='proj-stack'>React.js, Node.js, Sass, AWS</p>
                     <p className='proj-desc'>The Spacelab Nonprofit's website, for learning about the organization and discovering the latest findings in space.</p>
                 </div>
             </div>  
@@ -43,7 +43,7 @@ export const Projects = () => {
                 <img src={pantrypalIcon} loading='lazy'></img>
                 <div>
                     <a href='https://github.com/fjtria/PantryPal' target='_blank' rel='noopener noreferrer'>Pantry Pal ↗</a>
-                    <p className='proj-stack'>React Native, CSS, Firebase</p>
+                    <p className='proj-stack'>React Native, CSS, Firebase, Expo</p>
                     <p className='proj-desc'>A mobile application that allows users to share and discover cooking recipes and automatically generate grocery shopping lists.</p>
                 </div>
             </div>       

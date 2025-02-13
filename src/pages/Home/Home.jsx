@@ -18,7 +18,7 @@ export const Home = () => {
                 <h2>Hello world!</h2>
                 <h3>Welcome to fjtria.dev:</h3>
                 <p>
-                    I'm FJ, a software engineer and student with 2+ years experience developing web 
+                    I'm FJ, a software engineer with experience developing web 
                     applications. I'm passionate about new tech and collaborating to make a positive impact.
                 </p>
                 <p>
