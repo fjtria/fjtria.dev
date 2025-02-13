@@ -10,13 +10,15 @@ export const Summary = () => {
                 <img src={profileIcon}></img>
                 <div className='biography'>
                     <p>
-                        I'm a software engineer dedicated to building web applications that enhance everyday
-                        experiences. I follow a user-first approach, creating seamless interactions between
-                        users and technology, ensuring every project meets real-world needs.
+                        I'm a software engineer from Southern California. I believe in building software using
+                        a user-driven approach and prioritizing the benefit of its users. My goal is to develop
+                        applications that meet the needs of real-world people, while ensuring seamless interactions
+                        between users and technology.
                     </p>
                     <p>
-                        Outside of coding, I enjoy exploring the intersection of art and technology, constantly
-                        seeking inspiration from films, games, and other digital media.
+                        Other than coding, I enjoy exploring the intersection of art and technology. I'm
+                        constantly seeking inspiration from films, games, and other digital media to fuel my
+                        own ideas.
                     </p>
                 </div>
             </div>
