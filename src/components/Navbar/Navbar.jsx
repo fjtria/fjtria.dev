@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
+import { Link, NavLink } from 'react-router-dom';
 import '../../index.css';
 import './Navbar.css';
-import { Link, NavLink } from 'react-router-dom';
+import Resume from '../../assets/files/TriaFJResume.pdf'
 
 export const Navbar = () => {
     const [openMenu, setOpenMenu] = useState(false);
@@ -22,14 +23,15 @@ export const Navbar = () => {
                     <NavLink to="/projects">Projects →</NavLink>
                 </li>
                 <li>
+                    <a href={Resume} target='_blank'>Resume ↗</a>
+                </li>
+                <li>
                     <a href='mailto:fjtria.dev@gmail.com' target='_blank'>Email ↗</a>
                 </li>
                 <li>
-                <a href='https://www.linkedin.com/in/fjtria/' target='_blank' rel='noopener noreferrer'>LinkedIn ↗</a>
+                    <a href='https://www.linkedin.com/in/fjtria/' target='_blank' rel='noopener noreferrer'>LinkedIn ↗</a>
                 </li>
-                
             </ul>
-
         </aside>
     );
 }

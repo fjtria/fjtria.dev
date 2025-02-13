@@ -6,8 +6,8 @@
 
 #home .title {
     color: #005A9C;
-
-    font-size: 0.75rem;
+    padding-bottom: 2rem;
+    font-size: 0.6rem;
     text-align: center;
 }
 
@@ -18,7 +18,17 @@
     }
 }
 
-#home h2 {
+#home .hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#home h2, #home h3 {
     color: #005A9C;
     font-weight: 700;
+}
+
+#home .signature {
+    color: #005A9C;
 }
