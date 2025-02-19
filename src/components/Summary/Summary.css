@@ -22,7 +22,7 @@
 
 #summary img {
     width: 200px;
-    border: 3px solid #005A9C;
+    border: 3px solid var(--accent);
     border-radius: 100rem;
 }
 
@@ -33,7 +33,7 @@
 }
 
 h2 {
-    color: #005A9C;
+    color: var(--accent);
     font-weight: 700;
 }
 

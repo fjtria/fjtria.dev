@@ -24,10 +24,10 @@
 }
 
 #home h2, #home h3 {
-    color: #005A9C;
+    color: var(--accent);
     font-weight: 700;
 }
 
 #home .signature {
-    color: #005A9C;
+    color: var(--accent);
 }

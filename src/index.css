@@ -2,13 +2,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: var(--text);
+  background: var(--background);
 }
 
 :root {
+  --text: #D1D1D1;
+  --background: #171717;
+  --accent: #005A9C;
   height: 100%;
   font-family: "JetBrainsMono", monospace;
-  color: #D1D1D1;
-  background-color: #171717;
 }
 
 @font-face {
