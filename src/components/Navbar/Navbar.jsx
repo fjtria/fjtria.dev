@@ -1,11 +1,18 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import copy from 'copy-to-clipboard';
 import '../../index.css';
 import './Navbar.css';
 import Resume from '../../assets/files/TriaFJResume.pdf'
 
 export const Navbar = () => {
     const [openMenu, setOpenMenu] = useState(false);
+    const [copyText, setCopyText] = useState("");
+
+    const copyToClipboard = () => {
+        copy('fjtria.dev@gmail.com');
+        alert(`Email copied to clipboard!`);
+    }
 
     return (
         <aside>
@@ -27,7 +34,7 @@ export const Navbar = () => {
                     <a href={Resume} target='_blank'>Resume ↗</a>
                 </li>
                 <li>
-                    <a href='mailto:fjtria.dev@gmail.com' target='_blank'>Email ↗</a>
+                    <button onClick={copyToClipboard}>Email ↗</button>
                 </li>
                 <li>
                     <a href='https://www.linkedin.com/in/fjtria/' target='_blank' rel='noopener noreferrer'>LinkedIn ↗</a>

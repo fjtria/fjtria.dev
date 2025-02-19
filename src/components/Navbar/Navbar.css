@@ -54,7 +54,7 @@ aside ul li {
     text-align: left;
 }
 
-aside ul li a {
+aside ul li a, aside ul li button {
     padding: 0.5rem;
     display: block;
     color: inherit;
@@ -63,12 +63,12 @@ aside ul li a {
 }
 
 @media (min-width: 768px) {
-    aside ul li a {
+    aside ul li a, aside ul li button{
         padding: 0.5rem;
     }
 }
 
-aside ul li a:not(.active):hover {
+aside ul li a:not(.active):hover, aside ul li button:not(.active):hover {
     text-decoration: underline;
 }
 
@@ -76,6 +76,14 @@ aside hr {
     border: none;
     border-top: 1px solid #005A9C;
     margin: 0.5rem;
+}
+
+aside button {
+    cursor: pointer;
+    font: inherit;
+    color: inherit;
+    background: none;
+    border: none;
 }
 
 aside .menu {
