@@ -22,6 +22,7 @@ export const Navbar = () => {
                 <li>
                     <NavLink to="/projects">Projects →</NavLink>
                 </li>
+                <hr></hr>
                 <li>
                     <a href={Resume} target='_blank'>Resume ↗</a>
                 </li>
