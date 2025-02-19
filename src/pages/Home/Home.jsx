@@ -16,9 +16,9 @@ export const Home = () => {
 
             <div className='hero-text'>
                 <h2>Hello world!</h2>
-                <h3>Welcome to fjtria.dev:</h3>
+                <h3>Welcome to my site.</h3>
                 <p>
-                    I'm FJ, a software engineer with experience developing web 
+                    I'm FJ, a software engineer with experience developing cross-platform web 
                     applications. I'm passionate about new tech and collaborating to make a positive impact.
                 </p>
                 <p>
