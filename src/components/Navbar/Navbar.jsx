@@ -16,7 +16,7 @@ export const Navbar = () => {
 
     return (
         <aside>
-            <Link to="/" className='title'>fjtria.dev</Link>
+            <Link to="/" className='title' title='Go Home'>fjtria.dev</Link>
 
             <div className="menu" onClick={() => setOpenMenu(!openMenu)}>
                 Menu
@@ -24,20 +24,20 @@ export const Navbar = () => {
 
             <ul className={openMenu ? "open" : ""}>
                 <li>
-                    <NavLink to="/about">About →</NavLink>
+                    <NavLink to="/about" title='Go To About'>About →</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/projects">Projects →</NavLink>
+                    <NavLink to="/projects" title='Go To Projects'>Projects →</NavLink>
                 </li>
                 <hr></hr>
                 <li>
-                    <a href={Resume} target='_blank'>Resume ↗</a>
+                    <a href={Resume} target='_blank' title='View Resume'>Resume ↗</a>
                 </li>
                 <li>
-                    <button onClick={copyToClipboard}>Email ↗</button>
+                    <button onClick={copyToClipboard} title='Copy Email'>Email ↗</button>
                 </li>
                 <li>
-                    <a href='https://www.linkedin.com/in/fjtria/' target='_blank' rel='noopener noreferrer'>LinkedIn ↗</a>
+                    <a href='https://www.linkedin.com/in/fjtria/' target='_blank' rel='noopener noreferrer' title='Open LinkedIn'>LinkedIn ↗</a>
                 </li>
             </ul>
         </aside>
