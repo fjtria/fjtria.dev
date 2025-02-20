@@ -29,6 +29,9 @@ export const Navbar = () => {
                 <li>
                     <NavLink to="/projects" title='Go To Projects'>Projects →</NavLink>
                 </li>
+                <li>
+                    <NavLink to="/feed" title='Go To Feed'>Feed →</NavLink>
+                </li>
                 <hr></hr>
                 <li>
                     <a href={Resume} target='_blank' title='View Resume'>Resume ↗</a>
