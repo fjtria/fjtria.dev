@@ -8,11 +8,8 @@ export const Feed = () => {
             <h2>Feed</h2>
             <bsky-embed
                 username='fjtria.dev'
-                mode='dark'
                 limit='5'
                 link-target='_blank'
-                link-image='true'
-                load-more='true'
             >
             </bsky-embed>
         </section>

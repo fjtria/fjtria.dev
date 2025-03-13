@@ -37,7 +37,7 @@ export const Projects = () => {
                 <div>
                     <a href='https://spacelabdev.github.io/Exoplanetarium-3D/' target='_blank' rel='noopener noreferrer'>Exoplanetarium 3D ↗</a>
                     <p className='proj-stack'>React.js, Node.js, Three.js, WebGL</p>
-                    <p className='proj-desc'>A WIP open-source 3D web application for exploring and identifying exoplanets within our galaxy.</p>
+                    <p className='proj-desc'>An in-progress, open-source, 3D web application for exploring and identifying exoplanets within our galaxy.</p>
                 </div>
             </div>
             
