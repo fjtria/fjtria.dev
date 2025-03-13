@@ -6,7 +6,7 @@ export const Footer = () => {
     return (
         <footer>
             <hr></hr>
-            <p>Produced 2025 by FJ Tria</p>
+            <p>Produced 2025 by @fjtria.dev</p>
         </footer>
     );
 }
