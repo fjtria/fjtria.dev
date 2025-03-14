@@ -12,7 +12,7 @@ export const Summary = () => {
                     <p>
                         I'm a software engineer from Southern California. I believe in building software that
                         prioritizes the benefit of its users. My goal is to ensure seamless interactions between
-                        users and technology, developing applications that meet the needs of real-world people.
+                        users and technology and to develop applications that encourage positive social interactions.
                     </p>
                     <p>
                         Other than coding, I enjoy exploring the intersection of art and technology. I'm
