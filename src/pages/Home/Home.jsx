@@ -17,11 +17,9 @@ export const Home = () => {
                 <h2>Hello world!</h2>
                 <h3>Welcome to my site.</h3>
                 <p>
-                    I'm FJ, a software engineer with experience developing cross-platform web 
-                    applications. I'm passionate about new tech and collaborating to make a positive impact.
-                </p>
-                <p>
-                    This site showcases my software development work, alongside some of my own thoughts.
+                    I'm FJ, a software engineer with experience developing 
+                    responsive web application interfaces. This site showcases my 
+                    software development work, alongside some of my own thoughts.
                 </p>
                 <p>
                     Thanks for stopping by!
