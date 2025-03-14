@@ -4,13 +4,12 @@ import spacelabIcon from '../../assets/images/Experience/spacelab.webp';
 import ucscIcon from '../../assets/images/Experience/ucsc.webp';
 import csufIcon from '../../assets/images/Experience/csuf.webp';
 
-
 export const Experience = () => {
     return (
         <section id='experience'>
             <h2>Experience</h2>      
             <div className='exp-card'>
-                <img src={csufIcon} alt='The Spacelab Nonprofit Logo' loading='lazy'></img>
+                <img src={csufIcon} alt='California State University, Fullerton Logo' loading='lazy'></img>
                 <div>
                     <h3>California State University, Fullerton</h3>
                     <h3>Master's Degree</h3>
@@ -26,7 +25,7 @@ export const Experience = () => {
                 </div>
             </div>
             <div className='exp-card'>
-            <img src={ucscIcon} alt='The Spacelab Nonprofit Logo' loading='lazy'></img>
+            <img src={ucscIcon} alt='University of California, Santa Cruz Logo' loading='lazy'></img>
                 <div>
                     <h3>University of California, Santa Cruz</h3>
                     <h3>Bachelor's Degree</h3>
