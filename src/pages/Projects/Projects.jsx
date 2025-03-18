@@ -18,7 +18,7 @@ export const Projects = () => {
                 <img src={SpacelabPreview} alt='Screenshot of the Spacelab Nonprofit website' loading='lazy'></img>
                 <div>
                     <a href='https://spacelab.space/' target='_blank' rel='noopener noreferrer'>The Spacelab Nonprofit ↗</a>
-                    <p className='proj-stack'>React, Sass, Node.js, AWS</p>
+                    <p className='proj-stack'>React, CSS</p>
                     <p className='proj-desc'>The Spacelab Nonprofit's website, describing the goals of the organization and discussing the latest space-related projects.</p>
                 </div>
             </div>  
@@ -27,7 +27,7 @@ export const Projects = () => {
                 <img src={ExoplanetariumPreview} alt='Screenshot of the Exoplanetarium 3D web application' loading='lazy'></img>
                 <div>
                     <a href='https://spacelabdev.github.io/Exoplanetarium-3D/' target='_blank' rel='noopener noreferrer'>Exoplanetarium 3D ↗</a>
-                    <p className='proj-stack'>React, Node.js, Three.js, WebGL</p>
+                    <p className='proj-stack'>React, Three.js, SASS</p>
                     <p className='proj-desc'>An educational, interactive, 3D web application that renders and allows users to explore exoplanets within our galaxy.</p>
                 </div>
             </div>
