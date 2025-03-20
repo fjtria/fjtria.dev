@@ -7,7 +7,7 @@ export const Summary = () => {
         <section id='summary'>
             <h2>About</h2>
             <div className='column-container'>
-                <img src={profileIcon} alt='Photo of FJ Tria' loading='lazy'></img>
+                <img src={profileIcon} alt='Photo of FJ Tria'></img>
                 <div className='biography'>
                     <p>
                         I'm a software engineer from Southern California. I believe in building software that

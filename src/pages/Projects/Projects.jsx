@@ -1,21 +1,27 @@
 import '../../index.css';
 import './Projects.css';
+import { motion } from 'motion/react';
 import DexfetchdPreview from '../../assets/images/Projects/dexfetchd_preview.webp';
 import SpacelabPreview from '../../assets/images/Projects/spacelab_preview.webp';
 import ExoplanetariumPreview from '../../assets/images/Projects/exoplanetarium_preview.webp';
 import ColorcodedPreview from '../../assets/images/Projects/colorcoded_preview.webp';
 import PantryPalPreview from '../../assets/images/Projects/pantrypal_preview.webp';
 
-
-
-
 export const Projects = () => {
     return (
-        <section id='projects'>
+        <motion.section id='projects'
+            animate={{
+                opacity: [0, 1],
+                x: [100, 0]
+            }}
+            transition={{
+                type: "linear",
+            }}
+        >
             <h2>Projects</h2>  
 
             <div className='proj-card'>
-                <img src={SpacelabPreview} alt='Screenshot of the Spacelab Nonprofit website' loading='lazy'></img>
+                <img src={SpacelabPreview} alt='Screenshot of the Spacelab Nonprofit website'></img>
                 <div>
                     <a href='https://spacelab.space/' target='_blank' rel='noopener noreferrer'>The Spacelab Nonprofit ↗</a>
                     <p className='proj-stack'>React, CSS</p>
@@ -24,7 +30,7 @@ export const Projects = () => {
             </div>  
 
             <div className='proj-card'>
-                <img src={ExoplanetariumPreview} alt='Screenshot of the Exoplanetarium 3D web application' loading='lazy'></img>
+                <img src={ExoplanetariumPreview} alt='Screenshot of the Exoplanetarium 3D web application'></img>
                 <div>
                     <a href='https://spacelabdev.github.io/Exoplanetarium-3D/' target='_blank' rel='noopener noreferrer'>Exoplanetarium 3D ↗</a>
                     <p className='proj-stack'>React, Three.js, SASS</p>
@@ -33,7 +39,7 @@ export const Projects = () => {
             </div>
 
             <div className='proj-card'>
-                <img src={DexfetchdPreview} alt='Screenshot of the Dexfetchd website' loading='lazy'></img>
+                <img src={DexfetchdPreview} alt='Screenshot of the Dexfetchd website'></img>
                 <div>
                     <a href='https://fjtria.github.io/dexfetchd/' target='_blank' rel='noopener noreferrer'>Dexfetch'd ↗</a>
                     <p className='proj-stack'>React, CSS, PokéAPI</p>
@@ -42,7 +48,7 @@ export const Projects = () => {
             </div> 
             
             <div className='proj-card'>
-                <img src={ColorcodedPreview} alt='Screenshot of the Colorcoded web application' loading='lazy'></img>
+                <img src={ColorcodedPreview} alt='Screenshot of the Colorcoded web application'></img>
                 <div>
                     <a href='https://fjtria.github.io/colorcoded/' target='_blank' rel='noopener noreferrer'>Colorcoded ↗</a>
                     <p className='proj-stack'>JavaScript, HTML, CSS</p>
@@ -51,13 +57,13 @@ export const Projects = () => {
             </div>
 
             <div className='proj-card'>
-                <img src={PantryPalPreview} alt='Pantry Pal Logo' loading='lazy'></img>
+                <img src={PantryPalPreview} alt='Pantry Pal Logo'></img>
                 <div>
                     <a href='https://github.com/fjtria/PantryPal' target='_blank' rel='noopener noreferrer'>Pantry Pal ↗</a>
                     <p className='proj-stack'>React Native, CSS, Firebase, Expo</p>
                     <p className='proj-desc'>A mobile application allowing users to share and discover recipes and automatically generate grocery shopping lists.</p>
                 </div>
             </div>       
-        </section>
+        </motion.section>
     );
 }

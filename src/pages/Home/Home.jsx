@@ -1,9 +1,18 @@
 import '../../index.css';
 import './Home.css';
+import { motion } from 'framer-motion';
 
 export const Home = () => {
     return (
-        <section id='home'>
+        <motion.section id='home'
+            animate={{
+                opacity: [0, 1],
+                x: [100, 0]
+            }}
+            transition={{
+                type: "linear",
+            }}
+        >
             <pre className='title' aria-label='FJ TRIA in ASCII art text'>
                 ███████╗...██╗████████╗██████╗.██╗.█████╗....██████╗.███████╗██╗...██╗<br></br>
                 ██╔════╝...██║╚══██╔══╝██╔══██╗██║██╔══██╗...██╔══██╗██╔════╝██║...██║<br></br>
@@ -28,6 +37,6 @@ export const Home = () => {
                     - @fjtria.dev
                 </p>
             </div>
-        </section>
+        </motion.section>
     );
 }
