@@ -10,7 +10,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "bsky-embed": "^0.2.3",
     "copy-to-clipboard": "^3.3.3",
     "motion": "^12.5.0",
     "react": "^19.0.0",
