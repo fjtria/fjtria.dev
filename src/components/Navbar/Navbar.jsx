@@ -54,23 +54,15 @@ export const Navbar = () => {
                         <NavLink to="/projects" title='Go To Projects'>Projects →</NavLink>
                     </motion.li>
 
-                    <motion.li
-                        transition={{
-                            delay: 0.3
-                        }}
-                    >
-                        <NavLink to="/feed" title='Go To Feed'>Feed →</NavLink>
-                    </motion.li>
-
                     <motion.hr
                         transition={{
-                            delay: 0.35
+                            delay: 0.3
                         }}
                     ></motion.hr>
 
                     <motion.li
                         transition={{
-                            delay: 0.4
+                            delay: 0.35
                         }}
                     >
                         <a href={Resume} target='_blank' title='View Resume'>Resume ↗</a>
@@ -78,7 +70,7 @@ export const Navbar = () => {
                     
                     <motion.li
                         transition={{
-                            delay: 0.45
+                            delay: 0.4
                         }}
                     >
                         <button onClick={copyToClipboard} title='Copy Email'>Email ↗</button>
@@ -86,7 +78,7 @@ export const Navbar = () => {
 
                     <motion.li
                         transition={{
-                            delay: 0.5
+                            delay: 0.45
                         }}
                     >
                         <a href='https://www.linkedin.com/in/fjtria/' target='_blank' rel='noopener noreferrer' title='Open LinkedIn'>LinkedIn ↗</a>
