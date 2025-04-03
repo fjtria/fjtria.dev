@@ -11,10 +11,6 @@
     text-decoration: none;
 }
 
-#projects a:hover {
-    text-decoration: underline;
-}
-
 #projects .proj-card {
     margin-bottom: 1rem;
     display: flex;
@@ -47,8 +43,21 @@
     }
 }
 
-#projects .proj-card .proj-stack {
+#projects .proj-title {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+#projects .proj-card:hover .proj-title {
+    text-decoration: underline;
+}
+
+#projects .proj-stack {
     font-size: 0.875rem;
     font-style: italic;
     font-weight: 100;
+}
+
+#projects .proj-desc {
+    font-weight: 400;
 }

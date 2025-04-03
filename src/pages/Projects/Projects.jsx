@@ -19,51 +19,50 @@ export const Projects = () => {
             }}
         >
             <h2>Projects</h2>  
-
-            <div className='proj-card'>
+            <a className='proj-card' href='https://spacelab.space/' target='_blank' rel='noopener noreferrer'>
                 <img src={SpacelabPreview} alt='Screenshot of the Spacelab Nonprofit website'></img>
                 <div>
-                    <a href='https://spacelab.space/' target='_blank' rel='noopener noreferrer'>The Spacelab Nonprofit ↗</a>
+                    <h3 className='proj-title'>The Spacelab Nonprofit ↗</h3>
                     <p className='proj-stack'>React, CSS</p>
                     <p className='proj-desc'>The Spacelab Nonprofit's website, describing the goals of the organization and discussing the latest space-related projects.</p>
                 </div>
-            </div>  
+            </a>
 
-            <div className='proj-card'>
+            <a className='proj-card' href='https://spacelabdev.github.io/Exoplanetarium-3D/' target='_blank' rel='noopener noreferrer'>
                 <img src={ExoplanetariumPreview} alt='Screenshot of the Exoplanetarium 3D web application'></img>
                 <div>
-                    <a href='https://spacelabdev.github.io/Exoplanetarium-3D/' target='_blank' rel='noopener noreferrer'>Exoplanetarium 3D ↗</a>
+                    <h3 className='proj-title'>Exoplanetarium 3D ↗</h3>
                     <p className='proj-stack'>React, Three.js, SASS</p>
                     <p className='proj-desc'>An educational, interactive, 3D web application that renders and allows users to explore exoplanets within our galaxy.</p>
                 </div>
-            </div>
+            </a>
 
-            <div className='proj-card'>
+            <a className='proj-card' href='https://fjtria.github.io/dexfetchd/' target='_blank' rel='noopener noreferrer'>
                 <img src={DexfetchdPreview} alt='Screenshot of the Dexfetchd website'></img>
                 <div>
-                    <a href='https://fjtria.github.io/dexfetchd/' target='_blank' rel='noopener noreferrer'>Dexfetch'd ↗</a>
+                    <h3 className='proj-title'>Dexfetch'd ↗</h3>
                     <p className='proj-stack'>React, CSS, PokéAPI</p>
                     <p className='proj-desc'>A website for interfacing with a database of Pokémon, allowing users to look up Pokémon species, including types, abilities, and stats.</p>
                 </div>
-            </div> 
+            </a> 
             
-            <div className='proj-card'>
+            <a className='proj-card' href='https://fjtria.github.io/colorcoded/' target='_blank' rel='noopener noreferrer'>
                 <img src={ColorcodedPreview} alt='Screenshot of the Colorcoded web application'></img>
                 <div>
-                    <a href='https://fjtria.github.io/colorcoded/' target='_blank' rel='noopener noreferrer'>Colorcoded ↗</a>
+                    <h3 className='proj-title'>Colorcoded ↗</h3>
                     <p className='proj-stack'>JavaScript, HTML, CSS</p>
                     <p className='proj-desc'>An all-in-one color code conversion tool capable of converting to and from the HEX, RGB, CMYK, and HSL color models.</p>
                 </div>
-            </div>
+            </a>
 
-            <div className='proj-card'>
+            <a className='proj-card' href='https://github.com/fjtria/PantryPal' target='_blank' rel='noopener noreferrer'>
                 <img src={PantryPalPreview} alt='Pantry Pal Logo'></img>
                 <div>
-                    <a href='https://github.com/fjtria/PantryPal' target='_blank' rel='noopener noreferrer'>Pantry Pal ↗</a>
+                    <h3 className='proj-title'>Pantry Pal ↗</h3>
                     <p className='proj-stack'>React Native, CSS, Firebase, Expo</p>
                     <p className='proj-desc'>A mobile application allowing users to share and discover recipes and automatically generate grocery shopping lists.</p>
                 </div>
-            </div>       
+            </a>       
         </motion.section>
     );
 }
