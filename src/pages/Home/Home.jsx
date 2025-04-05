@@ -5,13 +5,9 @@ import { motion } from 'framer-motion';
 export const Home = () => {
     return (
         <motion.section id='home'
-            animate={{
-                opacity: [0, 1],
-                x: [100, 0]
-            }}
-            transition={{
-                type: "linear",
-            }}
+            initial={{ opacity: 0, x: 100 }}
+            animate={{ opacity: [0, 1], x: [100, 0] }}
+            transition={{ type: "linear" }}
         >
             <pre className='title' aria-label='FJ TRIA in ASCII art text'>
                 ███████╗...██╗████████╗██████╗.██╗.█████╗....██████╗.███████╗██╗...██╗<br></br>

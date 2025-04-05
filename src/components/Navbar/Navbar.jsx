@@ -16,6 +16,7 @@ export const Navbar = () => {
 
     return (
         <motion.aside
+            initial={{ opacity: 0, x: -100 }}
             animate={{ opacity: [0, 1], x: [-100, 0] }}
             transition={{ type: "linear", }}
         >

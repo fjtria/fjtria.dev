@@ -7,13 +7,9 @@ import { Experience } from '../../components/Experience/Experience';
 export const About = () => {
     return (
         <motion.section id='about'
-            animate={{
-                opacity: [0, 1],
-                x: [100, 0]
-            }}
-            transition={{
-                type: "linear",
-            }}
+            initial={{ opacity: 0, x: 100 }}
+            animate={{ opacity: [0, 1], x: [100, 0] }}
+            transition={{ type: "linear" }}
         >
             <Summary></Summary>
             <Experience></Experience>

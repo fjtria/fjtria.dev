@@ -11,13 +11,9 @@ import PantryPalPreview from '../../assets/images/Projects/pantrypal_preview.web
 export const Projects = () => {
     return (
         <motion.section id='projects'
-            animate={{
-                opacity: [0, 1],
-                x: [100, 0]
-            }}
-            transition={{
-                type: "linear",
-            }}
+            initial={{ opacity: 0, x: 100 }}
+            animate={{ opacity: [0, 1], x: [100, 0] }}
+            transition={{ type: "linear" }}
         >
             <h2>Projects</h2>  
             <a className='proj-card' href='https://zerotheblat.vercel.app' target='_blank' rel='noopener noreferrer'>
