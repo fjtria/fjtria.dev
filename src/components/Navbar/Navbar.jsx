@@ -16,13 +16,8 @@ export const Navbar = () => {
 
     return (
         <motion.aside
-            animate={{
-                opacity: [0, 1],
-                x: [-100, 0]
-            }}
-            transition={{
-                type: "linear",
-            }}
+            animate={{ opacity: [0, 1], x: [-100, 0] }}
+            transition={{ type: "linear", }}
         >
             <Link to="/" className='title' title='Go Home'>fjtria.dev</Link>
 
@@ -38,50 +33,30 @@ export const Navbar = () => {
                     }}
                 >
 
-                    <motion.li
-                        transition={{
-                            delay: 0.2
-                        }}
-                    >
+                    <motion.li transition={{ delay: 0.2 }}>
                         <NavLink to="/about" title='Go To About'>About →</NavLink>
                     </motion.li>
 
-                    <motion.li
-                        transition={{
-                            delay: 0.25
-                        }}
-                    >
+                    <motion.li transition={{ delay: 0.25 }}>
                         <NavLink to="/projects" title='Go To Projects'>Projects →</NavLink>
                     </motion.li>
 
-                    <motion.hr
-                        transition={{
-                            delay: 0.3
-                        }}
-                    ></motion.hr>
-
-                    <motion.li
-                        transition={{
-                            delay: 0.35
-                        }}
-                    >
-                        <a href={Resume} target='_blank' title='View Resume'>Resume ↗</a>
-                    </motion.li>
+                    <motion.hr transition={{ delay: 0.3 }}></motion.hr>
                     
-                    <motion.li
-                        transition={{
-                            delay: 0.4
-                        }}
-                    >
+                    <motion.li transition={{ delay: 0.35 }}>
                         <button onClick={copyToClipboard} title='Copy Email'>Email ↗</button>
                     </motion.li>
 
-                    <motion.li
-                        transition={{
-                            delay: 0.45
-                        }}
-                    >
+                    <motion.li transition={{ delay: 0.4 }}>
+                        <a href='https://github.com/fjtria' target='_blank' rel='noopener noreferrer' title='Open GitHub'>GitHub ↗</a>
+                    </motion.li>
+
+                    <motion.li transition={{ delay: 0.45 }}>
                         <a href='https://www.linkedin.com/in/fjtria/' target='_blank' rel='noopener noreferrer' title='Open LinkedIn'>LinkedIn ↗</a>
+                    </motion.li>
+
+                    <motion.li transition={{ delay: 0.5 }}>
+                        <a href={Resume} target='_blank' title='View Resume'>Resume ↗</a>
                     </motion.li>
                 </MotionConfig>
             </ul>
