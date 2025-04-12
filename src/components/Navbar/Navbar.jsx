@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router';
 import copy from 'copy-to-clipboard';
 import { motion, MotionConfig } from 'motion/react';
 import '../../index.css';
