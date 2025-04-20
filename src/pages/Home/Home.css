@@ -4,28 +4,10 @@
     gap: 2rem;
 }
 
-#home .title {
-    padding-bottom: 2rem;
-    font-size: 0.425rem;
-    text-align: center;
-}
-
-@media (min-width: 768px) {
-    #home .title {
-        font-size: 0.675rem;
-        text-align: left;
-    }
-}
-
 #home .hero-text {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-}
-
-#home h2, #home h3 {
-    color: var(--accent);
-    font-weight: 700;
 }
 
 #home .signature {

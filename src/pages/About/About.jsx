@@ -11,6 +11,7 @@ export const About = () => {
             animate={{ opacity: [0, 1], x: [100, 0] }}
             transition={{ type: "linear" }}
         >
+            <h2 className='page-title'>About</h2>
             <Summary></Summary>
             <Experience></Experience>
         </motion.section>

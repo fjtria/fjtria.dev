@@ -7,36 +7,36 @@ import csufIcon from '../../assets/images/Experience/csuf.webp';
 export const Experience = () => {
     return (
         <section id='experience'>
-            <h2>Experience</h2>      
+            <h3 className='section-title'>Experience</h3>      
             <div className='exp-card'>
                 <img src={spacelabIcon} alt='The Spacelab Nonprofit Logo'></img>
                 <div>
-                    <h3>The Spacelab Nonprofit</h3>
-                    <h4>Frontend Software Engineer</h4>
+                    <h4>The Spacelab Nonprofit</h4>
+                    <h5>Frontend Software Engineer</h5>
                     <p className='exp-dates'>October 2024 - Present</p>
                 </div>
             </div>
             <div className='exp-card'>
                 <img src={csufIcon} alt='California State University, Fullerton Logo'></img>
                 <div>
-                    <h3>California State University, Fullerton</h3>
-                    <h4>Master's Degree</h4>
+                    <h4>California State University, Fullerton</h4>
+                    <h5>Master's Degree</h5>
                     <p className='exp-dates'>August 2024 - Present / December 2025</p>
                 </div>
             </div>      
             <div className='exp-card'>
             <img src={ucscIcon} alt='University of California, Santa Cruz Logo'></img>
                 <div>
-                    <h3>University of California, Santa Cruz</h3>
-                    <h4>Bachelor's Degree</h4>
+                    <h4>University of California, Santa Cruz</h4>
+                    <h5>Bachelor's Degree</h5>
                     <p className='exp-dates'>June 2024</p>
                 </div>
             </div>
             <div className='exp-card'>
             <img src={spacelabIcon} alt='The Spacelab Nonprofit Logo'></img>
                 <div>
-                    <h3>The Spacelab Nonprofit</h3>
-                    <h4>Frontend Software Engineering Intern</h4>
+                    <h4>The Spacelab Nonprofit</h4>
+                    <h5>Frontend Software Engineering Intern</h5>
                     <p className='exp-dates'>June 2023 - September 2023</p>
                 </div>
             </div>

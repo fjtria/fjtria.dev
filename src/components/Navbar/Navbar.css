@@ -1,5 +1,5 @@
 .active {
-    background-color: var(--accent);
+    background-color: var(--secondary);
 }
 
 aside {
@@ -9,7 +9,7 @@ aside {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border-bottom: 2px solid var(--accent);
+    border-bottom: 2px solid var(--secondary);
 }
 
 @media (min-width: 768px) {
@@ -20,7 +20,7 @@ aside {
         justify-content: flex-start;
         align-items: flex-start;
         border-bottom: none;
-        border-right: 2px solid var(--accent);
+        border-right: 2px solid var(--secondary);
     }
 }
 
@@ -30,6 +30,10 @@ aside .title {
     font-size: 1.75rem;
     font-weight: 700;
     text-decoration: none;
+}
+
+aside .title:active {
+    color: var(--primary);
 }
 
 aside ul {
@@ -72,9 +76,13 @@ aside ul li a:not(.active):hover, aside ul li button:not(.active):hover {
     text-decoration: underline;
 }
 
+aside ul li a:not(.active):active, aside ul li button:not(.active):active {
+    color: var(--primary);
+}
+
 aside hr {
     border: none;
-    border-top: 1px solid var(--accent);
+    border-top: 1px solid var(--secondary);
     margin: 0.5rem;
 }
 

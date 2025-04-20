@@ -9,18 +9,11 @@ export const Home = () => {
             animate={{ opacity: [0, 1], x: [100, 0] }}
             transition={{ type: "linear" }}
         >
-            <pre className='title' aria-label='FJ TRIA in ASCII art text'>
-                ███████╗...██╗████████╗██████╗.██╗.█████╗....██████╗.███████╗██╗...██╗<br></br>
-                ██╔════╝...██║╚══██╔══╝██╔══██╗██║██╔══██╗...██╔══██╗██╔════╝██║...██║<br></br>
-                █████╗.....██║...██║...██████╔╝██║███████║...██║..██║█████╗..██║...██║<br></br>
-                ██╔══╝██...██║...██║...██╔══██╗██║██╔══██║...██║..██║██╔══╝..╚██╗.██╔╝<br></br>
-                ██║...╚█████╔╝...██║...██║..██║██║██║..██║██╗██████╔╝███████╗.╚████╔╝.<br></br>
-                ╚═╝....╚════╝....╚═╝...╚═╝..╚═╝╚═╝╚═╝..╚═╝╚═╝╚═════╝.╚══════╝..╚═══╝..<br></br>
-            </pre>
+            <h2 className='page-title'>fjtria.dev</h2>
 
             <div className='hero-text'>
-                <h2>Hello world!</h2>
-                <h3>Welcome to my site.</h3>
+                <h3 className='section-title'>Hello world!</h3>
+                <h4>Welcome to my site.</h4>
                 <p>
                     I'm FJ, a software engineer with experience developing 
                     responsive web application interfaces. This site showcases my 

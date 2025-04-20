@@ -5,7 +5,7 @@ import profileIcon from '../../assets/images/Summary/profile.webp'
 export const Summary = () => {
     return (
         <section id='summary'>
-            <h2>About</h2>
+            <h3 className='section-title'>Summary</h3>
             <div className='column-container'>
                 <img src={profileIcon} alt='Photo of FJ Tria'></img>
                 <div className='biography'>

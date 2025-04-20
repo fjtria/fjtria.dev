@@ -20,7 +20,7 @@ export const Navbar = () => {
             animate={{ opacity: [0, 1], x: [-100, 0] }}
             transition={{ type: "linear", }}
         >
-            <Link to="/" className='title' title='Go Home'>fjtria.dev</Link>
+            <Link to="/" className='title' title='Go Home'>✦ fjtria.dev</Link>
 
             <div className="menu" onClick={() => setOpenMenu(!openMenu)}>
                 Menu

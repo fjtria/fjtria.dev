@@ -15,7 +15,7 @@ export const Projects = () => {
             animate={{ opacity: [0, 1], x: [100, 0] }}
             transition={{ type: "linear" }}
         >
-            <h2>Projects</h2>  
+            <h2 className='page-title'>Projects</h2>  
             <a className='proj-card' href='https://zerotheblat.vercel.app' target='_blank' rel='noopener noreferrer'>
                 <img src={ZeroTheBlatPreview} alt='Screenshot of the Zero the Blat website'></img>
                 <div>
