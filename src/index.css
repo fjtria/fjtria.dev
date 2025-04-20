@@ -19,7 +19,7 @@
 }
 
 .page-title {
-  margin: -2rem;
+  margin: -1rem 0;
   color: var(--background);
   text-align: center;
   text-shadow: 
@@ -34,16 +34,23 @@
   letter-spacing: 0.25rem;
 }
 
+@media screen and (min-width: 768px) {
+  .page-title {
+    margin: -2rem 0;
+    font-size: 9vw;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .page-title {
+    margin: -3rem 0;
+  }
+}
+
 .section-title {
   color: var(--accent);
   font-size: 1.5rem;
   font-weight: 600;
-}
-
-@media screen and (min-width: 768px) {
-  .page-title {
-    font-size: 8vw;
-  }
 }
 
 @font-face {
