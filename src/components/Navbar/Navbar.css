@@ -2,7 +2,7 @@
     background-color: var(--secondary);
 }
 
-aside {
+nav {
     width: 100vw;
     position: static;
     padding: 1rem 1rem 0 1rem;
@@ -10,10 +10,11 @@ aside {
     flex-direction: column;
     justify-content: space-between;
     border-bottom: 2px solid var(--secondary);
+    font-family: "JetBrainsMono", monospace;
 }
 
 @media (min-width: 768px) {
-    aside {
+    nav {
         width: 350px;
         height: 100vh;
         flex-direction: column;
@@ -24,7 +25,7 @@ aside {
     }
 }
 
-aside .title {
+nav .title {
     padding-bottom: 1rem;
     color: var(--accent);
     font-size: 1.75rem;
@@ -32,11 +33,11 @@ aside .title {
     text-decoration: none;
 }
 
-aside .title:active {
+nav .title:active {
     color: var(--primary);
 }
 
-aside ul {
+nav ul {
     padding-bottom: 1rem;
     display: none;
     flex-direction: column;
@@ -44,21 +45,21 @@ aside ul {
 }
 
 @media (min-width: 768px) {
-    aside ul {
+    nav ul {
         display: flex;
     }
 }
 
-aside ul.open {
+nav ul.open {
     display: flex;
 }
 
-aside ul li {
+nav ul li {
     list-style: none;
     text-align: left;
 }
 
-aside ul li a, aside ul li button {
+nav ul li a, nav ul li button {
     padding: 0.5rem;
     display: block;
     color: inherit;
@@ -67,26 +68,26 @@ aside ul li a, aside ul li button {
 }
 
 @media (min-width: 768px) {
-    aside ul li a, aside ul li button{
+    nav ul li a, nav ul li button{
         padding: 0.5rem;
     }
 }
 
-aside ul li a:not(.active):hover, aside ul li button:not(.active):hover {
+nav ul li a:not(.active):hover, nav ul li button:not(.active):hover {
     text-decoration: underline;
 }
 
-aside ul li a:not(.active):active, aside ul li button:not(.active):active {
+nav ul li a:not(.active):active, nav ul li button:not(.active):active {
     color: var(--primary);
 }
 
-aside hr {
+nav hr {
     border: none;
     border-top: 1px solid var(--secondary);
     margin: 0.5rem;
 }
 
-aside button {
+nav button {
     cursor: pointer;
     font: inherit;
     color: inherit;
@@ -94,7 +95,7 @@ aside button {
     border: none;
 }
 
-aside .menu {
+nav .menu {
     cursor: pointer;
     top: 0;
     right: 0;
@@ -102,12 +103,12 @@ aside .menu {
     padding: 1.5rem;
 }
 
-aside .menu:hover {
+nav .menu:hover {
     text-decoration: underline;
 }
 
 @media (min-width: 768px) {
-    aside .menu {
+    nav .menu {
         display: none;
     }
 }

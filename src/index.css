@@ -15,8 +15,12 @@
   --primary: #9fbbd0;
   --secondary: #2b5473;
   height: 100%;
-  font-family: "JetBrainsMono", monospace;
+  font-family: "HankenGrotesk", sans-serif;
   scrollbar-color: var(--secondary) var(--background);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "JetBrainsMono", monospace;
 }
 
 .page-title {

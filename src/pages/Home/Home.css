@@ -12,4 +12,5 @@
 
 #home .signature {
     color: var(--accent);
+    font-family: "JetBrainsMono", monospace;
 }

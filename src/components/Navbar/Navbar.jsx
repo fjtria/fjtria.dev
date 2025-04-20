@@ -28,7 +28,7 @@ export const Navbar = () => {
     };
 
     return (
-        <motion.aside
+        <motion.nav
             variants={variants}
             initial="initial"
             animate="animate"
@@ -75,6 +75,6 @@ export const Navbar = () => {
                     </motion.li>
                 </MotionConfig>
             </ul>
-        </motion.aside>
+        </motion.nav>
     );
 }

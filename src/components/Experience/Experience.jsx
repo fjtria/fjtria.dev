@@ -12,7 +12,7 @@ export const Experience = () => {
                 <img src={csufIcon} alt='California State University, Fullerton Logo'></img>
                 <div>
                     <h4>California State University, Fullerton</h4>
-                    <h5>Master's Degree</h5>
+                    <p>Master's Degree</p>
                     <p className='exp-dates'>Expected December 2025</p>
                 </div>
             </div>   
@@ -20,7 +20,7 @@ export const Experience = () => {
                 <img src={spacelabIcon} alt='The Spacelab Nonprofit Logo'></img>
                 <div>
                     <h4>The Spacelab Nonprofit</h4>
-                    <h5>Frontend Software Engineer</h5>
+                    <p>Frontend Software Engineer</p>
                     <p className='exp-dates'>October 2024 - Present</p>
                 </div>
             </div>     
@@ -28,7 +28,7 @@ export const Experience = () => {
             <img src={ucscIcon} alt='University of California, Santa Cruz Logo'></img>
                 <div>
                     <h4>University of California, Santa Cruz</h4>
-                    <h5>Bachelor's Degree</h5>
+                    <p>Bachelor's Degree</p>
                     <p className='exp-dates'>June 2024</p>
                 </div>
             </div>
@@ -36,7 +36,7 @@ export const Experience = () => {
             <img src={spacelabIcon} alt='The Spacelab Nonprofit Logo'></img>
                 <div>
                     <h4>The Spacelab Nonprofit</h4>
-                    <h5>Frontend Software Engineering Intern</h5>
+                    <p>Frontend Software Engineering Intern</p>
                     <p className='exp-dates'>June 2023 - September 2023</p>
                 </div>
             </div>
