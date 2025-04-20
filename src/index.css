@@ -29,7 +29,7 @@
     1px 1px 0 var(--accent);
   text-transform: uppercase;
   font-family: "HankenGrotesk", sans-serif;
-  font-size: 14vw;
+  font-size: 12vw;
   font-weight: 900;
   letter-spacing: 0.25rem;
 }
@@ -37,13 +37,7 @@
 @media screen and (min-width: 768px) {
   .page-title {
     margin: -2rem 0;
-    font-size: 9vw;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .page-title {
-    margin: -3rem 0;
+    font-size: 8vw;
   }
 }
 
