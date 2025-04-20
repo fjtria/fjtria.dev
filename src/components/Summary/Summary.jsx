@@ -11,13 +11,12 @@ export const Summary = () => {
                 <div className='biography'>
                     <p>
                         I'm a software engineer from Southern California. I believe in building software that
-                        prioritizes the benefit of its users. My goal is to ensure seamless interactions between
-                        users and technology and to develop applications that encourage positive social interactions.
+                        promotes quality and authenticity. My goal with what I develop is to ensure seamless
+                        user experiences and a encourage positive social impact.
                     </p>
                     <p>
-                        Other than coding, I enjoy exploring the intersection of art and technology. I'm
-                        constantly seeking inspiration from films, games, and other digital media to fuel my
-                        own ideas.
+                        I'm currently an open-source contributor at The Spacelab Nonprofit, where I help develop web
+                        applications, manage software projects, and collaborate with other tech professionals.
                     </p>
                 </div>
             </div>

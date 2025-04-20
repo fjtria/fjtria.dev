@@ -16,21 +16,22 @@ export const Projects = () => {
             transition={{ type: "linear" }}
         >
             <h2 className='page-title'>Projects</h2>  
-            <a className='proj-card' href='https://zerotheblat.vercel.app' target='_blank' rel='noopener noreferrer'>
-                <img src={ZeroTheBlatPreview} alt='Screenshot of the Zero the Blat website'></img>
-                <div>
-                    <h3 className='proj-title'>Zero The Blat ↗</h3>
-                    <p className='proj-stack'>React, Node, Express, CSS, Cloudinary, Vercel</p>
-                    <p className='proj-desc'>A full-stack web application for uploading to and viewing a gallery of pictures of my friend's black cat, Zero.</p>
-                </div>
-            </a>
 
             <a className='proj-card' href='https://spacelab.space/' target='_blank' rel='noopener noreferrer'>
                 <img src={SpacelabPreview} alt='Screenshot of the Spacelab Nonprofit website'></img>
                 <div>
                     <h3 className='proj-title'>The Spacelab Nonprofit ↗</h3>
-                    <p className='proj-stack'>React, CSS, Exoplanet Archive API, AWS</p>
+                    <p className='proj-stack'>React, SASS, Exoplanet Archive API, AWS</p>
                     <p className='proj-desc'>The Spacelab Nonprofit's website, describing the organization's mission and highlighting the latest space-related projects.</p>
+                </div>
+            </a>
+
+            <a className='proj-card' href='https://zerotheblat.vercel.app' target='_blank' rel='noopener noreferrer'>
+                <img src={ZeroTheBlatPreview} alt='Screenshot of the Zero the Blat website'></img>
+                <div>
+                    <h3 className='proj-title'>Zero The Blat ↗</h3>
+                    <p className='proj-stack'>React, Node, Express, CSS, Cloudinary, Vercel</p>
+                    <p className='proj-desc'>A full-stack web application dedicated to uploading and viewing a gallery of pictures of Zero.</p>
                 </div>
             </a>
 

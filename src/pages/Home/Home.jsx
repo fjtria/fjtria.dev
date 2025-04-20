@@ -13,11 +13,11 @@ export const Home = () => {
 
             <div className='hero-text'>
                 <h3 className='section-title'>Hello world!</h3>
-                <h4>Welcome to my site.</h4>
                 <p>
-                    I'm FJ, a software engineer with experience developing 
-                    responsive web application interfaces. This site showcases my 
-                    software development work, alongside some of my own thoughts.
+                    I'm FJ, a software engineer building responsive web 
+                    applications and managing software projects. This site 
+                    showcases my software development work and some 
+                    of my own thoughts.
                 </p>
                 <p>
                     Thanks for stopping by!

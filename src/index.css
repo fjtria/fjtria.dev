@@ -23,10 +23,10 @@
   color: var(--background);
   text-align: center;
   text-shadow: 
-    -2px -2px 0 var(--accent),
-    2px -2px 0 var(--accent),
-    -2px 2px 0 var(--accent),
-    2px 2px 0 var(--accent);
+    -1px -1px 0 var(--accent),
+    1px -1px 0 var(--accent),
+    -1px 1px 0 var(--accent),
+    1px 1px 0 var(--accent);
   text-transform: uppercase;
   font-family: "HankenGrotesk", sans-serif;
   font-size: 14vw;
@@ -37,7 +37,7 @@
 .section-title {
   color: var(--accent);
   font-size: 1.5rem;
-  font-weight: 900;
+  font-weight: 600;
 }
 
 @media screen and (min-width: 768px) {
