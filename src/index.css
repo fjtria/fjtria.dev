@@ -16,6 +16,7 @@
   --secondary: #2b5473;
   height: 100%;
   font-family: "JetBrainsMono", monospace;
+  scrollbar-color: var(--secondary) var(--background);
 }
 
 .page-title {

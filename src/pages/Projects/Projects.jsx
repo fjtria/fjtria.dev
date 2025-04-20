@@ -9,11 +9,25 @@ import ColorcodedPreview from '../../assets/images/Projects/colorcoded_preview.w
 import PantryPalPreview from '../../assets/images/Projects/pantrypal_preview.webp';
 
 export const Projects = () => {
+    const isDesktop = window.matchMedia("(min-width: 768px)").matches;
+    const variants = isDesktop
+    ? {
+        initial: { opacity: 0, x: 100 },
+        animate: { opacity: [0, 1], x: [100, 0] },
+        transition: { type: "linear" }
+    }
+    : {
+        initial: { opacity: 0, y: 100 },
+        animate: { opacity: [0, 1], y: [100, 0] },
+        transition: { type: "linear" }
+    };
+
     return (
         <motion.section id='projects'
-            initial={{ opacity: 0, x: 100 }}
-            animate={{ opacity: [0, 1], x: [100, 0] }}
-            transition={{ type: "linear" }}
+            variants={variants}
+            initial="initial"
+            animate="animate"
+            transition="transition"
         >
             <h2 className='page-title'>Projects</h2>  
 
