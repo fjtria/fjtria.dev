@@ -7,9 +7,11 @@
 }
 
 :root {
-  --text: #D1D1D1;
-  --background: #171717;
-  --accent: #31654b;
+  --text: #eaedef;
+  --background: #0d1215;
+  --accent: #5ca0d2;
+  --primary: #9fbbd0;
+  --secondary: #2b5473;
   height: 100%;
   font-family: "JetBrainsMono", monospace;
 }
