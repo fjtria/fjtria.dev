@@ -1,30 +1,9 @@
 import '../../index.css';
 import './Home.css';
-import { motion } from 'motion/react';
 
 export const Home = () => {
-    const isDesktop = window.matchMedia("(min-width: 768px)").matches;
-    const variants = isDesktop
-    ? {
-        initial: { opacity: 0, x: 100 },
-        animate: { opacity: [0, 1], x: [100, 0] },
-        exit: { opacity: 0, x: 100 }
-    }
-    : {
-        initial: { opacity: 0, y: 100 },
-        animate: { opacity: [0, 1], y: [100, 0] },
-        exit: { opacity: 0, y: 100 }
-    };
-    const transition = { type: "linear" };
-
     return (
-        <motion.section id='home'
-            variants={variants}
-            initial="initial"
-            animate="animate"
-            exit="exit"
-            transition={transition}
-        >
+        <section id='home'>
             <h2 className='page-title'>fjtria.dev</h2>
 
             <div className='hero-text'>
@@ -42,6 +21,6 @@ export const Home = () => {
                     - @fjtria.dev
                 </p>
             </div>
-        </motion.section>
+        </section>
     );
 }

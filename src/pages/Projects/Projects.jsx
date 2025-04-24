@@ -1,6 +1,5 @@
 import '../../index.css';
 import './Projects.css';
-import { motion } from 'motion/react';
 import ZeroTheBlatPreview from '../../assets/images/Projects/zerotheblat_preview.webp';
 import DexfetchdPreview from '../../assets/images/Projects/dexfetchd_preview.webp';
 import SpacelabPreview from '../../assets/images/Projects/spacelab_preview.webp';
@@ -9,28 +8,8 @@ import ColorcodedPreview from '../../assets/images/Projects/colorcoded_preview.w
 import PantryPalPreview from '../../assets/images/Projects/pantrypal_preview.webp';
 
 export const Projects = () => {
-    const isDesktop = window.matchMedia("(min-width: 768px)").matches;
-    const variants = isDesktop
-    ? {
-        initial: { opacity: 0, x: 100 },
-        animate: { opacity: [0, 1], x: [100, 0] },
-        exit: { opacity: 0, x: 100 }
-    }
-    : {
-        initial: { opacity: 0, y: 100 },
-        animate: { opacity: [0, 1], y: [100, 0] },
-        exit: { opacity: 0, y: 100 }
-    };
-    const transition = { type: "linear" };
-
     return (
-        <motion.section id='projects'
-            variants={variants}
-            initial="initial"
-            animate="animate"
-            exit="exit"
-            transition={transition}
-        >
+        <section id='projects'>
             <h2 className='page-title'>Projects</h2>  
 
             <a className='proj-card' href='https://spacelab.space/' target='_blank' rel='noopener noreferrer'>
@@ -86,6 +65,6 @@ export const Projects = () => {
                     <p className='proj-desc'>An educational, interactive, 3D web application that renders and allows users to explore exoplanets within our galaxy.</p>
                 </div>
             </a> 
-        </motion.section>
+        </section>
     );
 }

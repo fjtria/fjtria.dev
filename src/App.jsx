@@ -1,5 +1,5 @@
 import { Route, Routes, useLocation } from 'react-router';
-import { AnimatePresence } from 'motion/react';
+import { AnimatePresence, motion } from 'motion/react';
 import AnimatedCursor from 'react-animated-cursor';
 import { Navbar } from './components/Navbar/Navbar.jsx';
 import { Home } from './pages/Home/Home.jsx';
@@ -8,6 +8,35 @@ import { Projects } from './pages/Projects/Projects.jsx';
 import { Footer } from './components/Footer/Footer.jsx';
 import './index.css';
 import './App.css';
+
+const PageWrapper = ({ children }) => {
+  const isDesktop = window.matchMedia('(min-width: 768px)').matches;
+  const variants = isDesktop
+    ? {
+        initial: { opacity: 0, x: 100 },
+        animate: { opacity: [0, 1], x: [100, 0] },
+        exit: { opacity: 0, x: 100 },
+      }
+    : {
+        initial: { opacity: 0, y: 100 },
+        animate: { opacity: [0, 1], y: [100, 0] },
+        exit: { opacity: 0, y: 100 },
+      };
+  const transition = { type: 'linear' };
+
+  return (
+    <motion.section
+      variants={variants}
+      initial="initial"
+      animate="animate"
+      exit="exit"
+      transition={transition}
+      style={{ minHeight: '100vh' }}
+    >
+      {children}
+    </motion.section>
+  );
+};
 
 function App() {
   const location = useLocation();
@@ -24,11 +53,11 @@ function App() {
       />
       <Navbar />
       <main>
-        <AnimatePresence mode="wait" initial={false}>
+        <AnimatePresence mode="wait">
           <Routes location={location} key={location.pathname}>
-            <Route path='/' element={<Home />} />
-            <Route path='/about' element={<About />} />
-            <Route path='/projects' element={<Projects />} />
+            <Route path='/' element={<PageWrapper><Home /></PageWrapper>} />
+            <Route path='/about' element={<PageWrapper><About /></PageWrapper>} />
+            <Route path='/projects' element={<PageWrapper><Projects /></PageWrapper>} />
           </Routes>
         </AnimatePresence>
         <Footer />
