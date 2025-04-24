@@ -14,20 +14,22 @@ export const Projects = () => {
     ? {
         initial: { opacity: 0, x: 100 },
         animate: { opacity: [0, 1], x: [100, 0] },
-        transition: { type: "linear" }
+        exit: { opacity: 0, x: 100 }
     }
     : {
         initial: { opacity: 0, y: 100 },
         animate: { opacity: [0, 1], y: [100, 0] },
-        transition: { type: "linear" }
+        exit: { opacity: 0, y: 100 }
     };
+    const transition = { type: "linear" };
 
     return (
         <motion.section id='projects'
             variants={variants}
             initial="initial"
             animate="animate"
-            transition="transition"
+            exit="exit"
+            transition={transition}
         >
             <h2 className='page-title'>Projects</h2>  
 
