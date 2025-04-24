@@ -4,6 +4,7 @@ import copy from 'copy-to-clipboard';
 import { motion, MotionConfig } from 'motion/react';
 import '../../index.css';
 import './Navbar.css';
+import MenuIcon from '../../assets/images/Navbar/menu.svg';
 import Resume from '../../assets/files/TriaFJResume.pdf'
 
 export const Navbar = () => {
@@ -37,7 +38,7 @@ export const Navbar = () => {
             <Link to="/" className='title' title='Go Home'>✦ fjtria.dev</Link>
 
             <div className="menu" onClick={() => setOpenMenu(!openMenu)}>
-                Menu
+                <img src={MenuIcon} alt="Menu" />
             </div>
 
             <ul className={openMenu ? "open" : ""}>
