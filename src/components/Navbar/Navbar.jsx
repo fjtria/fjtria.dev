@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router';
 import copy from 'copy-to-clipboard';
-import { motion, MotionConfig } from 'motion/react';
+import { motion } from 'motion/react';
 import '../../index.css';
 import './Navbar.css';
 import MenuIcon from '../../assets/images/Navbar/menu.svg';
