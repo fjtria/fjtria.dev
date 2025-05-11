@@ -9,7 +9,7 @@ export const Experience = () => {
         <section id='experience'>
             <h3 className='section-title'>Experience</h3>    
             <div className='exp-card'>
-                <img src={csufIcon} alt='California State University, Fullerton Logo'></img>
+                <img src={csufIcon} alt='California State University, Fullerton Logo' loading='lazy'></img>
                 <div>
                     <h4>California State University, Fullerton</h4>
                     <p>Master's Degree</p>
@@ -17,7 +17,7 @@ export const Experience = () => {
                 </div>
             </div>   
             <div className='exp-card'>
-                <img src={spacelabIcon} alt='The Spacelab Nonprofit Logo'></img>
+                <img src={spacelabIcon} alt='The Spacelab Nonprofit Logo' loading='lazy'></img>
                 <div>
                     <h4>The Spacelab Nonprofit</h4>
                     <p>Frontend Software Engineer</p>
@@ -25,7 +25,7 @@ export const Experience = () => {
                 </div>
             </div>     
             <div className='exp-card'>
-            <img src={ucscIcon} alt='University of California, Santa Cruz Logo'></img>
+            <img src={ucscIcon} alt='University of California, Santa Cruz Logo' loading='lazy'></img>
                 <div>
                     <h4>University of California, Santa Cruz</h4>
                     <p>Bachelor's Degree</p>
@@ -33,7 +33,7 @@ export const Experience = () => {
                 </div>
             </div>
             <div className='exp-card'>
-            <img src={spacelabIcon} alt='The Spacelab Nonprofit Logo'></img>
+            <img src={spacelabIcon} alt='The Spacelab Nonprofit Logo' loading='lazy'></img>
                 <div>
                     <h4>The Spacelab Nonprofit</h4>
                     <p>Frontend Software Engineering Intern</p>

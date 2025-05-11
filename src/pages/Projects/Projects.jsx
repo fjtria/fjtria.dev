@@ -13,7 +13,7 @@ export const Projects = () => {
             <h2 className='page-title'>Projects</h2>  
 
             <a className='proj-card' href='https://spacelab.space/' target='_blank' rel='noopener noreferrer'>
-                <img src={SpacelabPreview} alt='Screenshot of the Spacelab Nonprofit website'></img>
+                <img src={SpacelabPreview} alt='Screenshot of the Spacelab Nonprofit website' loading='lazy'></img>
                 <div>
                     <h4 className='proj-title'>The Spacelab Nonprofit ↗</h4>
                     <p className='proj-stack'>React, SASS, Exoplanet Archive API, AWS</p>
@@ -22,7 +22,7 @@ export const Projects = () => {
             </a>
 
             <a className='proj-card' href='https://zerotheblat.vercel.app' target='_blank' rel='noopener noreferrer'>
-                <img src={ZeroTheBlatPreview} alt='Screenshot of the Zero the Blat website'></img>
+                <img src={ZeroTheBlatPreview} alt='Screenshot of the Zero the Blat website' loading='lazy'></img>
                 <div>
                     <h4 className='proj-title'>Zero The Blat ↗</h4>
                     <p className='proj-stack'>React, Node, Express, CSS, Cloudinary, Vercel</p>
@@ -31,7 +31,7 @@ export const Projects = () => {
             </a>
 
             <a className='proj-card' href='https://fjtria.github.io/dexfetchd/' target='_blank' rel='noopener noreferrer'>
-                <img src={DexfetchdPreview} alt='Screenshot of the Dexfetchd website'></img>
+                <img src={DexfetchdPreview} alt='Screenshot of the Dexfetchd website' loading='lazy'></img>
                 <div>
                     <h4 className='proj-title'>Dexfetch'd ↗</h4>
                     <p className='proj-stack'>React, CSS, PokéAPI, GitHub Pages</p>
@@ -40,7 +40,7 @@ export const Projects = () => {
             </a> 
             
             <a className='proj-card' href='https://fjtria.github.io/colorcoded/' target='_blank' rel='noopener noreferrer'>
-                <img src={ColorcodedPreview} alt='Screenshot of the Colorcoded web application'></img>
+                <img src={ColorcodedPreview} alt='Screenshot of the Colorcoded web application' loading='lazy'></img>
                 <div>
                     <h4 className='proj-title'>Colorcoded ↗</h4>
                     <p className='proj-stack'>JavaScript, HTML, CSS, GitHub Pages</p>
@@ -49,7 +49,7 @@ export const Projects = () => {
             </a>
 
             <a className='proj-card' href='https://github.com/fjtria/PantryPal' target='_blank' rel='noopener noreferrer'>
-                <img src={PantryPalPreview} alt='Pantry Pal Logo'></img>
+                <img src={PantryPalPreview} alt='Pantry Pal Logo' loading='lazy'></img>
                 <div>
                     <h4 className='proj-title'>Pantry Pal ↗</h4>
                     <p className='proj-stack'>React Native, CSS, Firebase, Expo</p>
@@ -58,7 +58,7 @@ export const Projects = () => {
             </a>      
 
             <a className='proj-card' href='https://spacelabdev.github.io/Exoplanetarium-3D/' target='_blank' rel='noopener noreferrer'>
-                <img src={ExoplanetariumPreview} alt='Screenshot of the Exoplanetarium 3D web application'></img>
+                <img src={ExoplanetariumPreview} alt='Screenshot of the Exoplanetarium 3D web application' loading='lazy'></img>
                 <div>
                     <h4 className='proj-title'>Exoplanetarium 3D ↗</h4>
                     <p className='proj-stack'>React, Three.js, SASS, GitHub Pages</p>
