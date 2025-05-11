@@ -44,10 +44,10 @@ function App() {
     <div id='app'>
       <AnimatedCursor 
         innerSize={5}
-        outerSize={30}
+        outerSize={25}
         innerScale={1}
         outerScale={1.5}
-        outerAlpha={0.5}
+        outerAlpha={1}
         innerStyle={{ backgroundColor: 'var(--primary)' }}
         outerStyle={{ backgroundColor: 'var(--secondary)', mixBlendMode: 'exclusion' }}
       />

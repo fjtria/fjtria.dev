@@ -15,7 +15,7 @@ export const Summary = () => {
                         user experiences and a encourage positive social impact.
                     </p>
                     <p>
-                        I'm currently an open-source contributor at The Spacelab Nonprofit, where I help develop
+                        I'm currently a volunteer software engineer at The Spacelab Nonprofit, where I help develop
                         web applications in collaboration with other self-motivated tech professionals.
                     </p>
                 </div>
