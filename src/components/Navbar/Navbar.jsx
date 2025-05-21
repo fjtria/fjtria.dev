@@ -35,7 +35,7 @@ export const Navbar = () => {
             animate="animate"
             transition="transition"
         >
-            <Link to="/" className='title' title='Go Home'>✦ fjtria.dev</Link>
+            <Link to="/" className='title' title='Go Home'>fjtria.dev</Link>
 
             <div className="menu" onClick={() => setOpenMenu(!openMenu)}>
                 <img src={MenuIcon} alt="Menu" />

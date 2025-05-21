@@ -20,7 +20,7 @@ export const Experience = () => {
                 <img src={spacelabIcon} alt='The Spacelab Nonprofit Logo' loading='lazy'></img>
                 <div>
                     <h4>The Spacelab Nonprofit</h4>
-                    <p>Frontend Software Engineer</p>
+                    <p>Software Engineer</p>
                     <p className='exp-dates'>October 2024 - Present</p>
                 </div>
             </div>     
@@ -36,7 +36,7 @@ export const Experience = () => {
             <img src={spacelabIcon} alt='The Spacelab Nonprofit Logo' loading='lazy'></img>
                 <div>
                     <h4>The Spacelab Nonprofit</h4>
-                    <p>Frontend Software Engineering Intern</p>
+                    <p>Software Engineering Intern</p>
                     <p className='exp-dates'>June 2023 - September 2023</p>
                 </div>
             </div>
