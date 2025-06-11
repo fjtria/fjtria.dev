@@ -20,8 +20,8 @@ export const Experience = () => {
                 <img src={spacelabIcon} alt='The Spacelab Nonprofit Logo' loading='lazy'></img>
                 <div>
                     <h4>The Spacelab Nonprofit</h4>
-                    <p>Software Engineer</p>
-                    <p className='exp-dates'>October 2024 - Present</p>
+                    <p>Software Engineer (Volunteer)</p>
+                    <p className='exp-dates'>October 2024 - May 2025</p>
                 </div>
             </div>     
             <div className='exp-card'>

@@ -15,6 +15,7 @@
   --primary: #9fbbd0;
   --secondary: #2b5473;
   height: 100%;
+  font-size: 18px;
   font-family: "HankenGrotesk", sans-serif;
   scrollbar-color: var(--secondary) var(--background);
 }

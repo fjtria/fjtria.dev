@@ -12,15 +12,6 @@ export const Projects = () => {
         <section id='projects'>
             <h2 className='page-title'>Projects</h2>  
 
-            <a className='proj-card' href='https://spacelabdev.github.io/Exoplanetarium-3D/' target='_blank' rel='noopener noreferrer'>
-                <img src={ExoplanetariumPreview} alt='Screenshot of the Exoplanetarium 3D web application' loading='lazy'></img>
-                <div>
-                    <h4 className='proj-title'>Exoplanetarium 3D ↗</h4>
-                    <p className='proj-stack'>React, Three.js, SASS, GitHub Pages</p>
-                    <p className='proj-desc'>An educational, interactive, 3D web application that renders and allows users to explore exoplanets within our galaxy.</p>
-                </div>
-            </a> 
-
             <a className='proj-card' href='https://spacelab.space/' target='_blank' rel='noopener noreferrer'>
                 <img src={SpacelabPreview} alt='Screenshot of the Spacelab Nonprofit website' loading='lazy'></img>
                 <div>
@@ -64,7 +55,17 @@ export const Projects = () => {
                     <p className='proj-stack'>React Native, CSS, Firebase, Expo</p>
                     <p className='proj-desc'>A mobile application allowing users to share and discover recipes and automatically generate grocery shopping lists.</p>
                 </div>
-            </a>      
+            </a>
+
+
+            <a className='proj-card' href='https://spacelabdev.github.io/Exoplanetarium-3D/' target='_blank' rel='noopener noreferrer'>
+                <img src={ExoplanetariumPreview} alt='Screenshot of the Exoplanetarium 3D web application' loading='lazy'></img>
+                <div>
+                    <h4 className='proj-title'>Exoplanetarium 3D ↗</h4>
+                    <p className='proj-stack'>React, Three.js, SASS, GitHub Pages</p>
+                    <p className='proj-desc'>An educational, interactive, 3D web application that renders and allows users to explore exoplanets within our galaxy.</p>
+                </div>
+            </a> 
         </section>
     );
 }
