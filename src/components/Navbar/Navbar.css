@@ -1,57 +1,54 @@
 .active {
-    background-color: var(--secondary);
+    background: linear-gradient(180deg, #5564724d, #212f3b1a 33%);
+    border: 1px solid var(--border);
+    border-radius: 2rem;
 }
 
 nav {
     width: 100vw;
-    position: static;
-    padding: 1rem 1rem 0 1rem;
+    height: 6rem;
+    z-index: 100;
+    padding: 1rem 0;
+    position: fixed;
+    top: 0;
+    background-color: rgba(2, 5, 9, 0.6);
+    backdrop-filter: blur(1rem);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    border-bottom: 2px solid var(--secondary);
-    font-family: "JetBrainsMono", monospace;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (min-width: 768px) {
     nav {
-        width: 350px;
-        height: 100vh;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        border-bottom: none;
-        border-right: 2px solid var(--secondary);
+        flex-direction: row;
     }
 }
 
-nav .title {
-    padding: 0 0 1rem 0.25rem;
-    color: var(--accent);
-    font-size: 1.625rem;
+nav div.logo {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+}
+
+@media (min-width: 596px) {
+    nav div.logo {
+        left: 2rem;
+    }
+}
+
+nav div.logo .title {
+    color: var(--text);
     font-weight: 600;
+    font-size: 1.5rem;
     text-decoration: none;
 }
 
-nav .title:active {
-    color: var(--primary);
-}
-
-nav ul {
-    padding-bottom: 1rem;
-    display: none;
-    flex-direction: column;
-    width: 100%;
-}
-
-@media (min-width: 768px) {
-    nav ul {
-        display: flex;
+@media (min-width: 596px) {
+    nav div.logo .title {
+        font-size: 2rem;
     }
-}
-
-nav ul.open {
-    display: flex;
 }
 
 nav ul li {
@@ -60,31 +57,20 @@ nav ul li {
 }
 
 nav ul li a, nav ul li button {
-    padding: 0.5rem;
+    padding: 0.25rem 1rem;
     display: block;
     color: inherit;
     text-decoration: none;
     border-radius: 0.5rem;
-}
-
-@media (min-width: 768px) {
-    nav ul li a, nav ul li button{
-        padding: 0.5rem;
-    }
+    transition: border-radius 0.5s ease-in-out, font-weight 0.3s ease;
 }
 
 nav ul li a:not(.active):hover, nav ul li button:not(.active):hover {
-    text-decoration: underline;
+    font-weight: 700;
 }
 
-nav ul li a:not(.active):active, nav ul li button:not(.active):active {
+nav div.logo .title:active,nav ul li a:not(.active):active, nav ul li button:not(.active):active {
     color: var(--primary);
-}
-
-nav hr {
-    border: none;
-    border-top: 1px solid var(--secondary);
-    margin: 0.5rem;
 }
 
 nav button {
@@ -95,24 +81,63 @@ nav button {
     border: none;
 }
 
-nav .menu {
-    cursor: pointer;
-    top: 0;
-    right: 0;
+nav div.nav-items {
+    display: flex;
+    flex-direction: column;
+}
+
+nav div ul.nav-pages {
+    padding: 0.5rem;
     position: absolute;
-    padding: 1.5rem;
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    font-family: "JetBrainsMono", monospace;
+    font-size: 0.75rem;
 }
 
-nav .menu:hover {
-    text-decoration: underline;
-}
-
-@media (min-width: 768px) {
-    nav .menu {
-        display: none;
+@media (min-width: 596px) {
+    nav div ul.nav-pages {
+        right: 2rem;
+        gap: 1rem;
+        border: 1px solid var(--border);
+        border-radius: 2rem;
+        font-size: 1rem;
     }
 }
 
-nav img {
-    width: 100%;
+@media (min-width: 768px) {
+    nav div ul.nav-pages {
+        position: relative;
+        top: 0;
+        right: 0;
+        transform: none;
+    }
+}
+
+nav div ul.nav-links {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    nav div ul.nav-links {
+        position: absolute;
+        top: 50%;
+        right: 2rem;
+        transform: translateY(-50%);
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+}
+
+nav div ul.nav-links img {
+    width: 1.25rem;
+    transition: 0.3s ease;
+}
+
+nav div ul.nav-links img:hover {
+    transform: translateY(-0.25rem);
 }
