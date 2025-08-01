@@ -1,68 +1,43 @@
 import '../../index.css';
 import './About.css';
 import profileIcon from '../../assets/images/Summary/profile.webp'
-import spacelabIcon from '../../assets/images/Experience/spacelab.webp';
-import ucscIcon from '../../assets/images/Experience/ucsc.webp';
-import csufIcon from '../../assets/images/Experience/csuf.webp';
 
 export const About = () => {
     return (
         <section id='about'>
-            <h2 className='page-title'>About</h2>
-            <section id='summary'>
-                <h3 className='section-title'>Summary</h3>
-                <div className='column-container'>
-                    <img src={profileIcon} alt='Photo of FJ Tria' loading='lazy'></img>
-                    <div className='biography'>
-                        <p>
-                            I&apos;m a software engineer from Southern California. I believe in building software that
-                            promotes quality and authenticity. My goal with what I develop is to ensure seamless
-                            user experiences and a encourage positive social impact.
-                        </p>
-                        <p>
-                            I was previously a volunteer at The Spacelab Nonprofit, where I participated in full-stack
-                            web development projects and collaborated with other self-motivated tech professionals from
-                            underrepresented communities.
-                        </p>
-                    </div>
+            <h2>About</h2>
+            <div className='column-container'>
+                <img src={profileIcon} alt='FJ Tria' loading='lazy'></img>
+                <div className='biography'>
+                    <h3 className='section-title'>Technology, Engineering, and Digital Media Enthusiast</h3>
+                    <p>
+                        Heyo! I&apos;m FJ, a software engineer and creative based in California. With a diverse background including
+                        software development, project management, and video production, I bring a unique perspective and adaptable
+                        skill set to every project I take on.
+                    </p>
                 </div>
-            </section>
+            </div>
 
-            <section id='experience'>
-                <h3 className='section-title'>Experience</h3>    
-                <div className='exp-card'>
-                    <img src={csufIcon} alt='California State University, Fullerton Logo' loading='lazy'></img>
-                    <div>
-                        <h4>California State University, Fullerton</h4>
-                        <p>Master&apos;s Degree</p>
-                        <p className='exp-dates'>Expected December 2025</p>
-                    </div>
-                </div>   
-                <div className='exp-card'>
-                    <img src={spacelabIcon} alt='The Spacelab Nonprofit Logo' loading='lazy'></img>
-                    <div>
-                        <h4>The Spacelab Nonprofit</h4>
-                        <p>Software Engineer (Volunteer)</p>
-                        <p className='exp-dates'>October 2024 - May 2025</p>
-                    </div>
-                </div>     
-                <div className='exp-card'>
-                <img src={ucscIcon} alt='University of California, Santa Cruz Logo' loading='lazy'></img>
-                    <div>
-                        <h4>University of California, Santa Cruz</h4>
-                        <p>Bachelor&apos;s Degree</p>
-                        <p className='exp-dates'>June 2024</p>
-                    </div>
-                </div>
-                <div className='exp-card'>
-                <img src={spacelabIcon} alt='The Spacelab Nonprofit Logo' loading='lazy'></img>
-                    <div>
-                        <h4>The Spacelab Nonprofit</h4>
-                        <p>Software Engineering Intern</p>
-                        <p className='exp-dates'>June 2023 - September 2023</p>
-                    </div>
-                </div>
-            </section>
+            <div>            
+                <h3>My Journey</h3>
+                <p>
+                    As I grew up, so did technology. I saw devices get thinner, lighter, faster, and then bigger again. This constant and
+                    rapid development encouraged me to learn the <em>how</em> behind the technology I use every day. Now, as a university student
+                    studying software engineering, my goal is to answer <em>who</em> we build technology for, <em>what</em> problems we need to solve, 
+                    and <em>why</em> technology can help us do better.
+                </p>
+            </div>
+
+            <div>
+                <h3>My Philosophy</h3>
+                <p>
+                    I&apos;m passionate about building technologies that have a positive societal impact. That means ensuring that software both meets the needs and
+                    respects the concerns of its users. Part of building user-centered products is making sure interfaces are accessible and responsive. It also
+                    requires transparency; as builders we should be open about how our software works and how we protect our users. I ensure that the technology I
+                    contribute towards is built with quality and authenticity in mind.
+                </p>
+            </div>
+            
         </section>
     );
 }

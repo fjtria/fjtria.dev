@@ -13,8 +13,8 @@ function App() {
   return (
     <div id='app'>
       <AnimatedCursor 
-        innerSize={5}
-        outerSize={25}
+        innerSize={8}
+        outerSize={32}
         innerScale={1}
         outerScale={1.5}
         outerAlpha={1}
