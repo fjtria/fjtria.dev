@@ -10,7 +10,7 @@ import LinkedInIcon from '../../assets/images/Navbar/linkedin.svg';
 export const Navbar = () => {
 
     const copyToClipboard = () => {
-        copy('fjtria.dev' + '@' + 'gmail' + '.' + 'com');
+        copy('fjtria' + '@' + 'protonmail' + '.' + 'com');
         alert(`Email copied to clipboard!`);
     }
 
