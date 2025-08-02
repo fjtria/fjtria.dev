@@ -34,6 +34,10 @@
   }
 }
 
+body {
+  cursor: auto !important;
+}
+
 h1, h2 {
   margin-top: 2rem;
   font-size: 2rem;

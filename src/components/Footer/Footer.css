@@ -37,9 +37,16 @@ footer h2 {
 }
 
 footer h6 {
+    padding-top: 2rem;
     font-family: 'JetBrainsMono', monospace;
     font-size: 16vw;
     text-align: center;
+}
+
+@media (min-width: 768px) {
+    footer h6 {
+        padding: 0;
+    }
 }
 
 footer a {

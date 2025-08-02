@@ -6,6 +6,10 @@ import SpacelabPreview from '../../assets/images/Projects/spacelab_preview.webp'
 import ExoplanetariumPreview from '../../assets/images/Projects/exoplanetarium_preview.webp';
 import ColorcodedPreview from '../../assets/images/Projects/colorcoded_preview.webp';
 import PantryPalPreview from '../../assets/images/Projects/pantrypal_preview.webp';
+import MimiPreview from '../../assets/images/Projects/mimi_preview.webp';
+import WTHPreview from '../../assets/images/Projects/wth_preview.webp';
+
+
 
 export const Projects = () => {
     return (
@@ -30,7 +34,7 @@ export const Projects = () => {
                     <div className='card-text'>
                         <h4>Zero The Blat</h4>
                         <p className='card-subtext'>
-                            A full-stack web application dedicated to uploading and viewing a gallery of pictures of Zero.
+                            A full-stack web application dedicated to uploading and viewing a gallery of pictures of (the best cat) Zero.
                         </p>
                         <a className='card-button' href='https://zerotheblat.vercel.app' target='_blank' rel='noopener noreferrer'>View Project ↗</a>
                     </div>
@@ -42,7 +46,7 @@ export const Projects = () => {
                     <div className='card-text'>
                         <h4>Dexfetch&apos;d</h4>
                         <p className='card-subtext'>
-                            A website for interfacing with a database of Pokémon, allowing users to look up Pokémon species, including types, abilities, and stats.
+                            A web application for browsing a database of Pokémon, allowing users to look up Pokémon species, including types, abilities, and stats.
                         </p>
                         <a className='card-button' href='https://fjtria.github.io/dexfetchd/' target='_blank' rel='noopener noreferrer'>View Project ↗</a>
                     </div>
@@ -78,9 +82,33 @@ export const Projects = () => {
                     <div className='card-text'>
                         <h4>Exoplanetarium 3D</h4>
                         <p className='card-subtext'>
-                            An educational, interactive, 3D web application that renders and allows users to explore exoplanets within our galaxy.
+                            An educational, interactive, 3D web application that enables users to visualize and explore exoplanets within our galaxy.
                         </p>
                         <a className='card-button' href='https://spacelabdev.github.io/Exoplanetarium-3D/' target='_blank' rel='noopener noreferrer'>View Project ↗</a>
+                    </div>
+                </div>
+
+                <div className='card'>
+                    <img src={WTHPreview} alt='Screenshot of What the Hell?'>
+                    </img>
+                    <div className='card-text'>
+                        <h4>What the Hell?</h4>
+                        <p className='card-subtext'>
+                            A casual 2D platformer where, after a turn for the worse, you find yourself in Hell and have to fight your way back to the surface.
+                        </p>
+                        <a className='card-button' href='https://gameshowcase.ucsc.edu/project/what-the-hell/' target='_blank' rel='noopener noreferrer'>View Project ↗</a>
+                    </div>
+                </div>
+
+                <div className='card'>
+                    <img src={MimiPreview} alt='Mimi Logo'>
+                    </img>
+                    <div className='card-text'>
+                        <h4>Mimi</h4>
+                        <p className='card-subtext'>
+                            An HTML interactive fiction game that explores the pet and owner relationship and what happens when a dog loses their owner.
+                        </p>
+                        <a className='card-button' href='https://fjtria.itch.io/mimi' target='_blank' rel='noopener noreferrer'>View Project ↗</a>
                     </div>
                 </div>
             </div>
