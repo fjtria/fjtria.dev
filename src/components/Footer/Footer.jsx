@@ -17,7 +17,6 @@ export const Footer = () => {
             <div className='footer-text'>
                 <div>
                     <h2>Let&apos;s create together.</h2>
-                    <p>Connect with me!</p>
                     <p>Based in California.</p>
                 </div>
 
