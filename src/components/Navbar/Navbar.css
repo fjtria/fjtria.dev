@@ -62,7 +62,7 @@ nav ul li a, nav ul li button {
     color: inherit;
     text-decoration: none;
     border-radius: 0.5rem;
-    transition: border-radius 0.5s ease-in-out, font-weight 0.3s ease;
+    transition: font-weight 0.3s ease;
 }
 
 nav ul li a:not(.active):hover, nav ul li button:not(.active):hover {
@@ -87,7 +87,6 @@ nav div.nav-items {
 }
 
 nav div ul.nav-pages {
-    padding: 0.5rem;
     position: absolute;
     top: 50%;
     right: 1rem;
@@ -99,6 +98,7 @@ nav div ul.nav-pages {
 
 @media (min-width: 596px) {
     nav div ul.nav-pages {
+        padding: 0.5rem;
         right: 2rem;
         gap: 1rem;
         border: 1px solid var(--border);

@@ -21,7 +21,7 @@ export const Navbar = () => {
             transition="transition"
         >
             <div className='logo'>
-                <Link to="/" className='title' title='Home'>@FJTRIA</Link>
+                <Link to="/" className='title' title='Home'>FJTRIA.DEV</Link>
             </div>
 
             <div className='nav-items'>
