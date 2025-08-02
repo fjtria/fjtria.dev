@@ -16,9 +16,9 @@ export const Navbar = () => {
 
     return (
         <motion.nav
-            initial="initial"
-            animate="animate"
-            transition="transition"
+            initial={{ opacity: 0, y: -100 }}
+            animate={{ opacity:[0, 1], y:[-100, 0]}}
+            transition={{ type: "linear" }}
         >
             <div className='logo'>
                 <Link to="/" className='title' title='Home'>FJTRIA<span>.DEV</span></Link>

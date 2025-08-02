@@ -1,4 +1,5 @@
 import { Link } from 'react-router';
+import copy from 'copy-to-clipboard';
 import '../../index.css';
 import './Home.css';
 import SpacelabPreview from '../../assets/images/Projects/spacelab_preview.webp'
@@ -6,6 +7,12 @@ import ExoplanetariumPreview from '../../assets/images/Projects/exoplanetarium_p
 import DexfetchdPreview from '../../assets/images/Projects/dexfetchd_preview.webp';
 
 export const Home = () => {
+
+    const copyToClipboard = () => {
+        copy('fjtria' + '@' + 'protonmail' + '.' + 'com');
+        alert(`Email copied to clipboard!`);
+    }
+
     return (
         <section id='home'>
             <div>            
@@ -13,13 +20,13 @@ export const Home = () => {
                 <p>
                     I&apos;m passionate about building experiences that are intuitive, engaging, and empowering.
                 </p>
-                <a className='button' href='#contact'>Contact me →</a>
+                <button className='button' onClick={copyToClipboard} title='Copy Email'>Contact me →</button>
             </div>
             <div>
                 <h3>Featured</h3>
                 <div className='column-container'>
                     <div className='card'>
-                        <img src={SpacelabPreview}>
+                        <img src={SpacelabPreview} alt='Screenshot of The Spacelab Nonprofit Website'>
                         </img>
                         <div className='card-text'>
                             <h4>The Spacelab Nonprofit</h4>
@@ -31,7 +38,7 @@ export const Home = () => {
                     </div>
 
                     <div className='card'>
-                        <img src={ExoplanetariumPreview}>
+                        <img src={ExoplanetariumPreview} alt='Screenshot of Exoplanetarium 3D'>
                         </img>
                         <div className='card-text'>
                             <h4>Exoplanetarium 3D</h4>
@@ -43,7 +50,7 @@ export const Home = () => {
                     </div>
 
                     <div className='card'>
-                        <img src={DexfetchdPreview}>
+                        <img src={DexfetchdPreview} alt="Screenshot of Dexfetch'd">
                         </img>
                         <div className='card-text'>
                             <h4>Dexfetch&apos;d</h4>
@@ -54,7 +61,7 @@ export const Home = () => {
                         </div>
                     </div>
                 </div>
-                <Link className='button' to='/projects'>View all projects →</Link>
+                <Link className='button' to='/projects' title='Projects'>View all projects →</Link>
             </div>
         </section>
     );

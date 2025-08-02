@@ -22,10 +22,11 @@
     margin-bottom: 2rem;
 }
 
-#home a.button {
+#home .button {
     margin: 0.5rem;
     padding: 0.5rem 1rem;
     color: inherit;
+    background: inherit;
     font-family: 'JetBrainsMono', monospace;
     text-decoration: none;
     border: 1px solid var(--border);
@@ -34,7 +35,7 @@
     transition: 0.3s ease;
 }
 
-#home a.button:hover {
+#home .button:hover {
     color: var(--bg-dark);
     background-color: var(--text);
     border: 1px solid var(--text);

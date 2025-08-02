@@ -1,7 +1,6 @@
 import { motion } from 'motion/react';
 import '../../index.css';
 import './Footer.css';
-import EmailIcon from '../../assets/images/Navbar/email.svg';
 import GitHubIcon from '../../assets/images/Navbar/github.svg';
 import LinkedInIcon from '../../assets/images/Navbar/linkedin.svg';
 
@@ -22,11 +21,11 @@ export const Footer = () => {
 
                 <div className='links-container'>
                     <a className='footer-links' href='https://github.com/fjtria' target='_blank' rel='noopener noreferrer' title='GitHub'>
-                        <img src={GitHubIcon}></img>
+                        <img src={GitHubIcon} alt='GitHub'></img>
                         <p>@fjtria ↗</p>
                     </a>
                     <a className='footer-links' href='https://www.linkedin.com/in/fjtria/' target='_blank' rel='noopener noreferrer' title='LinkedIn'>
-                        <img src={LinkedInIcon}></img>
+                        <img src={LinkedInIcon} alt='LinkedIn'></img>
                         <p>@fjtria ↗</p>
                     </a>
                 </div>
