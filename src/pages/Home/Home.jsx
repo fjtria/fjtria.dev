@@ -24,7 +24,7 @@ export const Home = () => {
                         <div className='card-text'>
                             <h4>The Spacelab Nonprofit</h4>
                             <p className='card-subtext'>
-                                The Spacelab Nonprofit's website, describing the organization's mission and highlighting the latest space-related projects.
+                                The Spacelab Nonprofit&apos;s website, describing the organization&apos;s mission and highlighting the latest space-related projects.
                             </p>
                             <a className='card-button' href='https://spacelab.space/' target='_blank' rel='noopener noreferrer'>View Project ↗</a>
                         </div>
@@ -46,7 +46,7 @@ export const Home = () => {
                         <img src={DexfetchdPreview}>
                         </img>
                         <div className='card-text'>
-                            <h4>Dexfetch'd</h4>
+                            <h4>Dexfetch&apos;d</h4>
                             <p className='card-subtext'>
                                 A website for interfacing with a database of Pokémon, allowing users to look up Pokémon species, including types, abilities, and stats.
                             </p>

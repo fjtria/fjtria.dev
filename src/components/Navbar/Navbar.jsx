@@ -21,7 +21,7 @@ export const Navbar = () => {
             transition="transition"
         >
             <div className='logo'>
-                <Link to="/" className='title' title='Home'>FJTRIA.DEV</Link>
+                <Link to="/" className='title' title='Home'>FJTRIA<span>.DEV</span></Link>
             </div>
 
             <div className='nav-items'>

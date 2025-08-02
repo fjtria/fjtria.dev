@@ -17,6 +17,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: "JetBrainsMono", monospace;
 }
 
 @media (min-width: 768px) {
@@ -41,13 +42,23 @@ nav div.logo {
 nav div.logo .title {
     color: var(--text);
     font-weight: 600;
-    font-size: 1.75rem;
+    font-size: 1.875rem;
     text-decoration: none;
 }
 
 @media (min-width: 596px) {
     nav div.logo .title {
         font-size: 2rem;
+    }
+}
+
+nav div.logo .title span {
+    display: none;
+}
+
+@media (min-width: 450px) {
+    nav div.logo .title span {
+        display: inline;
     }
 }
 
@@ -93,7 +104,6 @@ nav div ul.nav-pages {
     transform: translateY(-50%);
     display: flex;
     align-items: center;
-    font-family: "JetBrainsMono", monospace;
 }
 
 @media (min-width: 596px) {
