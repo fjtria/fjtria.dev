@@ -17,7 +17,7 @@ export const Projects = () => {
             <h2>Projects</h2>  
             <div className='column-container'>
                 <div className='card'>
-                    <img src={SpacelabPreview} alt='Screenshot of The Spacelab Nonprofit Website'>
+                    <img src={SpacelabPreview} alt='Screenshot of The Spacelab Nonprofit Website' loading='lazy'>
                     </img>
                     <div className='card-text'>
                         <h4>The Spacelab Nonprofit</h4>
@@ -29,7 +29,7 @@ export const Projects = () => {
                 </div>
 
                 <div className='card'>
-                    <img src={ZeroTheBlatPreview} alt='Screenshot of Zero The Blat'>
+                    <img src={ZeroTheBlatPreview} alt='Screenshot of Zero The Blat' loading='lazy'>
                     </img>
                     <div className='card-text'>
                         <h4>Zero The Blat</h4>
@@ -41,7 +41,7 @@ export const Projects = () => {
                 </div>
 
                 <div className='card'>
-                    <img src={DexfetchdPreview} alt="Screenshot of Dexfetch'd">
+                    <img src={DexfetchdPreview} alt="Screenshot of Dexfetch'd" loading='lazy'>
                     </img>
                     <div className='card-text'>
                         <h4>Dexfetch&apos;d</h4>
@@ -53,7 +53,7 @@ export const Projects = () => {
                 </div>
 
                 <div className='card'>
-                    <img src={ColorcodedPreview} alt='Screenshot of Colorcoded'>
+                    <img src={ColorcodedPreview} alt='Screenshot of Colorcoded' loading='lazy'>
                     </img>
                     <div className='card-text'>
                         <h4>Colorcoded</h4>
@@ -65,7 +65,7 @@ export const Projects = () => {
                 </div>
 
                  <div className='card'>
-                    <img src={PantryPalPreview} alt='Pantry Pal Logo'>
+                    <img src={PantryPalPreview} alt='Pantry Pal Logo' loading='lazy'>
                     </img>
                     <div className='card-text'>
                         <h4>Pantry Pal</h4>
@@ -77,7 +77,7 @@ export const Projects = () => {
                 </div>
 
                 <div className='card'>
-                    <img src={ExoplanetariumPreview} alt='Screenshot of Exoplanetarium 3D'>
+                    <img src={ExoplanetariumPreview} alt='Screenshot of Exoplanetarium 3D' loading='lazy'>
                     </img>
                     <div className='card-text'>
                         <h4>Exoplanetarium 3D</h4>
@@ -89,7 +89,7 @@ export const Projects = () => {
                 </div>
 
                 <div className='card'>
-                    <img src={WTHPreview} alt='Screenshot of What the Hell?'>
+                    <img src={WTHPreview} alt='Screenshot of What the Hell?' loading='lazy'>
                     </img>
                     <div className='card-text'>
                         <h4>What the Hell?</h4>
@@ -101,7 +101,7 @@ export const Projects = () => {
                 </div>
 
                 <div className='card'>
-                    <img src={MimiPreview} alt='Mimi Logo'>
+                    <img src={MimiPreview} alt='Mimi Logo' loading='lazy'>
                     </img>
                     <div className='card-text'>
                         <h4>Mimi</h4>

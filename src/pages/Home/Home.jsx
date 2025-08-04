@@ -26,7 +26,7 @@ export const Home = () => {
                 <h3>Featured</h3>
                 <div className='column-container'>
                     <div className='card'>
-                        <img src={SpacelabPreview} alt='Screenshot of The Spacelab Nonprofit Website'>
+                        <img src={SpacelabPreview} alt='Screenshot of The Spacelab Nonprofit Website' loading='lazy'>
                         </img>
                         <div className='card-text'>
                             <h4>The Spacelab Nonprofit</h4>
@@ -38,7 +38,7 @@ export const Home = () => {
                     </div>
 
                     <div className='card'>
-                        <img src={ExoplanetariumPreview} alt='Screenshot of Exoplanetarium 3D'>
+                        <img src={ExoplanetariumPreview} alt='Screenshot of Exoplanetarium 3D' loading='lazy'>
                         </img>
                         <div className='card-text'>
                             <h4>Exoplanetarium 3D</h4>
@@ -50,7 +50,7 @@ export const Home = () => {
                     </div>
 
                     <div className='card'>
-                        <img src={DexfetchdPreview} alt="Screenshot of Dexfetch'd">
+                        <img src={DexfetchdPreview} alt="Screenshot of Dexfetch'd" loading='lazy'>
                         </img>
                         <div className='card-text'>
                             <h4>Dexfetch&apos;d</h4>
