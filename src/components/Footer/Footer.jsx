@@ -1,3 +1,4 @@
+import { useEffect, useRef } from 'react';
 import { motion } from 'motion/react';
 import '../../index.css';
 import './Footer.css';
@@ -5,6 +6,43 @@ import GitHubIcon from '../../assets/images/Navbar/github.svg';
 import LinkedInIcon from '../../assets/images/Navbar/linkedin.svg';
 
 export const Footer = () => {
+    // Original Hacked Text Effect: https://codepen.io/Hyperplexed/full/rNrJgrd
+    const hackedRef = useRef(null);
+    useEffect(() => {
+        const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+        let interval = null;
+        const hacked = hackedRef.current;
+        if (!hacked) return;
+
+        const onMouseOver = event => {  
+            let iteration = 0;  
+            clearInterval(interval);
+            interval = setInterval(() => {
+                event.target.innerText = event.target.innerText
+                .split("")
+                .map((letter, index) => {
+                    if (index < iteration) {
+                        return event.target.dataset.value[index];
+                    }
+                    return letters[Math.floor(Math.random() * letters.length)]
+                })
+                .join("");
+                if (iteration >= event.target.dataset.value.length) { 
+                    clearInterval(interval);
+                }
+                iteration += 1 / 3;
+            }, 45);
+        };
+
+        hacked.addEventListener("mouseover", onMouseOver);
+
+        return () => {
+            hacked.removeEventListener("mouseover", onMouseOver);
+            clearInterval(interval);
+        };
+    }, []);
+   
+
     return (
         <motion.footer
             initial={{ opacity: 0, y: 100 }}
@@ -31,7 +69,7 @@ export const Footer = () => {
                 </div>
             </div>
             
-            <h6>FJTRIA.DEV</h6>
+            <h6 ref={hackedRef} data-value='FJTRIA.DEV'>FJTRIA.DEV</h6>
         </motion.footer>
     );
 }

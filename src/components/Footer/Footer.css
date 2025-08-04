@@ -76,6 +76,10 @@ footer .footer-links:hover {
     transform: translateX(0.25rem);
 }
 
+footer .footer-links:active {
+    color: var(--primary);
+}
+
 footer .footer-links img {
     width: 1.25rem;
 }

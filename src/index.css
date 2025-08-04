@@ -34,8 +34,10 @@
   }
 }
 
-body {
-  cursor: auto !important;
+@media (max-width: 768px) {
+  body {
+    cursor: auto !important;
+  }
 }
 
 h1, h2 {
@@ -87,6 +89,10 @@ main {
 
 .card a:hover {
   font-weight: 700;
+}
+
+.card a:active {
+  color: var(--primary);
 }
 
 @font-face {
